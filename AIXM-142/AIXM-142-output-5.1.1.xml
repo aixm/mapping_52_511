@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:gml="http://www.opengis.net/gml/3.2" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+	<message:hasMember>
+		<aixm:InstrumentApproachProcedure gml:id="uuid.c8fe1e3f-0dd0-4dd5-af34-7930c60fad7f">
+			<gml:identifier codeSpace="urn:uuid:">c8fe1e3f-0dd0-4dd5-af34-7930c60fad7f</gml:identifier>
+				<aixm:timeSlice>
+					<aixm:InstrumentApproachProcedureTimeSlice gml:id="IAPTS104">
+						<gml:validTime>
+							<gml:TimePeriod gml:id="vtIF_IAP104_IF032">
+								<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+								<gml:endPosition indeterminatePosition="unknown"/>
+							</gml:TimePeriod>
+						</gml:validTime>
+						<aixm:interpretation>BASELINE</aixm:interpretation>
+						<aixm:sequenceNumber>1</aixm:sequenceNumber>
+						<aixm:featureLifetime>
+							<gml:TimePeriod gml:id="ltIF_IAP104_IF032">
+								<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+								<gml:endPosition indeterminatePosition="unknown"/>
+							</gml:TimePeriod>
+						</aixm:featureLifetime>
+						<aixm:annotation>
+							<aixm:Note gml:id="ESA004">
+								<aixm:propertyName>safeAltitude</aixm:propertyName>
+								<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
+								<aixm:translatedNote>
+									<aixm:LinguisticNote gml:id="ESA005">
+										<aixm:note lang="ENG">safeAltitude.SafeAltitudeArea: urn:uuid:aed55020-707f-4b50-b012-308736484620</aixm:note>
+									</aixm:LinguisticNote>
+								</aixm:translatedNote>						
+							</aixm:Note>
+						</aixm:annotation>
+						<aixm:safeAltitude xlink:href="urn:uuid:cd14580d-adec-48cc-832d-376988518f45" />
+					</aixm:InstrumentApproachProcedureTimeSlice>
+				</aixm:timeSlice>
+			</aixm:InstrumentApproachProcedure>
+		</message:hasMember>
+	<message:hasMember>
+		<aixm:SafeAltitudeArea gml:id="uuid.cd14580d-adec-48cc-832d-376988518f45">
+			<gml:identifier codeSpace="urn:uuid:">cd14580d-adec-48cc-832d-376988518f45</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:SafeAltitudeAreaTimeSlice gml:id="SAF001">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="SAF002">
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="SAF003">
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:safeAreaType>MSA</aixm:safeAreaType>
+				</aixm:SafeAltitudeAreaTimeSlice>
+			</aixm:timeSlice>
+		</aixm:SafeAltitudeArea>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:SafeAltitudeArea gml:id="uuid.aed55020-707f-4b50-b012-308736484620">
+			<gml:identifier codeSpace="urn:uuid:">aed55020-707f-4b50-b012-308736484620</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:SafeAltitudeAreaTimeSlice gml:id="ESA001">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="ESA002">
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ESA003">
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:safeAreaType>ESA</aixm:safeAreaType>
+				</aixm:SafeAltitudeAreaTimeSlice>
+			</aixm:timeSlice>
+		</aixm:SafeAltitudeArea>
+	</message:hasMember>
+</message:AIXMBasicMessage>

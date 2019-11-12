@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- AIXM-320 Change Proposal test case -->
+<!-- AIXM 5.1.1 ouput from AIXM 5.2 --> 
+
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+	xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+	xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+	xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+	xmlns:event="http://www.aixm.aero/schema/5.1.1/event" xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd 
+	http://www.aixm.aero/schema/5.1.1/event http://www.aixm.aero/schema/5.1.1/event/Event_Features.xsd"
+	gml:id="M0000001">
+	<message:hasMember>
+		<aixm:Route gml:id="uuid.1a25b823-2553-464a-a795-88a74a1ba5bc">
+			<gml:identifier codeSpace="urn:uuid:">1a25b823-2553-464a-a795-88a74a1ba5bc</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteTimeSlice gml:id="RTE_UA4">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="vtSTAR224077">
+							<gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ltSTAR224077">
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designatorPrefix>U</aixm:designatorPrefix>
+					<aixm:designatorSecondLetter>A</aixm:designatorSecondLetter>
+					<aixm:designatorNumber>4</aixm:designatorNumber>
+					<aixm:type>ATS</aixm:type>
+					<aixm:flightRule>IFR</aixm:flightRule>
+				</aixm:RouteTimeSlice>
+			</aixm:timeSlice>
+		</aixm:Route>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:Route gml:id="uuid.de857a5c-f4a2-4fb7-9756-e5bb787db72a">
+			<gml:identifier codeSpace="urn:uuid:">de857a5c-f4a2-4fb7-9756-e5bb787db72a</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteTimeSlice gml:id="RTE_UL32">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="vtUL224077">
+							<gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ltULR224077">
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designatorPrefix>U</aixm:designatorPrefix>
+					<aixm:designatorSecondLetter>L</aixm:designatorSecondLetter>
+					<aixm:designatorNumber>32</aixm:designatorNumber>
+					<aixm:type>ATS</aixm:type>
+					<aixm:flightRule>IFR</aixm:flightRule>
+				</aixm:RouteTimeSlice>
+			</aixm:timeSlice>
+		</aixm:Route>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="uuid.4aa567b4-c870-43d1-8b39-3ddda6da4b29">
+			<gml:identifier codeSpace="urn:uuid:">4aa567b4-c870-43d1-8b39-3ddda6da4b29</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="RSG_UA4_BARIM_WOB">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="vt21178">
+							<gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt21178">
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:level>UPPER</aixm:level>
+					<!-- level is not required by PANS-AIM for minimum AIP data set -->
+					<aixm:upperLimit uom="FL">450</aixm:upperLimit>
+					<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+					<aixm:lowerLimit uom="FL">195</aixm:lowerLimit>
+					<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+					<aixm:pathType>GDS</aixm:pathType>
+					<aixm:magneticTrack>74.0</aixm:magneticTrack>
+					<aixm:reverseMagneticTrack>254.0</aixm:reverseMagneticTrack>
+					<aixm:length uom="KM">69.3</aixm:length>
+					<aixm:widthLeft uom="KM">6</aixm:widthLeft>
+					<aixm:widthRight uom="KM">6</aixm:widthRight>
+					<aixm:navigationType>OTHER:RNP4</aixm:navigationType>
+					<aixm:start>
+						<aixm:EnRouteSegmentPoint gml:id="E-c5f43ddc">
+							<aixm:reportingATC>COMPULSORY</aixm:reportingATC>
+							<aixm:pointChoice_fixDesignatedPoint
+								xlink:href="urn:uuid:bb9dcfb3-f45a-40f3-8852-fca1349801fc"
+								xlink:title="BARIM"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:start>
+					<aixm:routeFormed xlink:href="urn:uuid:1a25b823-2553-464a-a795-88a74a1ba5bc" xlink:title="UA4"/>
+					<aixm:curveExtent>
+						<!-- Not required by PANS-AIM for minimum AIP data set -->
+						<aixm:Curve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="crv2110">
+							<gml:segments>
+								<gml:GeodesicString>
+									<gml:posList>42.5016666666667 -37.0016666666667 42.675
+										-36.1733333333333</gml:posList>
+								</gml:GeodesicString>
+							</gml:segments>
+						</aixm:Curve>
+					</aixm:curveExtent>
+					<aixm:end>
+						<aixm:EnRouteSegmentPoint gml:id="E-c2a12282">
+							<aixm:reportingATC>COMPULSORY</aixm:reportingATC>
+							<aixm:pointChoice_navaidSystem
+								xlink:href="urn:uuid:882e849c-682d-4e95-ac19-a7808d55cdbb"
+								xlink:title="WOB VOR"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:end>
+					<aixm:annotation>
+						<aixm:Note gml:id="n031">
+							<aixm:propertyName>length</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="ln031">
+									<aixm:note lang="eng">Accuracy unknown</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="uuid.4aa567b4-c870-43d1-8b39-3ddda6da4b29-1">
+			<gml:identifier codeSpace="urn:uuid:">4aa567b4-c870-43d1-8b39-3ddda6da4b29-de857a5c-f4a2-4fb7-9756-e5bb787db72a</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="RSG_UL32_BARIM_WOB">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="vt21178-1">
+							<gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="lt21178-1">
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:level>UPPER</aixm:level>
+					<!-- level is not required by PANS-AIM for minimum AIP data set -->
+					<aixm:upperLimit uom="FL">450</aixm:upperLimit>
+					<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+					<aixm:lowerLimit uom="FL">195</aixm:lowerLimit>
+					<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+					<aixm:pathType>GDS</aixm:pathType>
+					<aixm:magneticTrack>74.0</aixm:magneticTrack>
+					<aixm:reverseMagneticTrack>254.0</aixm:reverseMagneticTrack>
+					<aixm:length uom="KM">69.3</aixm:length>
+					<aixm:widthLeft uom="KM">6</aixm:widthLeft>
+					<aixm:widthRight uom="KM">6</aixm:widthRight>
+					<aixm:navigationType>OTHER:RNP4</aixm:navigationType>
+					<aixm:start>
+						<aixm:EnRouteSegmentPoint gml:id="E-c5f43ddc-1">
+							<aixm:reportingATC>COMPULSORY</aixm:reportingATC>
+							<aixm:pointChoice_fixDesignatedPoint
+								xlink:href="urn:uuid:bb9dcfb3-f45a-40f3-8852-fca1349801fc"
+								xlink:title="BARIM"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:start>
+					<aixm:routeFormed xlink:href="urn:uuid:de857a5c-f4a2-4fb7-9756-e5bb787db72a" xlink:title="UL32"/>
+					<aixm:curveExtent>
+						<!-- Not required by PANS-AIM for minimum AIP data set -->
+						<aixm:Curve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="crv2110-1">
+							<gml:segments>
+								<gml:GeodesicString>
+									<gml:posList>42.5016666666667 -37.0016666666667 42.675
+										-36.1733333333333</gml:posList>
+								</gml:GeodesicString>
+							</gml:segments>
+						</aixm:Curve>
+					</aixm:curveExtent>
+					<aixm:end>
+						<aixm:EnRouteSegmentPoint gml:id="E-c2a12282-1">
+							<aixm:reportingATC>COMPULSORY</aixm:reportingATC>
+							<aixm:pointChoice_navaidSystem
+								xlink:href="urn:uuid:882e849c-682d-4e95-ac19-a7808d55cdbb"
+								xlink:title="WOB VOR"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:end>
+					<aixm:annotation>
+						<aixm:Note gml:id="n031-1">
+							<aixm:propertyName>length</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="ln031-1">
+									<aixm:note lang="eng">Accuracy unknown</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+</message:AIXMBasicMessage>
