@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- Author: Marko Zoricic, Boeing/Jeppesen -->
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.2/message"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:gml="http://www.opengis.net/gml/3.2" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.2" 
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.aixm.aero/schema/5.2/message http://www.aixm.aero/schema/5.2/message/AIXM_BasicMessage.xsd" 
+	gml:id="M0000001">
+	<message:hasMember>
+		<aixm:Runway gml:id="uuid.9e51668f-bf8a-4f5b-ba6e-27087972b9b8">
+			<gml:identifier codeSpace="urn:uuid:">9e51668f-bf8a-4f5b-ba6e-27087972b9b8</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RunwayTimeSlice gml:id="RWY_EADD_09L_27R">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="vtILURU94">
+							<gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ltILURU94">
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>09L/27R</aixm:designator> 
+					<aixm:type>RWY</aixm:type>
+					<aixm:nominalLength uom="M">2800.0</aixm:nominalLength>
+					<aixm:lengthAccuracy uom="M">1</aixm:lengthAccuracy>
+					<aixm:nominalWidth uom="M">45.0</aixm:nominalWidth>
+					<aixm:widthAccuracy uom="M">1</aixm:widthAccuracy>
+					<aixm:lengthStrip uom="M">2920.0</aixm:lengthStrip>
+					<aixm:widthStrip uom="M">300.0</aixm:widthStrip>
+					<aixm:areaContaminant>
+						<aixm:RunwaySectionContamination gml:id="RSC_EADD_RWY_07L_29R">
+							<aixm:obscuredLights>NO</aixm:obscuredLights>
+							<aixm:criticalRidge>
+								<aixm:Ridge gml:id="Ri_225">
+									<aixm:side>CENTRE</aixm:side>
+								</aixm:Ridge>
+							</aixm:criticalRidge>
+							<aixm:section>CL</aixm:section>
+						</aixm:RunwaySectionContamination>
+					</aixm:areaContaminant>
+				</aixm:RunwayTimeSlice> 
+			</aixm:timeSlice>
+		</aixm:Runway>
+	</message:hasMember>	
+</message:AIXMBasicMessage>
