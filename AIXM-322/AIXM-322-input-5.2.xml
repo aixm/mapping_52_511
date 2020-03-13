@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- Author: Marko Zoricic, Boeing/Jeppesen -->
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.2/message"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:gml="http://www.opengis.net/gml/3.2" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.2" 
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.aixm.aero/schema/5.2/message http://www.aixm.aero/schema/5.2/message/AIXM_BasicMessage.xsd" 
+	gml:id="M0000001">
+	<message:hasMember>
+		<aixm:VerticalStructure gml:id="uuid.359c8b02-8be7-4e2c-aa6d-d990dbb6b057">
+			<gml:identifier codeSpace="urn:uuid:">359c8b02-8be7-4e2c-aa6d-d990dbb6b057</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:VerticalStructureTimeSlice gml:id="OBS-0008">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="tp0008-1">
+							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="tp0008-2">
+							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:type>CRANE</aixm:type>
+					<aixm:lighted>NO</aixm:lighted>
+					<aixm:marked>YES</aixm:marked>
+					<aixm:markingICAOStandard>NO</aixm:markingICAOStandard>
+					<aixm:length xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:width xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:radius xsi:nil="true" nilReason="inapplicable"/>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="vsp0008-2">
+							<aixm:verticalExtent uom="M">120</aixm:verticalExtent>
+							<aixm:verticalExtentAccuracy uom="M">30</aixm:verticalExtentAccuracy>
+							<aixm:type>CRANE</aixm:type>
+							<aixm:designator>OBS-007</aixm:designator>
+							<aixm:horizontalProjection_location>
+								<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="VID000008">
+									<gml:pos>55.5185166666667 -25.63186944444445</gml:pos>
+									<aixm:horizontalAccuracy uom="M">50</aixm:horizontalAccuracy>
+									<aixm:elevation uom="M">191</aixm:elevation>
+									<aixm:geoidUndulation xsi:nil="true" nilReason="inapplicable"/>
+									<aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+									<aixm:verticalAccuracy uom="M">30</aixm:verticalAccuracy>
+								</aixm:ElevatedPoint>
+							</aixm:horizontalProjection_location>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+				</aixm:VerticalStructureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:VerticalStructure>
+	</message:hasMember>	
+</message:AIXMBasicMessage>
