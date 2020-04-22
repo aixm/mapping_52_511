@@ -38,7 +38,7 @@
 					<aixm:surfaceProperties>
 						<aixm:SurfaceCharacteristics gml:id="SCH_EADD_RWY_07L_29R">
 							<aixm:composition>CONC</aixm:composition>
-							<aixm:surfaceCondition>OTHER:WIRE_COMB</aixm:surfaceCondition>
+							<aixm:preparation>OTHER:WIRE_COMB</aixm:preparation>
 							<aixm:classPCN>80</aixm:classPCN>
 							<aixm:pavementTypePCN>RIGID</aixm:pavementTypePCN>
 							<aixm:pavementSubgradePCN>B</aixm:pavementSubgradePCN>
@@ -74,7 +74,7 @@
 					<aixm:surfaceProperties>
 						<aixm:SurfaceCharacteristics gml:id="ID_18">
 							<aixm:composition>CONC</aixm:composition>
-							<aixm:surfaceCondition>OTHER:WIRE_COMB</aixm:surfaceCondition>
+							<aixm:preparation>OTHER:WIRE_COMB</aixm:preparation>
 							<aixm:classPCN>80</aixm:classPCN>
 							<aixm:pavementTypePCN>RIGID</aixm:pavementTypePCN>
 							<aixm:pavementSubgradePCN>B</aixm:pavementSubgradePCN>
