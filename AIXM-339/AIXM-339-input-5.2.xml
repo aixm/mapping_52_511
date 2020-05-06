@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- Author: Marko Zoricic, Boeing/Jeppesen -->
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.2/message"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:gml="http://www.opengis.net/gml/3.2" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.2" 
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.aixm.aero/schema/5.2/message http://www.aixm.aero/schema/5.2/message/AIXM_BasicMessage.xsd" 
+	gml:id="M0000001">
+	<message:hasMember>
+		<aixm:RunwayDirection gml:id="uuid.c8455a6b-9319-4bb7-b797-08e644340812">
+			<gml:identifier codeSpace="urn:uuid:"
+				>c8455a6b-9319-4bb7-b797-08e644340812</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RunwayDirectionTimeSlice gml:id="RDN_LDSP_09">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="vtILURU80">
+							<gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="ltILURU80">
+							<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>09</aixm:designator>
+					<aixm:trueBearing>86.22</aixm:trueBearing>
+					<aixm:trueBearingAccuracy>0.01</aixm:trueBearingAccuracy>
+					<aixm:approachMarkingType>BUOY</aixm:approachMarkingType>
+					<aixm:usedRunway xlink:href="urn:uuid:9e51668f-bf8a-4f5b-ba6e-270879721980" xlink:title="RWY_LDSP_09"/>
+				</aixm:RunwayDirectionTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayDirection>
+	</message:hasMember>	
+</message:AIXMBasicMessage>

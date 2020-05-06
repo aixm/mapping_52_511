@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- Author: Marko Zoricic, Boeing/Jeppesen -->
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:gml="http://www.opengis.net/gml/3.2" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" 
+	gml:id="M0000001">
+	<message:hasMember>
+		<aixm:Airspace gml:id="uuid.fdaeffb4-6897-41fb-a33d-8861c2e91980">
+			<gml:identifier codeSpace="urn:uuid:">fdaeffb4-6897-41fb-a33d-8861c2e91980</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:AirspaceTimeSlice gml:id="ASE_MAGNETTO_TMA">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="uuid.820fdbbb-55d4-4f45-9d59-d770e5f0812">
+							<gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>2</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="uuid.5e9c790e-b91b-4182-946d-145b6e0007">
+							<gml:beginPosition>2002-11-30T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:type>MTR</aixm:type>
+					<aixm:designator>LDMA</aixm:designator>
+					<aixm:name>KARASICA</aixm:name>
+					<aixm:geometryComponent>
+						<aixm:AirspaceGeometryComponent gml:id="uuid.4344f989-50b4-4cb0-9920-870ccd81980">
+							<aixm:operation>BASE</aixm:operation>
+							<aixm:operationSequence>1</aixm:operationSequence>
+						</aixm:AirspaceGeometryComponent>
+					</aixm:geometryComponent>
+					<aixm:activation>
+						<aixm:AirspaceActivation gml:id="uuid.4344f989-50b4-008-9920-80812">
+							<aixm:activity>AIRSHOW</aixm:activity> 
+							<aixm:status>AVBL_FOR_ACTIVATION</aixm:status>
+								<aixm:aircraft>
+									<aixm:AircraftCharacteristic gml:id="uuid.9909-663-918-9920-80812">
+										<aixm:navigationEquipment>OTHER:DME_DME_IRU</aixm:navigationEquipment>
+									</aixm:AircraftCharacteristic>
+								</aixm:aircraft>
+						</aixm:AirspaceActivation>		
+					</aixm:activation>
+				</aixm:AirspaceTimeSlice>
+			</aixm:timeSlice>
+		</aixm:Airspace>
+	</message:hasMember>
+</message:AIXMBasicMessage>
