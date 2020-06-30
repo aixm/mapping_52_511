@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- Author: Marko Zoricic, Boeing/Jeppesen -->
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:gml="http://www.opengis.net/gml/3.2" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" 
+	gml:id="M0000001">
+	<message:hasMember>
+		<aixm:VerticalStructure gml:id="uuid.359c8b02-8be7-4e2c-aa6d-d990dbb6b057">
+			<gml:identifier codeSpace="urn:uuid:">359c8b02-8be7-4e2c-aa6d-d990dbb6b057</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:VerticalStructureTimeSlice gml:id="OBS-0008">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="tp0008-1">
+							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="tp0008-2">
+							<gml:beginPosition>2019-12-05T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:name xsi:nil="true" nilReason="other:invalidValueCopiedAsNote" />
+					<aixm:type>BUILDING</aixm:type>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="vsp0812">
+							<aixm:annotation>
+								<aixm:Note gml:id="n000233">
+									<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
+									<aixm:translatedNote>
+										<aixm:LinguisticNote gml:id="ln0001">
+											<aixm:note>name: main building</aixm:note>
+										</aixm:LinguisticNote>
+									</aixm:translatedNote>
+								</aixm:Note>
+							</aixm:annotation>	
+							<aixm:type>BUILDING</aixm:type>
+							<aixm:designator>OBS-007</aixm:designator>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:part>
+						<aixm:VerticalStructurePart gml:id="vsp1980">
+							<aixm:annotation>
+								<aixm:Note gml:id="n00022">
+									<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
+									<aixm:translatedNote>
+										<aixm:LinguisticNote gml:id="ln00478007">
+											<aixm:note>name: antenna at the top of the building</aixm:note>
+										</aixm:LinguisticNote>
+									</aixm:translatedNote>
+								</aixm:Note>
+							</aixm:annotation>	
+							<aixm:type>ANTENNA</aixm:type>
+							<aixm:designator>OBS-008</aixm:designator>
+						</aixm:VerticalStructurePart>
+					</aixm:part>
+					<aixm:annotation>
+						<aixm:Note gml:id="n0008">
+							<aixm:propertyName>name</aixm:propertyName>
+							<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="ln00445">
+									<aixm:note>BEL TOWER WITH ASSOCIATED ANTENNA FOR RADIO TELE COMMUNICATION PURPOSES</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>	
+					<aixm:annotation>
+						<aixm:Note gml:id="n0009">
+							<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="ln03355">
+									<aixm:note>geographicalLocation:BEL CITY</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="n000101">
+							<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="ln033675">
+									<aixm:note>designator:BELT-OBS-2020-1</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>								
+				</aixm:VerticalStructureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:VerticalStructure>
+	</message:hasMember>
+</message:AIXMBasicMessage>
