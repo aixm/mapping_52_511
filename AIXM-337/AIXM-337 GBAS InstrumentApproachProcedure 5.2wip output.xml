@@ -1,0 +1,34 @@
+<message:AIXMBasicMessage 
+            xmlns:message="http://www.aixm.aero/schema/5.2/message"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+            xmlns:aixm="http://www.aixm.aero/schema/5.2/wip" 
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.aixm.aero/schema/5.2/message http://www.aixm.aero/schema/5.2/wip/message/AIXM_BasicMessage.xsd"
+gml:id="M0000001">
+<message:hasMember>
+	<aixm:InstrumentApproachProcedure gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e14">
+		<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50e14</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:InstrumentApproachProcedureTimeSlice gml:id="GML-InstrumentApproachProcedure.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-InstrumentApproachProcedure.1-TS-TIME">
+						<gml:beginPosition>2008-09-25</gml:beginPosition>
+						<gml:endPosition>2021-10-07</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:flightChecked>NO</aixm:flightChecked>
+				<aixm:name>GLS RWY 22L</aixm:name>
+ 				<aixm:designCriteria>
+					<aixm:DesignStandard gml:id="GML-InstrumentApproachProcedure.1-TS-DS">
+						<aixm:name>TERPS</aixm:name>
+						<aixm:version>AIXM 5.2</aixm:version>
+					</aixm:DesignStandard>
+				</aixm:designCriteria>
+			</aixm:InstrumentApproachProcedureTimeSlice>
+		</aixm:timeSlice>
+	</aixm:InstrumentApproachProcedure>
+</message:hasMember>
+</message:AIXMBasicMessage>
