@@ -50,7 +50,7 @@ gml:id="M0000001">
 						<gml:endPosition indeterminatePosition="unknown"/>
 					</gml:TimePeriod>
 				</aixm:featureLifetime>
-				<aixm:designator>G22A</aixm:designator>
+				<aixm:designator>GEWR</aixm:designator>
 				<aixm:name>KEWR - NEWARK LIBERTY INTL</aixm:name>
 				<aixm:maximumUseDistance uom="NM">25</aixm:maximumUseDistance>
 				<aixm:flightChecked>YES</aixm:flightChecked>
