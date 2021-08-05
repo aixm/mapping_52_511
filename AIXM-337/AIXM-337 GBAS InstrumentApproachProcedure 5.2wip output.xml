@@ -24,7 +24,7 @@ gml:id="M0000001">
  				<aixm:designCriteria>
 					<aixm:DesignStandard gml:id="GML-InstrumentApproachProcedure.1-TS-DS">
 						<aixm:name>TERPS</aixm:name>
-						<aixm:version>AIXM 5.2</aixm:version>
+						<aixm:version></aixm:version>
 					</aixm:DesignStandard>
 				</aixm:designCriteria>
 			</aixm:InstrumentApproachProcedureTimeSlice>
