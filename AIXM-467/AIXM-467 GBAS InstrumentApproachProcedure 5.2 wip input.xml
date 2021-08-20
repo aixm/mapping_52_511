@@ -33,7 +33,7 @@ gml:id="M0000001">
 </message:hasMember>
 <message:hasMember>
 	<aixm:GBAS gml:id="uuid.f7b8682a-cc39-42d4-b9d4-21717d652cb6">
-		<gml:identifier codeSpace="urn:uuid:">uuid.f7b8682a-cc39-42d4-b9d4-21717d652cb6</gml:identifier>
+		<gml:identifier codeSpace="urn:uuid:">f7b8682a-cc39-42d4-b9d4-21717d652cb6</gml:identifier>
 		<aixm:timeSlice>
 			<aixm:GBASTimeSlice gml:id="GML-GBAS.1-TS">
 				<gml:validTime>
@@ -54,7 +54,7 @@ gml:id="M0000001">
 				<aixm:name>KEWR - NEWARK LIBERTY INTL</aixm:name>
 				<aixm:maximumUseDistance uom="NM">25</aixm:maximumUseDistance>
 				<aixm:flightChecked>YES</aixm:flightChecked>
-				<aixm:augmentedSystem xlink:href="#uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41bb"/>
+				<aixm:augmentedSystem xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bb"/>
 			</aixm:GBASTimeSlice>
 		</aixm:timeSlice>
 	</aixm:GBAS>
@@ -73,7 +73,7 @@ gml:id="M0000001">
 				<aixm:interpretation>BASELINE</aixm:interpretation>
 				<aixm:flightChecked>NO</aixm:flightChecked>
 				<aixm:name>GLS RWY 22L</aixm:name>
-				<aixm:guidanceFacility_groundAugmentedGNSS xlink:href="#uuid.f7b8682a-cc39-42d4-b9d4-21717d652cb6"/>
+				<aixm:guidanceFacility_groundAugmentedGNSS xlink:href="urn:uuid:f7b8682a-cc39-42d4-b9d4-21717d652cb6"/>
 			</aixm:InstrumentApproachProcedureTimeSlice>
 		</aixm:timeSlice>
 	</aixm:InstrumentApproachProcedure>
