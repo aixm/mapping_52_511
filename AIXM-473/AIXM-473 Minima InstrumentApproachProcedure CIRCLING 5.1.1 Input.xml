@@ -1,0 +1,225 @@
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:gml="http://www.opengis.net/gml/3.2" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+	<message:hasMember>
+		<aixm:FinalLeg gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e45">
+			<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50e45</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:FinalLegTimeSlice gml:id="GML-FinalLeg.1-TS">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="GML-FinalLeg.1-TS-TIME">
+							<gml:beginPosition>2008-09-25</gml:beginPosition>
+							<gml:endPosition>2021-10-07</gml:endPosition>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:legPath>STRAIGHT</aixm:legPath>
+					<aixm:approach xlink:href="urn:uuid:dfd04617-c8bd-443b-8290-067ba2e50e14"/>
+					<aixm:guidanceSystem>LNAV_VNAV</aixm:guidanceSystem>
+					<aixm:landingSystemCategory>OTHER</aixm:landingSystemCategory>
+					<aixm:minimumBaroVnavTemperature uom="F">9</aixm:minimumBaroVnavTemperature>
+					<aixm:condition>
+						<aixm:ApproachCondition gml:id="GML-ApproachCondition.1">
+							<aixm:finalApproachPath>CIRCLING</aixm:finalApproachPath>
+							<aixm:requiredNavigationPerformance xsi:nil="true"/>
+							<aixm:minimumSet>
+								<aixm:Minima gml:id="GML-Minima.1">
+									<aixm:altitude uom="FT">760</aixm:altitude>
+									<aixm:altitudeCode>DA</aixm:altitudeCode>
+									<aixm:altitudeReference>MSL</aixm:altitudeReference>
+									<aixm:height uom="FT">743</aixm:height>
+									<aixm:heightCode>DH</aixm:heightCode>
+									<aixm:visibility uom="NM">1</aixm:visibility>
+									<aixm:mandatoryRVR>YES</aixm:mandatoryRVR>
+								</aixm:Minima>
+							</aixm:minimumSet>
+							<aixm:aircraftCategory>
+								<aixm:AircraftCharacteristic gml:id="GML-AircraftCharacteristic.1">
+									<aixm:aircraftLandingCategory>A</aixm:aircraftLandingCategory>
+								</aixm:AircraftCharacteristic>
+							</aixm:aircraftCategory>
+						</aixm:ApproachCondition>
+					</aixm:condition>
+					<aixm:condition>
+						<aixm:ApproachCondition gml:id="GML-ApproachCondition.2">
+							<aixm:finalApproachPath>CIRCLING</aixm:finalApproachPath>
+							<aixm:requiredNavigationPerformance xsi:nil="true"/>
+							<aixm:minimumSet>
+								<aixm:Minima gml:id="GML-Minima.2">
+									<aixm:altitude uom="FT">800</aixm:altitude>
+									<aixm:altitudeCode>DA</aixm:altitudeCode>
+									<aixm:altitudeReference>MSL</aixm:altitudeReference>
+									<aixm:militaryHeight uom="FT">743</aixm:militaryHeight>
+									<aixm:heightCode>DH</aixm:heightCode>
+									<aixm:militaryVisibility uom="NM">1</aixm:militaryVisibility>
+									<aixm:mandatoryRVR>YES</aixm:mandatoryRVR>
+								</aixm:Minima>
+							</aixm:minimumSet>
+							<aixm:aircraftCategory>
+								<aixm:AircraftCharacteristic gml:id="GML-AircraftCharacteristic.2">
+									<aixm:aircraftLandingCategory>A</aixm:aircraftLandingCategory>
+								</aixm:AircraftCharacteristic>
+							</aixm:aircraftCategory>
+						</aixm:ApproachCondition>
+					</aixm:condition>
+					<aixm:condition>
+						<aixm:ApproachCondition gml:id="GML-ApproachCondition.3">
+							<aixm:finalApproachPath>CIRCLING</aixm:finalApproachPath>
+							<aixm:requiredNavigationPerformance xsi:nil="true"/>
+							<aixm:minimumSet>
+								<aixm:Minima gml:id="GML-Minima.3">
+									<aixm:altitude uom="FT">820</aixm:altitude>
+									<aixm:altitudeCode>DA</aixm:altitudeCode>
+									<aixm:altitudeReference>MSL</aixm:altitudeReference>
+									<aixm:height uom="FT">803</aixm:height>
+									<aixm:heightCode>DH</aixm:heightCode>
+									<aixm:visibility uom="NM">1</aixm:visibility>
+									<aixm:mandatoryRVR>YES</aixm:mandatoryRVR>
+								</aixm:Minima>
+							</aixm:minimumSet>
+							<aixm:aircraftCategory>
+								<aixm:AircraftCharacteristic gml:id="GML-AircraftCharacteristic.3">
+									<aixm:aircraftLandingCategory>B</aixm:aircraftLandingCategory>
+								</aixm:AircraftCharacteristic>
+							</aixm:aircraftCategory>
+						</aixm:ApproachCondition>
+					</aixm:condition>
+					<aixm:condition>
+						<aixm:ApproachCondition gml:id="GML-ApproachCondition.4">
+							<aixm:finalApproachPath>CIRCLING</aixm:finalApproachPath>
+							<aixm:requiredNavigationPerformance xsi:nil="true"/>
+							<aixm:minimumSet>
+								<aixm:Minima gml:id="GML-Minima.4">
+									<aixm:altitude uom="FT">900</aixm:altitude>
+									<aixm:altitudeCode>DA</aixm:altitudeCode>
+									<aixm:altitudeReference>MSL</aixm:altitudeReference>
+									<aixm:militaryHeight uom="FT">803</aixm:militaryHeight>
+									<aixm:heightCode>DH</aixm:heightCode>
+									<aixm:militaryVisibility uom="NM">1</aixm:militaryVisibility>
+									<aixm:mandatoryRVR>YES</aixm:mandatoryRVR>
+								</aixm:Minima>
+							</aixm:minimumSet>
+							<aixm:aircraftCategory>
+								<aixm:AircraftCharacteristic gml:id="GML-AircraftCharacteristic.4">
+									<aixm:aircraftLandingCategory>B</aixm:aircraftLandingCategory>
+								</aixm:AircraftCharacteristic>
+							</aixm:aircraftCategory>
+						</aixm:ApproachCondition>
+					</aixm:condition>
+					<aixm:condition>
+						<aixm:ApproachCondition gml:id="GML-ApproachCondition.5">
+							<aixm:finalApproachPath>CIRCLING</aixm:finalApproachPath>
+							<aixm:requiredNavigationPerformance xsi:nil="true"/>
+							<aixm:minimumSet>
+								<aixm:Minima gml:id="GML-Minima.5">
+									<aixm:altitude uom="FT">900</aixm:altitude>
+									<aixm:altitudeCode>DA</aixm:altitudeCode>
+									<aixm:altitudeReference>MSL</aixm:altitudeReference>
+									<aixm:height uom="FT">883</aixm:height>
+									<aixm:heightCode>DH</aixm:heightCode>
+									<aixm:visibility uom="NM">2.75</aixm:visibility>
+									<aixm:mandatoryRVR>YES</aixm:mandatoryRVR>
+								</aixm:Minima>
+							</aixm:minimumSet>
+							<aixm:aircraftCategory>
+								<aixm:AircraftCharacteristic gml:id="GML-AircraftCharacteristic.5">
+									<aixm:aircraftLandingCategory>C</aixm:aircraftLandingCategory>
+								</aixm:AircraftCharacteristic>
+							</aixm:aircraftCategory>
+						</aixm:ApproachCondition>
+					</aixm:condition>
+					<aixm:condition>
+						<aixm:ApproachCondition gml:id="GML-ApproachCondition.6">
+							<aixm:finalApproachPath>CIRCLING</aixm:finalApproachPath>
+							<aixm:requiredNavigationPerformance xsi:nil="true"/>
+							<aixm:minimumSet>
+								<aixm:Minima gml:id="GML-Minima.6">
+									<aixm:altitude uom="FT">900</aixm:altitude>
+									<aixm:altitudeCode>DA</aixm:altitudeCode>
+									<aixm:altitudeReference>MSL</aixm:altitudeReference>
+									<aixm:militaryHeight uom="FT">883</aixm:militaryHeight>
+									<aixm:heightCode>DH</aixm:heightCode>
+									<aixm:militaryVisibility uom="NM">2.75</aixm:militaryVisibility>
+									<aixm:mandatoryRVR>YES</aixm:mandatoryRVR>
+								</aixm:Minima>
+							</aixm:minimumSet>
+							<aixm:aircraftCategory>
+								<aixm:AircraftCharacteristic gml:id="GML-AircraftCharacteristic.6">
+									<aixm:aircraftLandingCategory>C</aixm:aircraftLandingCategory>
+								</aixm:AircraftCharacteristic>
+							</aixm:aircraftCategory>
+						</aixm:ApproachCondition>
+					</aixm:condition>
+					<aixm:condition>
+						<aixm:ApproachCondition gml:id="GML-ApproachCondition.7">
+							<aixm:finalApproachPath>CIRCLING</aixm:finalApproachPath>
+							<aixm:requiredNavigationPerformance xsi:nil="true"/>
+							<aixm:minimumSet>
+								<aixm:Minima gml:id="GML-Minima.7">
+									<aixm:altitude uom="FT">900</aixm:altitude>
+									<aixm:altitudeCode>DA</aixm:altitudeCode>
+									<aixm:altitudeReference>MSL</aixm:altitudeReference>
+									<aixm:height uom="FT">883</aixm:height>
+									<aixm:heightCode>DH</aixm:heightCode>
+									<aixm:visibility uom="NM">3</aixm:visibility>
+									<aixm:mandatoryRVR>YES</aixm:mandatoryRVR>
+								</aixm:Minima>
+							</aixm:minimumSet>
+							<aixm:aircraftCategory>
+								<aixm:AircraftCharacteristic gml:id="GML-AircraftCharacteristic.7">
+									<aixm:aircraftLandingCategory>D</aixm:aircraftLandingCategory>
+								</aixm:AircraftCharacteristic>
+							</aixm:aircraftCategory>
+						</aixm:ApproachCondition>
+					</aixm:condition>
+					<aixm:condition>
+						<aixm:ApproachCondition gml:id="GML-ApproachCondition.8">
+							<aixm:finalApproachPath>CIRCLING</aixm:finalApproachPath>
+							<aixm:requiredNavigationPerformance xsi:nil="true"/>
+							<aixm:minimumSet>
+								<aixm:Minima gml:id="GML-Minima.8">
+									<aixm:altitude uom="FT">900</aixm:altitude>
+									<aixm:altitudeCode>DA</aixm:altitudeCode>
+									<aixm:altitudeReference>MSL</aixm:altitudeReference>
+									<aixm:militaryHeight uom="FT">883</aixm:militaryHeight>
+									<aixm:heightCode>DH</aixm:heightCode>
+									<aixm:militaryVisibility uom="NM">3</aixm:militaryVisibility>
+									<aixm:mandatoryRVR>YES</aixm:mandatoryRVR>
+								</aixm:Minima>
+							</aixm:minimumSet>
+							<aixm:aircraftCategory>
+								<aixm:AircraftCharacteristic gml:id="GML-AircraftCharacteristic.8">
+									<aixm:aircraftLandingCategory>D</aixm:aircraftLandingCategory>
+								</aixm:AircraftCharacteristic>
+							</aixm:aircraftCategory>
+						</aixm:ApproachCondition>
+					</aixm:condition>
+				</aixm:FinalLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:FinalLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:InstrumentApproachProcedure gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e14">
+			<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50e14</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:InstrumentApproachProcedureTimeSlice gml:id="GML-InstrumentApproachProcedure.1-TS">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="GML-InstrumentApproachProcedure.1-TS-TIME">
+							<gml:beginPosition>2008-09-25</gml:beginPosition>
+							<gml:endPosition>2021-10-07</gml:endPosition>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:flightChecked>NO</aixm:flightChecked>
+					<aixm:name>RNAV (GPS) Z RWY 22L</aixm:name>
+					<aixm:approachType>OTHER:STRAIGHT_IN_LNAV_VNAV</aixm:approachType>
+					<aixm:additionalEquipment>OTHER:RNAV</aixm:additionalEquipment>
+				</aixm:InstrumentApproachProcedureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:InstrumentApproachProcedure>
+	</message:hasMember>
+</message:AIXMBasicMessage>
