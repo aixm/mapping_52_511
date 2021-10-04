@@ -23,13 +23,14 @@ gml:id="M0000001">
 					<aixm:approach xlink:href="urn:uuid:dfd04617-c8bd-443b-8290-067ba2e50e14"/>
 					<aixm:condition>
 						<aixm:ApproachCondition gml:id="GML-ApproachCondition.1">
+						<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50z01</gml:identifier>
 						<aixm:finalApproachPath>CIRCLING</aixm:finalApproachPath>
 						<aixm:landingPercisionCategory>OTHER</aixm:landingPercisionCategory>
 						<aixm:satelliteApproachType>LNAV_VNAV</aixm:satelliteApproachType>
 						<aixm:specialAuthorisation>NO</aixm:specialAuthorisation>
 						<aixm:navigationAccuracy xsi:nil="true"/>
-						<aixm:minBaroVNAVTemperature uom="F">9</aixm:minBaroVNAVTemperature>
-						<aixm:maxBaroVNAVTemperature uom="F">130</aixm:maxBaroVNAVTemperature>
+						<aixm:minBaroVNAVTemperature uom="C">-13</aixm:minBaroVNAVTemperature>
+						<aixm:maxBaroVNAVTemperature uom="C">54</aixm:maxBaroVNAVTemperature>
 <!-- Category : A -->
 							<aixm:minimumSet>
 								<aixm:Minima gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50f65">
@@ -172,8 +173,10 @@ gml:id="M0000001">
 				</gml:validTime>
 					<aixm:interpretation>BASELINE</aixm:interpretation>
 					<aixm:flightChecked>NO</aixm:flightChecked>
-					<aixm:name>RNAV (GPS) Z RWY 22L</aixm:name>
+					<aixm:name>RNAV (GPS) Z RWY 22L KEWR</aixm:name>
+					<aixm:additionalEquipment>RADAR_RNAV</aixm:additionalEquipment>
 					<aixm:specialAuthorisation>NO</aixm:specialAuthorisation>
+					<aixm:approachType>GPS</aixm:approachType>
 			</aixm:InstrumentApproachProcedureTimeSlice>
 		</aixm:timeSlice>
 	</aixm:InstrumentApproachProcedure>
