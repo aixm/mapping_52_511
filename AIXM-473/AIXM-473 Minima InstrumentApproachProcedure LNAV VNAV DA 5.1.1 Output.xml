@@ -19,28 +19,60 @@
 					<aixm:interpretation>BASELINE</aixm:interpretation>
 					<aixm:legPath>STRAIGHT</aixm:legPath>
 					<aixm:approach xlink:href="urn:uuid:dfd04617-c8bd-443b-8290-067ba2e50e14"/>
-					<aixm:guidanceSystem>LPV</aixm:guidanceSystem>
+					<aixm:guidanceSystem>LNAV_VNAV</aixm:guidanceSystem>
 					<aixm:landingSystemCategory>OTHER</aixm:landingSystemCategory>
+					<aixm:minimumBaroVnavTemperature uom="C">-13</aixm:minimumBaroVnavTemperature>
 					<aixm:condition>
 						<aixm:ApproachCondition gml:id="GML-ApproachCondition.1">
 							<aixm:finalApproachPath>STRAIGHT_IN</aixm:finalApproachPath>
 							<aixm:requiredNavigationPerformance xsi:nil="true"/>
 							<aixm:minimumSet>
 								<aixm:Minima gml:id="GML-Minima.1">
-									<aixm:altitude uom="FT">211</aixm:altitude>
+									<aixm:altitude uom="FT">462</aixm:altitude>
 									<aixm:altitudeCode>DA</aixm:altitudeCode>
 									<aixm:altitudeReference>MSL</aixm:altitudeReference>
-									<aixm:height uom="FT">200</aixm:height>
+									<aixm:height uom="FT">451</aixm:height>
 									<aixm:heightCode>DH</aixm:heightCode>
-									<aixm:visibility uom="FT">1800</aixm:visibility>
+									<aixm:visibility uom="FT">5000</aixm:visibility>
 									<aixm:mandatoryRVR>YES</aixm:mandatoryRVR>
+									<aixm:annotation>
+										<aixm:Note gml:id="GML-Minima.1-note">
+											<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
+											<aixm:translatedNote>    
+												<aixm:LinguisticNote gml:id="GML--Minima.1-note-ls">
+													<aixm:note>Minima.identifier:dfd04617-c8bd-443b-8290-067ba2e50e65; ApproachCondition.specialAuthorisation:NO; ApproachCondition.minBaroVNAVTemperature:-13 C; ApproachCondition.maxBaroVNAVTemperature:54 C
+													</aixm:note>
+												</aixm:LinguisticNote>
+											</aixm:translatedNote>
+										</aixm:Note>
+									 </aixm:annotation>									
 								</aixm:Minima>
 							</aixm:minimumSet>
 							<aixm:aircraftCategory>
 								<aixm:AircraftCharacteristic gml:id="GML-AircraftCharacteristic.1">
 									<aixm:aircraftLandingCategory>OTHER:A_B_C_D</aixm:aircraftLandingCategory>
+									<aixm:annotation>
+										<aixm:Note gml:id="GML-AircraftCharacteristic.1-note">
+										<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
+											<aixm:translatedNote>    
+												<aixm:LinguisticNote gml:id="GML-AircraftCharacteristic.1-note-ls">
+													<aixm:note>AircraftCharacteristic.identifier:dfd04617-c8bd-443b-8290-067ba2e50e75</aixm:note>
+												</aixm:LinguisticNote>
+											</aixm:translatedNote>
+										</aixm:Note>
+									</aixm:annotation>
 								</aixm:AircraftCharacteristic>
 							</aixm:aircraftCategory>
+							<aixm:annotation>
+								<aixm:Note gml:id="GML-ApproachCondition.1-note">
+								<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
+									<aixm:translatedNote>    
+										<aixm:LinguisticNote gml:id="GML-ApproachCondition.-note-ls">
+											<aixm:note>ApproachCondition.identifier: dfd04617-c8bd-443b-8290-067ba2e50e55</aixm:note>
+										</aixm:LinguisticNote>
+									</aixm:translatedNote>
+								</aixm:Note>
+							</aixm:annotation>
 						</aixm:ApproachCondition>
 					</aixm:condition>
 					<aixm:condition>
@@ -49,20 +81,51 @@
 							<aixm:requiredNavigationPerformance xsi:nil="true"/>
 							<aixm:minimumSet>
 								<aixm:Minima gml:id="GML-Minima.2">
-									<aixm:altitude uom="FT">200</aixm:altitude>
+									<aixm:altitude uom="FT">500</aixm:altitude>
 									<aixm:altitudeCode>DA</aixm:altitudeCode>
 									<aixm:altitudeReference>MSL</aixm:altitudeReference>
-									<aixm:militaryHeight uom="FT">200</aixm:militaryHeight>
+									<aixm:militaryHeight uom="FT">451</aixm:militaryHeight>
 									<aixm:heightCode>DH</aixm:heightCode>
-									<aixm:militaryVisibility uom="NM">.5</aixm:militaryVisibility>
+									<aixm:militaryVisibility uom="NM">1</aixm:militaryVisibility>
 									<aixm:mandatoryRVR>YES</aixm:mandatoryRVR>
+                                    <aixm:annotation>
+										<aixm:Note gml:id="GML-Minima.2-note">
+											<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
+											<aixm:translatedNote>    
+												<aixm:LinguisticNote gml:id="GML--Minima.2-note-ls">
+													<aixm:note>Minima.identifier:dfd04617-c8bd-443b-8290-067ba2e50e85; Minima.militaryMinima:YES; ApproachCondition.specialAuthorisation:NO; ApproachCondition.minBaroVNAVTemperature:-13 C; ApproachCondition.maxBaroVNAVTemperature:54 C
+													</aixm:note>
+												</aixm:LinguisticNote>
+											</aixm:translatedNote>
+										</aixm:Note>
+									</aixm:annotation>									
 								</aixm:Minima>
 							</aixm:minimumSet>
 							<aixm:aircraftCategory>
 								<aixm:AircraftCharacteristic gml:id="GML-AircraftCharacteristic.2">
 									<aixm:aircraftLandingCategory>OTHER:A_B_C_D</aixm:aircraftLandingCategory>
+									<aixm:annotation>
+										<aixm:Note gml:id="GML-AircraftCharacteristic.2-note">
+										<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
+											<aixm:translatedNote>    
+												<aixm:LinguisticNote gml:id="GML-AircraftCharacteristic.2-note-ls">
+													<aixm:note>AircraftCharacteristic.identifier:dfd04617-c8bd-443b-8290-067ba2e50e95</aixm:note>
+												</aixm:LinguisticNote>
+											</aixm:translatedNote>
+										</aixm:Note>
+									</aixm:annotation>
 								</aixm:AircraftCharacteristic>
 							</aixm:aircraftCategory>
+							<aixm:annotation>
+								<aixm:Note gml:id="GML-ApproachCondition.2-note">
+								<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
+									<aixm:translatedNote>    
+										<aixm:LinguisticNote gml:id="GML-ApproachCondition.2-note-ls">
+											<aixm:note>ApproachCondition.identifier: dfd04617-c8bd-443b-8290-067ba2e50e55</aixm:note>
+										</aixm:LinguisticNote>
+									</aixm:translatedNote>
+								</aixm:Note>
+							</aixm:annotation>
 						</aixm:ApproachCondition>
 					</aixm:condition>
 				</aixm:FinalLegTimeSlice>

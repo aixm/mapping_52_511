@@ -21,17 +21,17 @@
 					<aixm:approach xlink:href="urn:uuid:dfd04617-c8bd-443b-8290-067ba2e50e14"/>
 					<aixm:guidanceSystem>LNAV_VNAV</aixm:guidanceSystem>
 					<aixm:landingSystemCategory>OTHER</aixm:landingSystemCategory>
-					<aixm:minimumBaroVnavTemperature uom="F">9</aixm:minimumBaroVnavTemperature>
+					<aixm:minimumBaroVnavTemperature uom="C">-13</aixm:minimumBaroVnavTemperature>
 					<aixm:condition>
 						<aixm:ApproachCondition gml:id="GML-ApproachCondition.1">
 							<aixm:finalApproachPath>STRAIGHT_IN</aixm:finalApproachPath>
 							<aixm:requiredNavigationPerformance xsi:nil="true"/>
 							<aixm:minimumSet>
 								<aixm:Minima gml:id="GML-Minima.1">
-									<aixm:altitude uom="FT">463</aixm:altitude>
+									<aixm:altitude uom="FT">462</aixm:altitude>
 									<aixm:altitudeCode>DA</aixm:altitudeCode>
 									<aixm:altitudeReference>MSL</aixm:altitudeReference>
-									<aixm:height uom="FT">441</aixm:height>
+									<aixm:height uom="FT">451</aixm:height>
 									<aixm:heightCode>DH</aixm:heightCode>
 									<aixm:visibility uom="FT">5000</aixm:visibility>
 									<aixm:mandatoryRVR>YES</aixm:mandatoryRVR>
@@ -53,7 +53,7 @@
 									<aixm:altitude uom="FT">500</aixm:altitude>
 									<aixm:altitudeCode>DA</aixm:altitudeCode>
 									<aixm:altitudeReference>MSL</aixm:altitudeReference>
-									<aixm:militaryHeight uom="FT">419</aixm:militaryHeight>
+									<aixm:militaryHeight uom="FT">451</aixm:militaryHeight>
 									<aixm:heightCode>DH</aixm:heightCode>
 									<aixm:militaryVisibility uom="NM">1</aixm:militaryVisibility>
 									<aixm:mandatoryRVR>YES</aixm:mandatoryRVR>
@@ -83,9 +83,9 @@
 					</gml:validTime>
 					<aixm:interpretation>BASELINE</aixm:interpretation>
 					<aixm:flightChecked>NO</aixm:flightChecked>
-					<aixm:name>RNAV (GPS) Z RWY 22L</aixm:name>
-					<aixm:approachType>OTHER:STRAIGHT_IN_LNAV_VNAV</aixm:approachType>
-					<aixm:additionalEquipment>OTHER:RNAV</aixm:additionalEquipment>
+					<aixm:name>RNAV (GPS) Z RWY 22L KEWR</aixm:name>
+					<aixm:approachType>GPS</aixm:approachType>
+					<aixm:additionalEquipment>RADAR_RNAV</aixm:additionalEquipment>
 				</aixm:InstrumentApproachProcedureTimeSlice>
 			</aixm:timeSlice>
 		</aixm:InstrumentApproachProcedure>
