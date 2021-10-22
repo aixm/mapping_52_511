@@ -27,7 +27,7 @@ gml:id="M0000001">
 					</gml:TimePeriod>
 				</aixm:featureLifetime>
 				<aixm:legPath>STRAIGHT</aixm:legPath>
-				<aixm:altitudeInterpretation>AT_OR_ABOVE</aixm:altitudeInterpretation>				
+				<aixm:verticalLimitsInterpretation>AT_OR_ABOVE</aixm:verticalLimitsInterpretation>				
 			</aixm:ArrivalLegTimeSlice>
 		</aixm:timeSlice>
 	</aixm:ArrivalLeg></message:hasMember>
