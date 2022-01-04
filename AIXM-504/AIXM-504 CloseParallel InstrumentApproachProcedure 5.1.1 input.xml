@@ -1,0 +1,82 @@
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:gml="http://www.opengis.net/gml/3.2" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+	<message:hasMember>
+		<aixm:Airspace gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e45">
+			<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50e45</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:AirspaceTimeSlice gml:id="GML-Airspace.1-TS">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="GML-Airspace.1-TS-TIME">
+							<gml:beginPosition>2008-09-25</gml:beginPosition>
+							<gml:endPosition>2021-10-07</gml:endPosition>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:type>OTHER:NTZ</aixm:type>
+				</aixm:AirspaceTimeSlice>
+			</aixm:timeSlice>
+		</aixm:Airspace>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RulesProcedures gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e40">
+			<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50e40</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RulesProceduresTimeSlice gml:id="GML-RulesProcedures.1-TS">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="GML-RulesProcedures.1-TS-TIME">
+							<gml:beginPosition>2008-09-25</gml:beginPosition>
+							<gml:endPosition>2021-10-07</gml:endPosition>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:category>PROCEDURE</aixm:category>
+					<aixm:title>OTHER:DEPENDENT_PARALLEL_APPROACHES</aixm:title>
+					<aixm:affectedArea xlink:href="urn:uuid:dfd04617-c8bd-443b-8290-067ba2e50e45"/>
+				</aixm:RulesProceduresTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RulesProcedures>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:InstrumentApproachProcedure gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e14">
+			<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50e14</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:InstrumentApproachProcedureTimeSlice gml:id="GML-InstrumentApproachProcedure.1-TS">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="GML-InstrumentApproachProcedure.1-TS-TIME">
+							<gml:beginPosition>2008-09-25</gml:beginPosition>
+							<gml:endPosition>2021-10-07</gml:endPosition>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:flightChecked>NO</aixm:flightChecked>
+					<aixm:name>RNAV (GPS) PRM Y RWY 28L KORD</aixm:name>
+					<aixm:approachType>GPS</aixm:approachType>
+				</aixm:InstrumentApproachProcedureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:InstrumentApproachProcedure>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:AirTrafficControlService gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e50">
+			<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50e50</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:AirTrafficControlServiceTimeSlice gml:id="GML-AirTrafficControlService.1-TS">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="GML-AirTrafficControlService.1-TS-TIME">
+							<gml:beginPosition>2008-09-25</gml:beginPosition>
+							<gml:endPosition>2021-10-07</gml:endPosition>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:type>OTHER:PRM</aixm:type>
+					<aixm:clientAirspace xlink:href="urn:uuid:dfd04617-c8bd-443b-8290-067ba2e50e40"/>
+					<aixm:clientProcedure xlink:href="urn:uuid:dfd04617-c8bd-443b-8290-067ba2e50e14"/>
+				</aixm:AirTrafficControlServiceTimeSlice>
+			</aixm:timeSlice>
+		</aixm:AirTrafficControlService>
+	</message:hasMember>
+</message:AIXMBasicMessage>
