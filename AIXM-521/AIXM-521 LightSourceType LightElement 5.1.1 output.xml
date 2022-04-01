@@ -1,0 +1,95 @@
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:gml="http://www.opengis.net/gml/3.2" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+<message:hasMember>
+	<aixm:Runway gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41bb">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41bb</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:RunwayTimeSlice gml:id="GML-AirportHeliport.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-AirportHeliport.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-AirportHeliport.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:designator>22L</aixm:designator>
+			</aixm:RunwayTimeSlice>
+		</aixm:timeSlice>
+	</aixm:Runway>
+</message:hasMember>
+<message:hasMember>
+	<aixm:RunwayDirection gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41bc">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41bc</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:RunwayDirectionTimeSlice gml:id="GML-RunwayDirection.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-RunwayDirection.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-RunwayDirection.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>	
+				<aixm:usedRunway xlink:href="fac34bfc-fc4f-4da7-ad8a-84ee687f41bb"/>		
+			</aixm:RunwayDirectionTimeSlice>
+		</aixm:timeSlice>
+	</aixm:RunwayDirection>
+</message:hasMember>
+<message:hasMember>
+	<aixm:VisualGlideSlopeIndicator gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41bd">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41bd</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:VisualGlideSlopeIndicatorTimeSlice gml:id="GML-VisualGlideSlopeIndicatorTime.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-VisualGlideSlopeIndicatorTime.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-VisualGlideSlopeIndicatorTime.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:element>
+					<aixm:LightElement gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41be">
+						<aixm:type>FLOOD</aixm:type>
+						<aixm:annotation>
+							<aixm:Note gml:id="GML-LightElement.1-note">
+								<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
+								<aixm:translatedNote>    
+									<aixm:LinguisticNote gml:id="GML-LightElement.1-note-Ln">
+										<aixm:note>LightElement.identifier:fac34bfc-fc4f-4da7-ad8a-84ee687f41be;LightElement.lightingTechnology:LED</aixm:note>
+									</aixm:LinguisticNote>
+								</aixm:translatedNote>
+							</aixm:Note>
+						</aixm:annotation>		
+					</aixm:LightElement>
+				</aixm:element>	
+				<aixm:runwayDirection xlink:href="fac34bfc-fc4f-4da7-ad8a-84ee687f41bc"/>		
+			</aixm:VisualGlideSlopeIndicatorTimeSlice>
+		</aixm:timeSlice>
+	</aixm:VisualGlideSlopeIndicator>
+</message:hasMember>
+</message:AIXMBasicMessage>
