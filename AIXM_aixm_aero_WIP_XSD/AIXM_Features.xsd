@@ -1229,6 +1229,7 @@ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
                         <element name="standLocation" type="aixm:AircraftStandPropertyType" nillable="true" minOccurs="0" maxOccurs="1"/>
                         <element name="surfaceProperties" type="aixm:SurfaceCharacteristicsPropertyType" nillable="true" minOccurs="0" maxOccurs="1"/>
                         <element name="extent" type="aixm:ElevatedSurfacePropertyType" nillable="true" minOccurs="0" maxOccurs="1"/>
+                        <element name="designator" type="aixm:TextDesignatorType" nillable="true" minOccurs="0" maxOccurs="1"/>
                         <element name="annotation" type="aixm:NotePropertyType" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
                         <element name="availability" type="aixm:ApronAreaAvailabilityPropertyType" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
                 </sequence>
@@ -2605,6 +2606,7 @@ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
                         <element name="lengthOffset" type="aixm:ValDistanceSignedType" nillable="true" minOccurs="0"/>
                         <element name="widthOffset" type="aixm:ValDistanceSignedType" nillable="true" minOccurs="0"/>
                         <element name="abandoned" type="aixm:CodeYesNoType" nillable="true" minOccurs="0"/>
+                        <element name="depth" type="aixm:ValDistanceType" nillable="true" minOccurs="0"/>
                         <element name="surfaceProperties" type="aixm:SurfaceCharacteristicsPropertyType" nillable="true" minOccurs="0" maxOccurs="1"/>
                         <element name="associatedAirportHeliport" type="aixm:AirportHeliportPropertyType" nillable="true" minOccurs="0" maxOccurs="1"/>
                         <element name="overallContaminant" type="aixm:RunwayContaminationPropertyType" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
@@ -3135,6 +3137,54 @@ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
                 </sequence>
         </group>
         <element name="AbstractMarkingBuoyExtension" type="aixm:AbstractExtensionType" abstract="true" substitutionGroup="aixm:AbstractExtension"/>
+        <complexType name="GangwayPropertyType">
+                <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+                <attributeGroup ref="gml:AssociationAttributeGroup"/>
+        </complexType>
+        <element name="Gangway" type="aixm:GangwayType" substitutionGroup="aixm:AbstractAIXMFeature"/>
+        <complexType name="GangwayType">
+                <complexContent>
+                        <extension base="aixm:AbstractAIXMFeatureType">
+                                <sequence>
+                                        <element name="timeSlice" type="aixm:GangwayTimeSlicePropertyType" maxOccurs="unbounded"/>
+                                </sequence>
+                        </extension>
+                </complexContent>
+        </complexType>
+        <complexType name="GangwayTimeSlicePropertyType">
+                <sequence>
+                        <element ref="aixm:GangwayTimeSlice"/>
+                </sequence>
+                <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+        </complexType>
+        <element name="GangwayTimeSlice" type="aixm:GangwayTimeSliceType" substitutionGroup="gml:AbstractTimeSlice"/>
+        <complexType name="GangwayTimeSliceType">
+                <complexContent>
+                        <extension base="aixm:AbstractAIXMTimeSliceType">
+                                <sequence>
+                                        <group ref="aixm:GangwayPropertyGroup"/>
+                                        <element name="extension" minOccurs="0" maxOccurs="unbounded">
+                                                <complexType>
+                                                        <sequence>
+                                                                <element ref="aixm:AbstractGangwayExtension"/>
+                                                        </sequence>
+                                                        <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+                                                </complexType>
+                                        </element>
+                                </sequence>
+                        </extension>
+                </complexContent>
+        </complexType>
+        <group name="GangwayPropertyGroup">
+                <sequence>
+                        <element name="width" type="aixm:ValDistanceType" nillable="true" minOccurs="0"/>
+                        <element name="length" type="aixm:ValDistanceType" nillable="true" minOccurs="0"/>
+                        <element name="type" type="aixm:CodeGangwayType" nillable="true" minOccurs="0"/>
+                        <element name="mobility" type="aixm:CodeYesNoType" nillable="true" minOccurs="0"/>
+                        <element name="annotation" type="aixm:NotePropertyType" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+                </sequence>
+        </group>
+        <element name="AbstractGangwayExtension" type="aixm:AbstractExtensionType" abstract="true" substitutionGroup="aixm:AbstractExtension"/>
         <complexType name="SeaplaneLandingAreaPropertyType">
                 <attributeGroup ref="gml:OwnershipAttributeGroup"/>
                 <attributeGroup ref="gml:AssociationAttributeGroup"/>
@@ -3178,8 +3228,10 @@ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
                         <element name="rampSite" type="aixm:SeaplaneRampSitePropertyType" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
                         <element name="dockSite" type="aixm:FloatingDockSitePropertyType" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
                         <element name="extent" type="aixm:ElevatedSurfacePropertyType" nillable="true" minOccurs="0" maxOccurs="1"/>
-                        <element name="annotation" type="aixm:NotePropertyType" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
                         <element name="availability" type="aixm:ManoeuvringAreaAvailabilityPropertyType" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+                        <element name="associatedAIrportHeliport" type="aixm:AirportHeliportPropertyType" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+                        <element name="assignedGangway" type="aixm:GangwayPropertyType" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+                        <element name="annotation" type="aixm:NotePropertyType" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
                 </sequence>
         </group>
         <element name="AbstractSeaplaneLandingAreaExtension" type="aixm:AbstractExtensionType" abstract="true" substitutionGroup="aixm:AbstractExtension"/>
@@ -3766,6 +3818,8 @@ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
                         <element name="widthShoulder" type="aixm:ValDistanceType" nillable="true" minOccurs="0"/>
                         <element name="length" type="aixm:ValDistanceType" nillable="true" minOccurs="0"/>
                         <element name="abandoned" type="aixm:CodeYesNoType" nillable="true" minOccurs="0"/>
+                        <element name="depth" type="aixm:ValDistanceType" nillable="true" minOccurs="0"/>
+                        <element name="diameter" type="aixm:ValDistanceType" nillable="true" minOccurs="0"/>
                         <element name="surfaceProperties" type="aixm:SurfaceCharacteristicsPropertyType" nillable="true" minOccurs="0" maxOccurs="1"/>
                         <element name="associatedAirportHeliport" type="aixm:AirportHeliportPropertyType" nillable="true" minOccurs="0" maxOccurs="1"/>
                         <element name="contaminant" type="aixm:TaxiwayContaminationPropertyType" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
@@ -4870,7 +4924,7 @@ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
                         <group ref="aixm:NavaidEquipmentPropertyGroup" minOccurs="0"/>
                         <element name="type" type="aixm:CodeDMEType" nillable="true" minOccurs="0"/>
                         <element name="channel" type="aixm:CodeDMEChannelType" nillable="true" minOccurs="0"/>
-                        <element name="ghostFrequency" type="aixm:ValFrequencyType" nillable="true" minOccurs="0"/>
+                        <element name="tuningFrequencyVHF" type="aixm:ValFrequencyType" nillable="true" minOccurs="0"/>
                         <element name="displace" type="aixm:ValDistanceType" nillable="true" minOccurs="0"/>
                 </sequence>
         </group>
@@ -5572,7 +5626,7 @@ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
                         <group ref="aixm:NavaidEquipmentPropertyGroup" minOccurs="0"/>
                         <element name="channel" type="aixm:CodeTACANChannelType" nillable="true" minOccurs="0"/>
                         <element name="declination" type="aixm:ValMagneticVariationType" nillable="true" minOccurs="0"/>
-                     	<element name="ghostFrequency" type="aixm:ValFrequencyType" nillable="true" minOccurs="0"/>
+                     	<element name="tuningFrequencyVHF" type="aixm:ValFrequencyType" nillable="true" minOccurs="0"/>
                 </sequence>
         </group>
         <element name="AbstractTACANExtension" type="aixm:AbstractExtensionType" abstract="true" substitutionGroup="aixm:AbstractExtension"/>

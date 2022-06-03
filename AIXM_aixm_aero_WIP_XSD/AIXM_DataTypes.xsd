@@ -1648,7 +1648,6 @@ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
                         <simpleType>
                                 <restriction base="string">
                                         <enumeration value="NONE"/>
-                                        <enumeration value="DAMP"/>
                                         <enumeration value="WATER"/>
                                         <enumeration value="FROST"/>
                                         <enumeration value="DRY_SNOW"/>
@@ -1662,6 +1661,15 @@ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
                                         <enumeration value="OIL"/>
                                         <enumeration value="RUBBER"/>
                                         <enumeration value="GRAS"/>
+                                        <enumeration value="DRY"/>
+                                        <enumeration value="STANDING_WATER"/>
+                                        <enumeration value="SLIPPERY_WET"/>
+                                        <enumeration value="PREPARED_WINTER_RWY"/>
+                                        <enumeration value="WET"/>
+                                        <enumeration value="WET_ICE"/>
+                                        <enumeration value="DRIFTING_SNOW"/>
+                                        <enumeration value="LOOSE_SAND"/>
+                                        <enumeration value="CHEMICAL_TREATMENT"/>
                                 </restriction>
                         </simpleType>
                         <simpleType>
@@ -2875,6 +2883,13 @@ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
                                         <enumeration value="RT"/>
                                         <enumeration value="ALL"/>
                                         <enumeration value="SAF"/>
+                                     	<enumeration value="RWYCC_0"/>
+                                        <enumeration value="RWYCC_1"/>
+                                        <enumeration value="RWYCC_2"/>
+                                        <enumeration value="RWYCC_3"/>
+                                        <enumeration value="RWYCC_4"/>
+                                        <enumeration value="RWYCC_5"/>
+                                        <enumeration value="RWYCC_6"/>   
                                 </restriction>
                         </simpleType>
                         <simpleType>
@@ -2887,6 +2902,28 @@ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
         <complexType name="CodeFuelType">
                 <simpleContent>
                         <extension base="aixm:CodeFuelBaseType">
+                                <attribute name="nilReason" type="gml:NilReasonEnumeration"/>
+                        </extension>
+                </simpleContent>
+        </complexType>
+        <simpleType name="CodeGangwayBaseType">
+                <union>
+                        <simpleType>
+                                <restriction base="string">
+                                        <enumeration value="WATER"/>
+                                        <enumeration value="GROUND"/>
+                                </restriction>
+                        </simpleType>
+                        <simpleType>
+                                <restriction base="string">
+                                        <pattern value="OTHER(:(\w|_){1,58})?"/>
+                                </restriction>
+                        </simpleType>
+                </union>
+        </simpleType>
+        <complexType name="CodeGangwayType">
+                <simpleContent>
+                        <extension base="aixm:CodeGangwayBaseType">
                                 <attribute name="nilReason" type="gml:NilReasonEnumeration"/>
                         </extension>
                 </simpleContent>
@@ -7330,7 +7367,49 @@ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
                 <union>
                         <simpleType>
                                 <restriction base="string">
-                                        <enumeration value="AG_EQUIP"/>
+					<enumeration value="AIRCRAFT"/>
+			                <enumeration value="AIRPORT_BEACON"/>
+			                <enumeration value="ANEMOMETER"/>
+			                <enumeration value="BLAST_FENCE"/>
+			                <enumeration value="BUSH"/>
+			                <enumeration value="CAPTIVE_BALLOON_KITE"/>
+			                <enumeration value="CHURCH"/>
+			                <enumeration value="CITY"/>
+			                <enumeration value="COAST_GUARD_STATION"/>
+			                <enumeration value="CONIFEROUS_TREES"/>
+			                <enumeration value="EARTHEN_WORKS"/>
+			                <enumeration value="FIRE_STATION"/>
+			                <enumeration value="FIXED_BASE_OPERATOR"/>
+			                <enumeration value="FOREST"/>
+			                <enumeration value="FORT"/>
+			                <enumeration value="HANGAR"/>
+			                <enumeration value="INDUSTRIAL_STRUCTURE"/>
+			                <enumeration value="LIGHT_STANCHION"/>
+			                <enumeration value="LIGHT_POLE"/>
+			                <enumeration value="LOOKOUT_TOWER"/>
+			                <enumeration value="MOSQUE"/>
+			                <enumeration value="OIL_GAS_FIELD"/>
+			                <enumeration value="PAGODA"/>
+			                <enumeration value="PALM"/>
+			                <enumeration value="PIPELINE"/>
+			                <enumeration value="RAILROAD_BRIDGE"/>
+			                <enumeration value="RECREATIONAL_STRUCTURE"/>
+			                <enumeration value="ROAD_BRIDGE"/>
+			                <enumeration value="RUINS"/>
+			                <enumeration value="SHIP"/>
+			                <enumeration value="SOLAR_PANELS"/>
+			                <enumeration value="STORAGE_STRUCTURE"/>
+			                <enumeration value="TELEPHONE_LINE"/>
+			                <enumeration value="TELE_POLE"/>
+			                <enumeration value="TEMPLE"/>
+			                <enumeration value="TERMINAL_BUILDING"/>
+			                <enumeration value="TOWN"/>
+			                <enumeration value="TRAIN"/>
+			                <enumeration value="TRANSMISSION_TOWER"/>
+			                <enumeration value="VEHICLE"/>
+			                <enumeration value="VILLAGE"/>
+			                <enumeration value="WIND_INDICATOR"/>
+			                <enumeration value="AG_EQUIP"/>
                                         <enumeration value="ANTENNA"/>
                                         <enumeration value="ARCH"/>
                                         <enumeration value="BRIDGE"/>
@@ -7371,7 +7450,6 @@ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
                                         <enumeration value="STADIUM"/>
                                         <enumeration value="STORM_SYSTEM"/>
                                         <enumeration value="TANK"/>
-                                        <enumeration value="TETHERED_BALLOON"/>
                                         <enumeration value="TOWER"/>
                                         <enumeration value="TRAMWAY"/>
                                         <enumeration value="TRANSMISSION_LINE"/>
