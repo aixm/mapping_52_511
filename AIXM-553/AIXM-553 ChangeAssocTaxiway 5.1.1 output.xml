@@ -1,0 +1,165 @@
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:gml="http://www.opengis.net/gml/3.2" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+<message:hasMember>
+	<aixm:AirportHeliport gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41bb">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41bb</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:AirportHeliportTimeSlice gml:id="GML-AirportHeliport.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-AirportHeliport.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-AirportHeliport.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:designator>KEWR</aixm:designator>
+			</aixm:AirportHeliportTimeSlice>
+		</aixm:timeSlice>
+	</aixm:AirportHeliport>
+</message:hasMember>
+<message:hasMember>
+	<aixm:Taxiway gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41bc">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41bc</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:TaxiwayTimeSlice gml:id="GML-Taxiway.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-Taxiway.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-Taxiway.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:designator>RE</aixm:designator>
+				<aixm:associatedAirportHeliport xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bb"/>
+				<aixm:annotation>
+					<aixm:Note gml:id="GML-Taxiway.1-Note">
+						<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
+						<aixm:translatedNote>    
+							<aixm:LinguisticNote gml:id="GML-Taxiway.1-note-ls">
+								<aixm:note>clearingEquipment: Taxiway.clearingEquipment:Runway Sweeper
+								</aixm:note>
+							</aixm:LinguisticNote>
+						</aixm:translatedNote>
+					</aixm:Note>
+				</aixm:annotation>
+			</aixm:TaxiwayTimeSlice>
+		</aixm:timeSlice>
+	</aixm:Taxiway>
+</message:hasMember>
+<message:hasMember>
+	<aixm:Taxiway gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41bd">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41bd</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:TaxiwayTimeSlice gml:id="GML-Taxiway.2-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-Taxiway.2-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-Taxiway.2-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:designator>REL</aixm:designator>
+				<aixm:associatedAirportHeliport xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bb"/>
+				<aixm:annotation>
+					<aixm:Note gml:id="GML-Taxiway.2-Note">
+						<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
+						<aixm:translatedNote>    
+							<aixm:LinguisticNote gml:id="GML-Taxiway.2-note-ls">
+								<aixm:note>clearingEquipment: Taxiway.clearingEquipment:Runway Sweeper
+								</aixm:note>
+							</aixm:LinguisticNote>
+						</aixm:translatedNote>
+					</aixm:Note>
+				</aixm:annotation>
+			</aixm:TaxiwayTimeSlice>
+		</aixm:timeSlice>
+	</aixm:Taxiway>
+</message:hasMember>
+<message:hasMember>
+	<aixm:TaxiwayElement gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f51bc">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f51bc</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:TaxiwayElementTimeSlice gml:id="GML-TaxiwayElement.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-TaxiwayElement.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-TaxiwayElement.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:type>NORMAL</aixm:type>
+				<aixm:associatedTaxiway xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bc"/>
+				<aixm:annotation>
+					<aixm:Note gml:id="GML-TaxiwayElement.1-note">
+						<aixm:propertyName>associatedTaxiway</aixm:propertyName>
+						<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
+						<aixm:translatedNote>    
+							<aixm:LinguisticNote gml:id="GML-TaxiwayElement.1-note-Ln">
+								<aixm:note>associatedTaxiway.xlink:href:urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bd</aixm:note>
+							</aixm:LinguisticNote>
+						</aixm:translatedNote>
+					</aixm:Note>
+				</aixm:annotation>
+			</aixm:TaxiwayElementTimeSlice>
+		</aixm:timeSlice>
+	</aixm:TaxiwayElement>
+</message:hasMember>
+<message:hasMember>
+	<aixm:TaxiwayElement gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f61bc">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f61bc</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:TaxiwayElementTimeSlice gml:id="GML-TaxiwayElement.2-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-TaxiwayElement.2-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-TaxiwayElement.2-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:type>SHOULDER</aixm:type>
+				<aixm:associatedTaxiway xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bc"/>
+			</aixm:TaxiwayElementTimeSlice>
+		</aixm:timeSlice>
+	</aixm:TaxiwayElement>
+</message:hasMember>
+</message:AIXMBasicMessage>
