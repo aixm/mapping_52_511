@@ -1,0 +1,83 @@
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:gml="http://www.opengis.net/gml/3.2" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+<message:hasMember>
+	<aixm:AirportHeliport gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41bb">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41bb</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:AirportHeliportTimeSlice gml:id="GML-AirportHeliport.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-AirportHeliport.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-AirportHeliport.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:designator>KEWR</aixm:designator>
+			</aixm:AirportHeliportTimeSlice>
+		</aixm:timeSlice>
+	</aixm:AirportHeliport>
+</message:hasMember>
+<message:hasMember>
+	<aixm:Apron gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41bc">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41bc</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:ApronTimeSlice gml:id="GML-Apron.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-Apron.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-Apron.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:name>APRON 1</aixm:name>
+				<aixm:associatedAirportHeliport xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bb"/>
+			</aixm:ApronTimeSlice>
+		</aixm:timeSlice>
+	</aixm:Apron>
+</message:hasMember>
+<message:hasMember>
+	<aixm:DeicingArea gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f42bd">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f42bd</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:DeicingAreaTimeSlice gml:id="GML-DeicingArea.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-DeicingArea.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-DeicingArea.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:associatedApron xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bc"/>
+				
+				<aixm:designator >DEICE 1</aixm:designator>
+			</aixm:DeicingAreaTimeSlice>
+		</aixm:timeSlice>
+	</aixm:DeicingArea>
+</message:hasMember>
+</message:AIXMBasicMessage>
