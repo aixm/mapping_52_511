@@ -1,12 +1,10 @@
-<message:AIXMBasicMessage 
-            xmlns:message="http://www.aixm.aero/schema/5.2/message"
-            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
-            xmlns:aixm="http://www.aixm.aero/schema/5.2" 
-            xmlns:gml="http://www.opengis.net/gml/3.2"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-            xsi:schemaLocation="http://www.aixm.aero/schema/5.2/message http://www.aixm.aero/schema/5.2/RC6/message/AIXM_BasicMessage.xsd"
-gml:id="M0000001">
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:gml="http://www.opengis.net/gml/3.2" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
 <message:hasMember>
 	<aixm:Navaid gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e14">
 		<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50e14</gml:identifier>
@@ -114,7 +112,7 @@ gml:id="M0000001">
 				<aixm:startPoint>
 					<aixm:TerminalSegmentPoint gml:id="GML-ArrivalFeederLeg.1.start.Terminal">
 					  <aixm:pointChoice_fixDesignatedPoint xlink:href="#uuid.bf3264d6-c075-47a3-b0dd-4ecccaffe040"/>
-					  <aixm:role>FEEDER_FIX</aixm:role>
+					  <aixm:role>OTHER:FEEDER_FIX</aixm:role>
 					</aixm:TerminalSegmentPoint>
 				</aixm:startPoint>
 				<aixm:endPoint>
@@ -122,7 +120,7 @@ gml:id="M0000001">
 					  <aixm:pointChoice_fixDesignatedPoint xlink:href="#uuid.505a205f-8682-4f82-8f69-d4eba07a047a"/>
 					</aixm:TerminalSegmentPoint>
 				</aixm:endPoint>
-			</aixm:ArrivalFeederLegTimeSlice>
+		</aixm:ArrivalFeederLegTimeSlice>
 		</aixm:timeSlice>
 	</aixm:ArrivalFeederLeg>
 </message:hasMember>
@@ -141,7 +139,6 @@ gml:id="M0000001">
 					<aixm:flightChecked>NO</aixm:flightChecked>
 					<aixm:name>RNAV (GPS) RWY 17L KABL</aixm:name>
 					<aixm:additionalEquipment>RADAR_RNAV</aixm:additionalEquipment>
-					<aixm:approachType>GPS</aixm:approachType>
 				</aixm:InstrumentApproachProcedureTimeSlice>
 			</aixm:timeSlice>
 		</aixm:InstrumentApproachProcedure>

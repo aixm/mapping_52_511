@@ -1,12 +1,10 @@
-<message:AIXMBasicMessage 
-            xmlns:message="http://www.aixm.aero/schema/5.2/message"
-            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
-            xmlns:aixm="http://www.aixm.aero/schema/5.2" 
-            xmlns:gml="http://www.opengis.net/gml/3.2"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-            xsi:schemaLocation="http://www.aixm.aero/schema/5.2/message http://www.aixm.aero/schema/5.2/RC6/message/AIXM_BasicMessage.xsd"
-gml:id="M0000001">
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:gml="http://www.opengis.net/gml/3.2" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
 <message:hasMember>
 	<aixm:Navaid gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e14">
 		<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50e14</gml:identifier>
@@ -27,7 +25,7 @@ gml:id="M0000001">
 					</gml:TimePeriod>
 				</aixm:featureLifetime>
 				<aixm:type>VORTAC</aixm:type>
-				<aixm:designator>ABI</aixm:designator>
+				<aixm:designator>DEN</aixm:designator>
 				<aixm:purpose>TERMINAL</aixm:purpose>
 				<aixm:location>
 					<aixm:ElevatedPoint>
@@ -58,9 +56,9 @@ gml:id="M0000001">
 						<gml:endPosition indeterminatePosition="unknown"/>
 					</gml:TimePeriod>
 				</aixm:featureLifetime>
-				<aixm:designator>ROGEE</aixm:designator>
+				<aixm:designator>JPBAG</aixm:designator>
 				<aixm:type>ICAO</aixm:type>
-				<aixm:name>ROGEE</aixm:name>
+				<aixm:name>JPBAG</aixm:name>
 			</aixm:DesignatedPointTimeSlice>
 		</aixm:timeSlice>
 	</aixm:DesignatedPoint>
@@ -84,9 +82,9 @@ gml:id="M0000001">
 						<gml:endPosition indeterminatePosition="unknown"/>
 					</gml:TimePeriod>
 				</aixm:featureLifetime>
-				<aixm:designator>EHHAD</aixm:designator>
+				<aixm:designator>GRASP</aixm:designator>
 				<aixm:type>ICAO</aixm:type>
-				<aixm:name>EHHAD</aixm:name>
+				<aixm:name>GRASP</aixm:name>
 			</aixm:DesignatedPointTimeSlice>
 		</aixm:timeSlice>
 	</aixm:DesignatedPoint>
@@ -114,14 +112,22 @@ gml:id="M0000001">
 				<aixm:startPoint>
 					<aixm:TerminalSegmentPoint gml:id="GML-ArrivalFeederLeg.1.start.Terminal">
 					  <aixm:pointChoice_fixDesignatedPoint xlink:href="#uuid.bf3264d6-c075-47a3-b0dd-4ecccaffe040"/>
-					  <aixm:role>FEEDER_FIX</aixm:role>
 					</aixm:TerminalSegmentPoint>
 				</aixm:startPoint>
 				<aixm:endPoint>
 					<aixm:TerminalSegmentPoint gml:id="GML-ArrivalFeederLeg.1.end.Terminal">
 					  <aixm:pointChoice_fixDesignatedPoint xlink:href="#uuid.505a205f-8682-4f82-8f69-d4eba07a047a"/>
+					  <aixm:role>OTHER:PFAF</aixm:role>
 					</aixm:TerminalSegmentPoint>
 				</aixm:endPoint>
+				<aixm:minimumObstacleClearanceAltitude uom="FT">1800</aixm:minimumObstacleClearanceAltitude>
+				<aixm:minimumObstacleClearanceHeight xsi:nil="true"/>			
+				<aixm:altitudeCondition>
+					<aixm:SegmentLegAltitudeCondition gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41bd">
+						<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41bd</gml:identifier>
+						<aixm:minimumEnrouteAltitude uom="FT">5000</aixm:minimumEnrouteAltitude>
+					</aixm:SegmentLegAltitudeCondition>
+				</aixm:altitudeCondition>	
 			</aixm:ArrivalFeederLegTimeSlice>
 		</aixm:timeSlice>
 	</aixm:ArrivalFeederLeg>
@@ -139,7 +145,7 @@ gml:id="M0000001">
 					</gml:validTime>
 					<aixm:interpretation>BASELINE</aixm:interpretation>
 					<aixm:flightChecked>NO</aixm:flightChecked>
-					<aixm:name>RNAV (GPS) RWY 17L KABL</aixm:name>
+					<aixm:name>RNAV (RNP) Z RWY 26 KDEN</aixm:name>
 					<aixm:additionalEquipment>RADAR_RNAV</aixm:additionalEquipment>
 					<aixm:approachType>GPS</aixm:approachType>
 				</aixm:InstrumentApproachProcedureTimeSlice>
