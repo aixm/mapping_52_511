@@ -1,0 +1,78 @@
+<message:AIXMBasicMessage 
+            xmlns:message="http://www.aixm.aero/schema/5.2/message"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+            xmlns:aixm="http://www.aixm.aero/schema/5.2" 
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.aixm.aero/schema/5.2/message http://www.aixm.aero/schema/5.2/RC7/message/AIXM_BasicMessage.xsd"
+gml:id="M0000001">
+<message:hasMember>
+	<aixm:Navaid gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e14">
+		<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50e14</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:NavaidTimeSlice gml:id="GML-Navaid.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-Navaid.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>PERMDELTA</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-Navaid.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:type>VORTAC</aixm:type>
+				<aixm:designator>AML</aixm:designator>
+				<aixm:purpose>TERMINAL</aixm:purpose>
+				<aixm:location>
+					<aixm:ElevatedPoint>
+						<gml:pos>38.9345939 -77.4667025</gml:pos>
+						<aixm:elevation uom="FT">781</aixm:elevation>
+					</aixm:ElevatedPoint>
+				</aixm:location>
+			</aixm:NavaidTimeSlice>
+		</aixm:timeSlice>
+	</aixm:Navaid>
+</message:hasMember>
+<message:hasMember>
+	<aixm:DepartureLeg gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41bb">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41bb</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:DepartureLegTimeSlice gml:id="GML-DepartureLeg.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-Departureleg.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>PERMDELTA</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-Departureleg.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:legPath>STRAIGHT</aixm:legPath>				
+				<aixm:startPoint>
+					<aixm:TerminalSegmentPoint gml:id="GML-Departureleg.1.startPoint.Terminal">
+					  <aixm:pointChoice_navaidSystem xlink:href="#uuid.dfd04617-c8bd-443b-8290-067ba2e50e14"/>
+					</aixm:TerminalSegmentPoint>
+				</aixm:startPoint>
+				<aixm:limitingAngle>
+						<aixm:Angle gml:id="GML-Departureleg.1.limitingAngle">
+							<gml:identifier codeSpace="urn:uuid:">f7b8682a-cc39-42d4-b9d4-21717d652cb6</gml:identifier>
+							<aixm:angle>110</aixm:angle>
+							<aixm:pointChoice_navaidSystem  xlink:href="#uuid.dfd04617-c8bd-443b-8290-067ba2e50e14"/>
+						</aixm:Angle>
+				</aixm:limitingAngle>
+			</aixm:DepartureLegTimeSlice>
+		</aixm:timeSlice>
+	</aixm:DepartureLeg>
+</message:hasMember>
+</message:AIXMBasicMessage>

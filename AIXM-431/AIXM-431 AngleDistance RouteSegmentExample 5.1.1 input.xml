@@ -1,0 +1,275 @@
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:gml="http://www.opengis.net/gml/3.2" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+<message:hasMember>
+	<aixm:Navaid gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e14">
+		<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50e14</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:NavaidTimeSlice gml:id="GML-Navaid.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-Navaid.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-Navaid.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:type>VORTAC</aixm:type>
+				<aixm:designator>LIT</aixm:designator>
+				<aixm:location>
+					<aixm:ElevatedPoint>
+						<gml:pos>34.6776728 -92.1805283</gml:pos>
+						<aixm:elevation uom="FT">240</aixm:elevation>
+					</aixm:ElevatedPoint>
+				</aixm:location>
+			</aixm:NavaidTimeSlice>
+		</aixm:timeSlice>
+	</aixm:Navaid>
+</message:hasMember>
+<message:hasMember>
+	<aixm:DesignatedPoint gml:id="uuid.bf3264d6-c075-47a3-b0dd-4ecccaffe040">
+		<gml:identifier codeSpace="urn:uuid:">bf3264d6-c075-47a3-b0dd-4ecccaffe040</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:DesignatedPointTimeSlice gml:id="GML-DesignatedPoint.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-DesignatedPoint.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-DesignatedPoint.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:designator>HOBER</aixm:designator>
+				<aixm:type>ICAO</aixm:type>
+				<aixm:name>HOBER</aixm:name>
+			</aixm:DesignatedPointTimeSlice>
+		</aixm:timeSlice>
+	</aixm:DesignatedPoint>
+</message:hasMember>
+<message:hasMember>
+	<aixm:DesignatedPoint gml:id="uuid.505a205f-8682-4f82-8f69-d4eba07a047a">
+		<gml:identifier codeSpace="urn:uuid:">505a205f-8682-4f82-8f69-d4eba07a047a</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:DesignatedPointTimeSlice gml:id="GML-DesignatedPoint.2-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-DesignatedPoint.2-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-DesignatedPoint.2-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:designator>MOMTE</aixm:designator>
+				<aixm:type>ICAO</aixm:type>
+				<aixm:name>MOMTE</aixm:name>
+			</aixm:DesignatedPointTimeSlice>
+		</aixm:timeSlice>
+	</aixm:DesignatedPoint>
+</message:hasMember>
+<message:hasMember>
+	<aixm:AngleIndication gml:id="uuid.f7b8682a-cc39-42d4-b9d4-21717d652cb6">
+		<gml:identifier codeSpace="urn:uuid:">f7b8682a-cc39-42d4-b9d4-21717d652cb6</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:AngleIndicationTimeSlice gml:id="GML-AngleIndication.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-AngleIndication.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-AngleIndication.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:angle>148.88</aixm:angle>
+				<aixm:minimumReceptionAltitude uom="FT">2500</aixm:minimumReceptionAltitude>
+				<aixm:fix xlink:href="#uuid.bf3264d6-c075-47a3-b0dd-4ecccaffe040"/>
+				<aixm:pointChoice_navaidSystem  xlink:href="#uuid.dfd04617-c8bd-443b-8290-067ba2e50e14"/>
+			</aixm:AngleIndicationTimeSlice>
+		</aixm:timeSlice>
+	</aixm:AngleIndication>
+</message:hasMember>
+<message:hasMember>
+	<aixm:DistanceIndication gml:id="uuid.c692a79d-52d1-447f-805a-da2ab7cab711">
+	<gml:identifier codeSpace="urn:uuid:">c692a79d-52d1-447f-805a-da2ab7cab711</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:DistanceIndicationTimeSlice gml:id="GML-DistanceIndication.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-DistanceIndication.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-DistanceIndication.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:distance uom="NM">2.98</aixm:distance>
+				<aixm:fix xlink:href="#uuid.bf3264d6-c075-47a3-b0dd-4ecccaffe040"/>
+				<aixm:pointChoice_navaidSystem xlink:href="#uuid.dfd04617-c8bd-443b-8290-067ba2e50e14"/>
+			</aixm:DistanceIndicationTimeSlice>
+		</aixm:timeSlice>
+	</aixm:DistanceIndication>
+</message:hasMember>
+<message:hasMember>
+	<aixm:AngleIndication gml:id="uuid.e27696a1-e89e-42b8-9445-13498379b9a9">
+	<gml:identifier codeSpace="urn:uuid:">e27696a1-e89e-42b8-9445-13498379b9a9</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:AngleIndicationTimeSlice gml:id="GML-AngleIndication.2-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-AngleIndication.2-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-AngleIndication.2-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:angle>148.87</aixm:angle>
+				<aixm:minimumReceptionAltitude uom="FT">2500</aixm:minimumReceptionAltitude>
+				<aixm:fix xlink:href="#uuid.505a205f-8682-4f82-8f69-d4eba07a047a"/>
+				<aixm:pointChoice_navaidSystem  xlink:href="#uuid.dfd04617-c8bd-443b-8290-067ba2e50e14"/>
+			</aixm:AngleIndicationTimeSlice>
+		</aixm:timeSlice>
+	</aixm:AngleIndication>
+</message:hasMember>
+<message:hasMember>
+	<aixm:DistanceIndication gml:id="uuid.e70733e3-0c42-4f8c-9b7a-e80e1c0ed703">
+	<gml:identifier codeSpace="urn:uuid:">e70733e3-0c42-4f8c-9b7a-e80e1c0ed703</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:DistanceIndicationTimeSlice gml:id="GML-DistanceIndication.2-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-DistanceIndication.2-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-DistanceIndication.2-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:distance uom="NM">12</aixm:distance>
+				<aixm:fix xlink:href="#uuid.505a205f-8682-4f82-8f69-d4eba07a047a"/>
+				<aixm:pointChoice_navaidSystem xlink:href="#uuid.dfd04617-c8bd-443b-8290-067ba2e50e14"/>
+			</aixm:DistanceIndicationTimeSlice>
+		</aixm:timeSlice>	
+	</aixm:DistanceIndication>
+</message:hasMember>
+<message:hasMember>
+	<aixm:Route gml:id="uuid.a180f459-5b8b-4945-9d8d-295b5f4b1330">
+	<gml:identifier codeSpace="urn:uuid:">a180f459-5b8b-4945-9d8d-295b5f4b1330</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:RouteTimeSlice gml:id="GML-Route.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-Route.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-Route.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:name>V74</aixm:name>
+			</aixm:RouteTimeSlice>
+		</aixm:timeSlice>
+	</aixm:Route>
+</message:hasMember>
+<message:hasMember>
+	<aixm:RouteSegment gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41bb">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41bb</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:RouteSegmentTimeSlice gml:id="GML-RouteSegment.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-RouteSegment.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-RouteSegment.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:start>
+					<aixm:EnRouteSegmentPoint gml:id="GML-RouteSegment.1-start.EnRoute">
+						<aixm:facilityMakeup>
+					  		<aixm:PointReference gml:id="GML-RouteSegment.1-start.PR">
+								<aixm:facilityAngle>
+									<aixm:AngleUse gml:id="GML-RouteSegment.1-start.AngleUse">
+										<aixm:theAngleIndication xlink:href="#uuid.f7b8682a-cc39-42d4-b9d4-21717d652cb6"/>
+									</aixm:AngleUse>
+								</aixm:facilityAngle>
+								<aixm:facilityDistance xlink:href="#uuid.c692a79d-52d1-447f-805a-da2ab7cab711"/>
+							</aixm:PointReference>
+						</aixm:facilityMakeup>
+						<aixm:pointChoice_fixDesignatedPoint xlink:href="#uuid.bf3264d6-c075-47a3-b0dd-4ecccaffe040"/>
+					</aixm:EnRouteSegmentPoint>
+				</aixm:start>
+				<aixm:routeFormed xlink:href="#uuid.a180f459-5b8b-4945-9d8d-295b5f4b1330"/>
+				<aixm:end>
+					<aixm:EnRouteSegmentPoint gml:id="GML-RouteSegment.1-end.EnRoute">
+					  <aixm:facilityMakeup>
+						<aixm:PointReference gml:id="GML-RouteSegment.1-end.EnRoute.PR">
+							<aixm:facilityAngle>
+								<aixm:AngleUse gml:id="GML-RouteSegment.1-end.AngleUse">
+									<aixm:theAngleIndication xlink:href="#uuid.e27696a1-e89e-42b8-9445-13498379b9a9"/>
+								</aixm:AngleUse>
+							</aixm:facilityAngle>
+							<aixm:facilityDistance xlink:href="#uuid.e70733e3-0c42-4f8c-9b7a-e80e1c0ed703"/>
+						</aixm:PointReference>
+					  </aixm:facilityMakeup>
+					  <aixm:pointChoice_fixDesignatedPoint xlink:href="#uuid.505a205f-8682-4f82-8f69-d4eba07a047a"/>
+					</aixm:EnRouteSegmentPoint>
+				</aixm:end>
+			</aixm:RouteSegmentTimeSlice>
+		</aixm:timeSlice>
+	</aixm:RouteSegment>
+</message:hasMember>
+</message:AIXMBasicMessage>

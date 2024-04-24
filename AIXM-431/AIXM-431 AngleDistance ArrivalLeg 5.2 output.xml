@@ -1,0 +1,191 @@
+<message:AIXMBasicMessage 
+	xmlns:message="http://www.aixm.aero/schema/5.2/message"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.2"
+	xmlns:gml="http://www.opengis.net/gml/3.2"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.aixm.aero/schema/5.2/message http://www.aixm.aero/schema/5.2/RC7/message/AIXM_BasicMessage.xsd"	
+gml:id="M0000001">
+<message:hasMember>
+	<aixm:Navaid gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e14">
+		<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50e14</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:NavaidTimeSlice gml:id="GML-Navaid.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-Navaid.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>PERMDELTA</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-Navaid.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:type>VORTAC</aixm:type>
+				<aixm:designator>LNY</aixm:designator>
+				<aixm:purpose>TERMINAL</aixm:purpose>
+				<aixm:location>
+					<aixm:ElevatedPoint>
+						<gml:pos>20.7645000 -156.9688889</gml:pos>
+						<aixm:elevation uom="FT">1250</aixm:elevation>
+					</aixm:ElevatedPoint>
+				</aixm:location>
+			</aixm:NavaidTimeSlice>
+		</aixm:timeSlice>
+	</aixm:Navaid>
+</message:hasMember>
+<message:hasMember>
+	<aixm:DesignatedPoint gml:id="uuid.bf3264d6-c075-47a3-b0dd-4ecccaffe040">
+		<gml:identifier codeSpace="urn:uuid:">bf3264d6-c075-47a3-b0dd-4ecccaffe040</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:DesignatedPointTimeSlice gml:id="GML-DesignatedPoint.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-DesignatedPoint.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>PERMDELTA</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-DesignatedPoint.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:designator>CHAIN</aixm:designator>
+				<aixm:type>ICAO</aixm:type>
+				<aixm:name>CHAIN</aixm:name>
+				<aixm:fix>
+					<aixm:PointReference gml:id="GML-DesignatedPoint.1.PR">
+						<aixm:distanceReference>
+							<aixm:Distance  gml:id="uuid.bf3264d6-c075-47a3-b0dd-4ecccaffe040uuid.c692a79d-52d1-447f-805a-da2ab7cab711">
+								<gml:identifier codeSpace="urn:uuid:">c692a79d-52d1-447f-805a-da2ab7cab711</gml:identifier>
+								<aixm:distance uom="NM">12.70</aixm:distance>
+								<aixm:minimumReceptionAltitude uom="FT">2000</aixm:minimumReceptionAltitude>
+								<aixm:pointChoice_navaidSystem  xlink:href="#uuid.dfd04617-c8bd-443b-8290-067ba2e50e14"/>
+							</aixm:Distance>
+						</aixm:distanceReference>
+						<aixm:angleReference>
+							<aixm:AngleUse gml:id="GML-PointReference.1.AU">
+								<aixm:theAngle>
+									<aixm:Angle gml:id="uuid.bf3264d6-c075-47a3-b0dd-4ecccaffe040uuid.f7b8682a-cc39-42d4-b9d4-21717d652cb6">
+										<gml:identifier codeSpace="urn:uuid:">f7b8682a-cc39-42d4-b9d4-21717d652cb6</gml:identifier>
+										<aixm:angle>359.99</aixm:angle>
+										<aixm:minimumReceptionAltitude uom="FT">2000</aixm:minimumReceptionAltitude>
+										<aixm:pointChoice_navaidSystem  xlink:href="#uuid.dfd04617-c8bd-443b-8290-067ba2e50e14"/>
+									</aixm:Angle>
+								</aixm:theAngle>
+							 </aixm:AngleUse>
+						 </aixm:angleReference>
+					</aixm:PointReference>
+				</aixm:fix>				
+			</aixm:DesignatedPointTimeSlice>
+		</aixm:timeSlice>
+	</aixm:DesignatedPoint>
+</message:hasMember>
+<message:hasMember>
+	<aixm:DesignatedPoint gml:id="uuid.505a205f-8682-4f82-8f69-d4eba07a047a">
+		<gml:identifier codeSpace="urn:uuid:">505a205f-8682-4f82-8f69-d4eba07a047a</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:DesignatedPointTimeSlice gml:id="GML-DesignatedPoint.2-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-DesignatedPoint.2-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>PERMDELTA</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-DesignatedPoint.2-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:designator>SOBOW</aixm:designator>
+				<aixm:type>ICAO</aixm:type>
+				<aixm:name>SOBOW</aixm:name>
+				<aixm:fix>				
+					<aixm:PointReference gml:id="GML-DesignatedPoint.2.PR">
+					<aixm:minimumReceptionLimit uom="FT">5000</aixm:minimumReceptionLimit>
+						<aixm:minimumReceptionLimitReference>MSL</aixm:minimumReceptionLimitReference>
+						<aixm:distanceReference>
+							<aixm:Distance gml:id="uuid.505a205f-8682-4f82-8f69-d4eba07a047auuid.e70733e3-0c42-4f8c-9b7a-e80e1c0ed703">
+								<gml:identifier codeSpace="urn:uuid:">e70733e3-0c42-4f8c-9b7a-e80e1c0ed703</gml:identifier>
+								<aixm:distance uom="NM">13</aixm:distance>
+								<aixm:minimumReceptionAltitude uom="FT">5000</aixm:minimumReceptionAltitude>
+								<aixm:pointChoice_navaidSystem  xlink:href="#uuid.dfd04617-c8bd-443b-8290-067ba2e50e14"/>
+							</aixm:Distance>
+						</aixm:distanceReference>
+						<aixm:angleReference>
+							<aixm:AngleUse gml:id="GML-PointReference.2.AU">
+								<aixm:theAngle>
+									<aixm:Angle gml:id="uuid.505a205f-8682-4f82-8f69-d4eba07auuid.047auuid.e27696a1-e89e-42b8-9445-13498379b9a9">
+										<gml:identifier codeSpace="urn:uuid:">e27696a1-e89e-42b8-9445-13498379b9a9</gml:identifier>
+										<aixm:angle>278</aixm:angle>
+										<aixm:minimumReceptionAltitude uom="FT">5000</aixm:minimumReceptionAltitude>
+										<aixm:pointChoice_navaidSystem  xlink:href="#uuid.dfd04617-c8bd-443b-8290-067ba2e50e14"/>
+									 </aixm:Angle>
+								 </aixm:theAngle>
+							 </aixm:AngleUse>
+						 </aixm:angleReference>
+					</aixm:PointReference>
+				</aixm:fix>
+			</aixm:DesignatedPointTimeSlice>
+		</aixm:timeSlice>
+	</aixm:DesignatedPoint>
+</message:hasMember>
+<message:hasMember>
+	<aixm:ArrivalLeg gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41bb">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41bb</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:ArrivalLegTimeSlice gml:id="GML-ArrivalLeg.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-Arrivalleg.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>PERMDELTA</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-Arrivalleg.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:legPath>ARC</aixm:legPath>				
+				<aixm:startPoint>
+					<aixm:TerminalSegmentPoint gml:id="GML-Arrivalleg.1.start.Terminal">
+					  <aixm:pointChoice_fixDesignatedPoint xlink:href="#uuid.bf3264d6-c075-47a3-b0dd-4ecccaffe040"/>
+					</aixm:TerminalSegmentPoint>
+				</aixm:startPoint>
+				<aixm:endPoint>
+					<aixm:TerminalSegmentPoint gml:id="GML-Arrivalleg.1.end.Terminal">
+					  <aixm:pointChoice_fixDesignatedPoint xlink:href="#uuid.505a205f-8682-4f82-8f69-d4eba07a047a"/>
+					</aixm:TerminalSegmentPoint>
+				</aixm:endPoint>
+				<aixm:arcCentre>
+					<aixm:TerminalSegmentPoint gml:id="GML-Arrivalleg.1.arcCentre.Terminal">
+					  <aixm:pointChoice_navaidSystem xlink:href="#uuid.dfd04617-c8bd-443b-8290-067ba2e50e14"/>
+					</aixm:TerminalSegmentPoint>
+				</aixm:arcCentre>
+				<aixm:limitingDistance>
+					<aixm:Distance gml:id="gml-ArrivalLeg.LimitingDistance">
+						<gml:identifier codeSpace="urn:uuid:">e70733e3-0c42-4f8c-9b7a-e80e1c0ed703</gml:identifier>
+						<aixm:distance uom="NM">13</aixm:distance>
+						<aixm:minimumReceptionAltitude uom="FT">5000</aixm:minimumReceptionAltitude>
+						<aixm:pointChoice_navaidSystem  xlink:href="#uuid.dfd04617-c8bd-443b-8290-067ba2e50e14"/>
+					</aixm:Distance>
+				</aixm:limitingDistance>
+			</aixm:ArrivalLegTimeSlice>
+		</aixm:timeSlice>
+	</aixm:ArrivalLeg>
+</message:hasMember>
+</message:AIXMBasicMessage>
