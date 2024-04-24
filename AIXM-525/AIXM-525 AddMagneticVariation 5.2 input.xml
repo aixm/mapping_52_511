@@ -1,0 +1,48 @@
+<message:AIXMBasicMessage 
+	xmlns:message="http://www.aixm.aero/schema/5.2/message"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.2"
+	xmlns:gml="http://www.opengis.net/gml/3.2"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.aixm.aero/schema/5.2/message http://www.aixm.aero/schema/5.2/RC7/message/AIXM_BasicMessage.xsd"	
+gml:id="M0000001">
+	<message:hasMember>
+		<aixm:FinalLeg gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e45">
+			<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50e45</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:FinalLegTimeSlice gml:id="GML-FinalLeg.1-TS">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="GML-FinalLeg.1-TS-TIME">
+							<gml:beginPosition>2008-09-25</gml:beginPosition>
+							<gml:endPosition>2021-10-07</gml:endPosition>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:legPath>STRAIGHT</aixm:legPath>
+					<aixm:approach xlink:href="urn:uuid:dfd04617-c8bd-443b-8290-067ba2e50e14"/>
+				</aixm:FinalLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:FinalLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:InstrumentApproachProcedure gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e14">
+			<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50e14</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:InstrumentApproachProcedureTimeSlice gml:id="GML-InstrumentApproachProcedure.1-TS">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="GML-InstrumentApproachProcedure.1-TS-TIME">
+							<gml:beginPosition>2008-09-25</gml:beginPosition>
+							<gml:endPosition>2021-10-07</gml:endPosition>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:flightChecked>NO</aixm:flightChecked>
+					<aixm:name>RNAV (GPS) Z RWY 22L</aixm:name>
+					<aixm:magneticVariation>15</aixm:magneticVariation>
+					<aixm:dateMagneticVariation>2022</aixm:dateMagneticVariation>
+				</aixm:InstrumentApproachProcedureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:InstrumentApproachProcedure>
+	</message:hasMember>
+</message:AIXMBasicMessage>
