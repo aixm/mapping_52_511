@@ -5,7 +5,7 @@
             xmlns:gml="http://www.opengis.net/gml/3.2"
             xmlns:xlink="http://www.w3.org/1999/xlink"
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-            xsi:schemaLocation="http://www.aixm.aero/schema/5.2/message http://www.aixm.aero/schema/5.2/RC6/message/AIXM_BasicMessage.xsd"
+            xsi:schemaLocation="http://www.aixm.aero/schema/5.2/message http://www.aixm.aero/schema/5.2/RC7/message/AIXM_BasicMessage.xsd"
 gml:id="M0000001">
 <message:hasMember>
 	<aixm:Navaid gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e14">
@@ -18,7 +18,7 @@ gml:id="M0000001">
 						<gml:endPosition>2021-04-22</gml:endPosition>
 					</gml:TimePeriod>
 				</gml:validTime>
-				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:interpretation>PERMDELTA</aixm:interpretation>
 				<aixm:sequenceNumber>1</aixm:sequenceNumber>
 				<aixm:featureLifetime>
 					<gml:TimePeriod gml:id="GML-Navaid.1-TS-FLT">
@@ -50,7 +50,7 @@ gml:id="M0000001">
 						<gml:endPosition>2021-04-22</gml:endPosition>
 					</gml:TimePeriod>
 				</gml:validTime>
-				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:interpretation>PERMDELTA</aixm:interpretation>
 				<aixm:sequenceNumber>1</aixm:sequenceNumber>
 				<aixm:featureLifetime>
 					<gml:TimePeriod gml:id="GML-DesignatedPoint.1-TS-FLT">
@@ -76,7 +76,7 @@ gml:id="M0000001">
 						<gml:endPosition>2021-04-22</gml:endPosition>
 					</gml:TimePeriod>
 				</gml:validTime>
-				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:interpretation>PERMDELTA</aixm:interpretation>
 				<aixm:sequenceNumber>1</aixm:sequenceNumber>
 				<aixm:featureLifetime>
 					<gml:TimePeriod gml:id="GML-DesignatedPoint.2-TS-FLT">
@@ -102,7 +102,7 @@ gml:id="M0000001">
 						<gml:endPosition>2021-04-22</gml:endPosition>
 					</gml:TimePeriod>
 				</gml:validTime>
-				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:interpretation>PERMDELTA</aixm:interpretation>
 				<aixm:sequenceNumber>1</aixm:sequenceNumber>
 				<aixm:featureLifetime>
 					<gml:TimePeriod gml:id="GML-ArrivalFeederLeg.1-TS-FLT">
@@ -145,7 +145,7 @@ gml:id="M0000001">
 							<gml:endPosition>2021-10-07</gml:endPosition>
 						</gml:TimePeriod>
 					</gml:validTime>
-					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
 					<aixm:flightChecked>NO</aixm:flightChecked>
 					<aixm:name>RNAV (RNP) Z RWY 26 KDEN</aixm:name>
 					<aixm:additionalEquipment>RADAR_RNAV</aixm:additionalEquipment>
