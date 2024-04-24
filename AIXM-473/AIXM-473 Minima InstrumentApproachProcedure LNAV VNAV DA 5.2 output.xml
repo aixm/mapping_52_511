@@ -1,0 +1,90 @@
+<message:AIXMBasicMessage 
+	xmlns:message="http://www.aixm.aero/schema/5.2/message"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.2"
+	xmlns:gml="http://www.opengis.net/gml/3.2"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.aixm.aero/schema/5.2/message http://www.aixm.aero/schema/5.2/RC7/message/AIXM_BasicMessage.xsd"	
+gml:id="M0000001">
+	<message:hasMember>
+		<aixm:FinalLeg gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e45">
+			<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50e45</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:FinalLegTimeSlice gml:id="GML-FinalLeg.1-TS">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="GML-FinalLeg.1-TS-TIME">
+							<gml:beginPosition>2008-09-25</gml:beginPosition>
+							<gml:endPosition>2021-10-07</gml:endPosition>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:legPath>STRAIGHT</aixm:legPath>
+					<aixm:approach xlink:href="urn:uuid:dfd04617-c8bd-443b-8290-067ba2e50e14"/>
+					<aixm:condition>
+						<aixm:ApproachCondition gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e55">
+							<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50e55</gml:identifier>
+							<aixm:finalApproachPath>STRAIGHT_IN</aixm:finalApproachPath>
+							<aixm:minimumSet>
+								<aixm:Minima gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e65">
+									<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50e65</gml:identifier>
+									<aixm:decisionAltitude uom="FT">462</aixm:decisionAltitude>
+									<aixm:minimumDescentHeight uom="FT">451</aixm:minimumDescentHeight>
+									<aixm:runwayVisualRange uom="FT">5000</aixm:runwayVisualRange>
+									<aixm:aircraftCategory>
+										<aixm:AircraftCharacteristic gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e75">
+											<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50e75</gml:identifier>
+											<aixm:aircraftLandingCategory>OTHER:A_B_C_D</aixm:aircraftLandingCategory>
+										</aixm:AircraftCharacteristic>
+									</aixm:aircraftCategory>
+								</aixm:Minima>
+							</aixm:minimumSet>
+							<aixm:minimumSet>
+								<aixm:Minima gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e85">
+									<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50e85</gml:identifier>
+									<aixm:decisionAltitude uom="FT">500</aixm:decisionAltitude>
+									<aixm:minimumDescentHeight uom="FT">451</aixm:minimumDescentHeight>
+									<aixm:militaryMinima>YES</aixm:militaryMinima>
+									<aixm:runwayVisualRange uom="M">1</aixm:runwayVisualRange>
+									<aixm:aircraftCategory>
+										<aixm:AircraftCharacteristic gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e95">
+											<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50e95</gml:identifier>
+											<aixm:aircraftLandingCategory>OTHER:A_B_C_D</aixm:aircraftLandingCategory>
+										</aixm:AircraftCharacteristic>
+									</aixm:aircraftCategory>
+								</aixm:Minima>
+							</aixm:minimumSet>
+							<aixm:navigationAccuracy xsi:nil="true"/>
+							<aixm:landingPrecisionCategory>OTHER</aixm:landingPrecisionCategory>
+							<aixm:satelliteApproachType>LNAV_VNAV</aixm:satelliteApproachType>
+							<aixm:specialAuthorisation>NO</aixm:specialAuthorisation>
+							<aixm:minBaroVNAVTemperature uom="C">-13</aixm:minBaroVNAVTemperature>
+							<aixm:maxBaroVNAVTemperature uom="C">54</aixm:maxBaroVNAVTemperature>
+						</aixm:ApproachCondition>
+					</aixm:condition>
+				</aixm:FinalLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:FinalLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:InstrumentApproachProcedure gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e14">
+			<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50e14</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:InstrumentApproachProcedureTimeSlice gml:id="GML-InstrumentApproachProcedure.1-TS">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="GML-InstrumentApproachProcedure.1-TS-TIME">
+							<gml:beginPosition>2008-09-25</gml:beginPosition>
+							<gml:endPosition>2021-10-07</gml:endPosition>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:flightChecked>NO</aixm:flightChecked>
+					<aixm:name>RNAV (GPS) Z RWY 22L KEWR</aixm:name>
+					<aixm:additionalEquipment>RADAR_RNAV</aixm:additionalEquipment>
+					<aixm:specialAuthorisation>NO</aixm:specialAuthorisation>
+					<aixm:approachType>GPS</aixm:approachType>
+				</aixm:InstrumentApproachProcedureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:InstrumentApproachProcedure>
+	</message:hasMember>
+</message:AIXMBasicMessage>
