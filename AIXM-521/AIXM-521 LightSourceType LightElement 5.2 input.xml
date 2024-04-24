@@ -1,11 +1,11 @@
 <message:AIXMBasicMessage 
 	xmlns:message="http://www.aixm.aero/schema/5.2/message"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
-	xmlns:aixm="http://www.aixm.aero/schema/5.2/wip"
+	xmlns:aixm="http://www.aixm.aero/schema/5.2"
 	xmlns:gml="http://www.opengis.net/gml/3.2"
 	xmlns:xlink="http://www.w3.org/1999/xlink"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.aixm.aero/schema/5.2/message http://www.aixm.aero/schema/5.2/wip/message/AIXM_BasicMessage.xsd"	
+	xsi:schemaLocation="http://www.aixm.aero/schema/5.2/message http://www.aixm.aero/schema/5.2/RC7/message/AIXM_BasicMessage.xsd"	
 gml:id="M0000001">
 <message:hasMember>
 	<aixm:Runway gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41bb">
@@ -18,7 +18,7 @@ gml:id="M0000001">
 						<gml:endPosition>2021-04-22</gml:endPosition>
 					</gml:TimePeriod>
 				</gml:validTime>
-				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:interpretation>PERMDELTA</aixm:interpretation>
 				<aixm:sequenceNumber>1</aixm:sequenceNumber>
 				<aixm:featureLifetime>
 					<gml:TimePeriod gml:id="GML-AirportHeliport.1-TS-FLT">
@@ -42,7 +42,7 @@ gml:id="M0000001">
 						<gml:endPosition>2021-04-22</gml:endPosition>
 					</gml:TimePeriod>
 				</gml:validTime>
-				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:interpretation>PERMDELTA</aixm:interpretation>
 				<aixm:sequenceNumber>1</aixm:sequenceNumber>
 				<aixm:featureLifetime>
 					<gml:TimePeriod gml:id="GML-RunwayDirection.1-TS-FLT">
@@ -50,8 +50,8 @@ gml:id="M0000001">
 						<gml:endPosition indeterminatePosition="unknown"/>
 					</gml:TimePeriod>
 				</aixm:featureLifetime>	
-				<aixm:approachGuidance>PRECISION_CAT_II</aixm:approachGuidance>
 				<aixm:usedRunway xlink:href="fac34bfc-fc4f-4da7-ad8a-84ee687f41bb"/>		
+				<aixm:approachGuidance>PRECISION_CAT_II</aixm:approachGuidance>
 			</aixm:RunwayDirectionTimeSlice>
 		</aixm:timeSlice>
 	</aixm:RunwayDirection>
@@ -67,7 +67,7 @@ gml:id="M0000001">
 						<gml:endPosition>2021-04-22</gml:endPosition>
 					</gml:TimePeriod>
 				</gml:validTime>
-				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:interpretation>PERMDELTA</aixm:interpretation>
 				<aixm:sequenceNumber>1</aixm:sequenceNumber>
 				<aixm:featureLifetime>
 					<gml:TimePeriod gml:id="GML-VisualGlideSlopeIndicatorTime.1-TS-FLT">
