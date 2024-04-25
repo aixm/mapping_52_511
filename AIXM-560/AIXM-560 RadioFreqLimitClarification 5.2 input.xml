@@ -1,0 +1,141 @@
+<message:AIXMBasicMessage 
+	xmlns:message="http://www.aixm.aero/schema/5.2/message"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.2"
+	xmlns:gml="http://www.opengis.net/gml/3.2"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.aixm.aero/schema/5.2/message http://www.aixm.aero/schema/5.2/RC7/message/AIXM_BasicMessage.xsd"	
+gml:id="M0000001">
+<message:hasMember>
+	<aixm:AirportHeliport gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41bb">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41bb</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:AirportHeliportTimeSlice gml:id="GML-AirportHeliport.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-AirportHeliport.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>PERMDELTA</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-AirportHeliport.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:designator>KEWR</aixm:designator>
+			</aixm:AirportHeliportTimeSlice>
+		</aixm:timeSlice>
+	</aixm:AirportHeliport>
+</message:hasMember>
+<message:hasMember>
+	<aixm:Unit gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41ba">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41ba</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:UnitTimeSlice gml:id="GML-Unit.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-Unit.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>PERMDELTA</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-Unit.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:type>ATCC</aixm:type>
+				<aixm:designator>ATCC 1</aixm:designator>
+				<aixm:airportLocation xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bb"/>
+			</aixm:UnitTimeSlice>
+		</aixm:timeSlice>
+	</aixm:Unit>
+</message:hasMember>
+<message:hasMember>
+	<aixm:AirTrafficControlService gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41bc">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41bc</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:AirTrafficControlServiceTimeSlice gml:id="GML-AirTrafficControlService.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-AirTrafficControlService.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>PERMDELTA</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-AirTrafficControlService.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:flightOperations>ALL</aixm:flightOperations>
+				<aixm:serviceProvider xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41ba"/>
+				<aixm:radioCommunication xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bd"/>
+			</aixm:AirTrafficControlServiceTimeSlice>
+		</aixm:timeSlice>
+	</aixm:AirTrafficControlService>
+</message:hasMember>
+<message:hasMember>
+	<aixm:RadioCommunicationChannel gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41bd">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41bd</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:RadioCommunicationChannelTimeSlice gml:id="GML-RadioCommunicationChannel.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-RadioCommunicationChannel.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>PERMDELTA</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-RadioCommunicationChannel.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:mode>VDL1</aixm:mode>
+				<aixm:rank>ALTERNATE</aixm:rank>
+			</aixm:RadioCommunicationChannelTimeSlice>
+		</aixm:timeSlice>
+	</aixm:RadioCommunicationChannel>
+</message:hasMember>
+<message:hasMember>
+	<aixm:RadioFrequencyArea gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41be">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41be</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:RadioFrequencyAreaTimeSlice gml:id="GML-RadioFrequencyArea.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-RadioFrequencyArea.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>PERMDELTA</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-RadioFrequencyArea.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:type>SSV</aixm:type>
+				<aixm:equipment_frequency xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bd"/>
+			</aixm:RadioFrequencyAreaTimeSlice>
+		</aixm:timeSlice>
+	</aixm:RadioFrequencyArea>
+</message:hasMember>
+</message:AIXMBasicMessage>
+
+
+
+
+
