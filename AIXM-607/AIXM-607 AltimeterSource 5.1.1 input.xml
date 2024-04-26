@@ -1,0 +1,178 @@
+<message:AIXMBasicMessage 
+	xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:gml="http://www.opengis.net/gml/3.2" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+<message:hasMember>
+	<aixm:AirportHeliport gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41bb">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41bb</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:AirportHeliportTimeSlice gml:id="GML-AirportHeliport.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-AirportHeliport.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-AirportHeliport.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:designator>KEWR</aixm:designator>
+				<aixm:altimeterSource xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41be"/>
+			</aixm:AirportHeliportTimeSlice>
+		</aixm:timeSlice>
+	</aixm:AirportHeliport>
+</message:hasMember>
+<message:hasMember>
+	<aixm:AltimeterSource gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41be">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41be</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:AltimeterSourceTimeSlice gml:id="GML-AltimeterSource.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-AltimeterSource.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-AltimeterSource.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:isRemote>YES</aixm:isRemote>
+				<aixm:isPrimary>YES</aixm:isPrimary><aixm:availability>
+					<aixm:AltimeterSourceStatus gml:id="GML-AltimeterSourceStatus.1-TS-FLT">
+						<aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+					</aixm:AltimeterSourceStatus>
+				</aixm:availability>
+			</aixm:AltimeterSourceTimeSlice>
+		</aixm:timeSlice>
+	</aixm:AltimeterSource>
+</message:hasMember>
+<message:hasMember>
+	<aixm:Unit gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41ba">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41ba</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:UnitTimeSlice gml:id="GML-Unit.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-Unit.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-Unit.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:type>ATCC</aixm:type>
+				<aixm:designator>ATCC 1</aixm:designator>
+				<aixm:airportLocation xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bb"/>
+			</aixm:UnitTimeSlice>
+		</aixm:timeSlice>
+	</aixm:Unit>
+</message:hasMember>
+	<message:hasMember>
+		<aixm:FinalLeg gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e45">
+			<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50e45</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:FinalLegTimeSlice gml:id="GML-FinalLeg.1-TS">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="GML-FinalLeg.1-TS-TIME">
+							<gml:beginPosition>2008-09-25</gml:beginPosition>
+							<gml:endPosition>2021-10-07</gml:endPosition>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:legPath>STRAIGHT</aixm:legPath>
+					<aixm:approach xlink:href="urn:uuid:dfd04617-c8bd-443b-8290-067ba2e50e14"/>
+					<aixm:landingSystemCategory>OTHER</aixm:landingSystemCategory>
+					<aixm:minimumBaroVnavTemperature uom="C">-13</aixm:minimumBaroVnavTemperature>
+					<aixm:condition>
+						<aixm:ApproachCondition gml:id="GML-ApproachCondition.1">
+							<aixm:finalApproachPath>CIRCLING</aixm:finalApproachPath>
+							<aixm:requiredNavigationPerformance xsi:nil="true"/>
+							<aixm:minimumSet>
+								<aixm:Minima gml:id="GML-Minima.1">
+									<aixm:altitude uom="FT">760</aixm:altitude>
+									<aixm:altitudeCode>DA</aixm:altitudeCode>
+									<aixm:altitudeReference>MSL</aixm:altitudeReference>
+									<aixm:height uom="FT">743</aixm:height>
+									<aixm:heightCode>DH</aixm:heightCode>
+									<aixm:visibility uom="NM">1</aixm:visibility>
+									<aixm:mandatoryRVR>YES</aixm:mandatoryRVR>
+									<aixm:remoteAltimeterMinima>YES</aixm:remoteAltimeterMinima>
+								</aixm:Minima>
+							</aixm:minimumSet>
+							<aixm:aircraftCategory>
+								<aixm:AircraftCharacteristic gml:id="GML-AircraftCharacteristic.1">
+									<aixm:aircraftLandingCategory>A</aixm:aircraftLandingCategory>
+								</aixm:AircraftCharacteristic>
+							</aixm:aircraftCategory>
+						</aixm:ApproachCondition>
+					</aixm:condition>
+				</aixm:FinalLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:FinalLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:InstrumentApproachProcedure gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e14">
+			<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50e14</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:InstrumentApproachProcedureTimeSlice gml:id="GML-InstrumentApproachProcedure.1-TS">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="GML-InstrumentApproachProcedure.1-TS-TIME">
+							<gml:beginPosition>2008-09-25</gml:beginPosition>
+							<gml:endPosition>2021-10-07</gml:endPosition>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:flightChecked>NO</aixm:flightChecked>
+					<aixm:name>RNAV (GPS) Z RWY 22L KEWR</aixm:name>
+					<aixm:approachType>GPS</aixm:approachType>
+					<aixm:additionalEquipment>RADAR_RNAV</aixm:additionalEquipment>
+				</aixm:InstrumentApproachProcedureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:InstrumentApproachProcedure>
+	</message:hasMember>
+<message:hasMember>
+	<aixm:InformationService gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41bc">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41bc</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:InformationServiceTimeSlice gml:id="GML-InformationService.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-InformationService.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-InformationService.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:flightOperations>ALL</aixm:flightOperations>
+				<aixm:serviceProvider xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41ba"/>
+				<aixm:clientProcedure xlink:href="urn:uuid:dfd04617-c8bd-443b-8290-067ba2e50e14"/>
+			</aixm:InformationServiceTimeSlice>
+		</aixm:timeSlice>
+	</aixm:InformationService>
+</message:hasMember>
+</message:AIXMBasicMessage>
