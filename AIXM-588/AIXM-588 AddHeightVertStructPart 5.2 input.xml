@@ -1,0 +1,83 @@
+<message:AIXMBasicMessage 
+	xmlns:message="http://www.aixm.aero/schema/5.2/message"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.2"
+	xmlns:gml="http://www.opengis.net/gml/3.2"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.aixm.aero/schema/5.2/message http://www.aixm.aero/schema/5.2/RC7/message/AIXM_BasicMessage.xsd"	
+gml:id="M0000001">
+<message:hasMember>
+	<aixm:VerticalStructure gml:id="uuid.61f799ec-8967-4b07-a346-cdcba581e2fg">
+		<gml:identifier codeSpace="urn:uuid:">61f799ec-8967-4b07-a346-cdcba581e2fg</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:VerticalStructureTimeSlice gml:id="GML-VerticalStructure.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-VerticalStructure.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>PERMDELTA</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-VerticalStructure.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:type>RECREATIONAL_STRUCTURE</aixm:type>
+				<aixm:part>
+					<aixm:VerticalStructurePart gml:id="uuid.61f799ec-8967-4b07-a346-cdcba581e2fh">
+						<gml:identifier codeSpace="urn:uuid:">61f799ec-8967-4b07-a346-cdcba581e2fh</gml:identifier>
+						<aixm:designator>GML-CIRCLINGAREA-TS-OAA-OBSTRUCTION-PART-1</aixm:designator>
+						<aixm:height uom="FT">300</aixm:height>
+					</aixm:VerticalStructurePart>
+				</aixm:part>
+				<aixm:designator>RECREATIONAL_STRUCTURE_1</aixm:designator>
+				<aixm:placeName>CIRCLINGAREA_RECREATIONAL_STRUCTURE</aixm:placeName>
+			</aixm:VerticalStructureTimeSlice>
+		</aixm:timeSlice>
+	</aixm:VerticalStructure>
+</message:hasMember>
+<message:hasMember>
+	<aixm:CirclingArea gml:id="uuid.61f799ec-8967-4b07-a346-cdcba581e2fe">
+	<gml:identifier codeSpace="urn:uuid:">61f799ec-8967-4b07-a346-cdcba581e2fe</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:CirclingAreaTimeSlice gml:id="GML-CirclingArea.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-CirclingArea.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>PERMDELTA</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-CirclingArea.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:condition>
+					<aixm:ApproachCondition gml:id="GML-CirclingArea.TS-ApproachCondition">
+						<aixm:finalApproachPath>CIRCLING</aixm:finalApproachPath>
+					</aixm:ApproachCondition>
+				</aixm:condition>
+				<aixm:designSurface>
+					<aixm:ObstacleAssessmentSurface gml:id="GML-CirclingArea.TS-ObstacleAssessmentSurface">
+						<aixm:significantObstacle>
+							<aixm:Obstruction gml:id="GML-CirclingArea.TS-OAA-Obstruction">
+								<aixm:requiredClearance uom="FT">300</aixm:requiredClearance>
+								<aixm:minimumAltitude uom="FT">1564</aixm:minimumAltitude>
+								<aixm:controlling>YES</aixm:controlling>
+								<aixm:theVerticalStructure xlink:href="uuid.61f799ec-8967-4b07-a346-cdcba581e2fg"/>
+							</aixm:Obstruction>
+						</aixm:significantObstacle>
+					</aixm:ObstacleAssessmentSurface>
+				</aixm:designSurface>
+			</aixm:CirclingAreaTimeSlice>
+		</aixm:timeSlice>
+	</aixm:CirclingArea>
+</message:hasMember>
+</message:AIXMBasicMessage>
