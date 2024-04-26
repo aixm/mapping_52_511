@@ -1,0 +1,190 @@
+<message:AIXMBasicMessage 
+	xmlns:message="http://www.aixm.aero/schema/5.2/message"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.2"
+	xmlns:gml="http://www.opengis.net/gml/3.2"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.aixm.aero/schema/5.2/message http://www.aixm.aero/schema/5.2/RC7/message/AIXM_BasicMessage.xsd"	
+gml:id="M0000001">
+<message:hasMember>
+	<aixm:AirportHeliport gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41bb">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41bb</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:AirportHeliportTimeSlice gml:id="GML-AirportHeliport.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-AirportHeliport.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>PERMDELTA</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-AirportHeliport.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:designator>KEWR</aixm:designator>
+				<aixm:altimeterSource>
+					<aixm:AltimeterSource gml:id="GML-AirportHeliport.AltimeterSource.1-TS-FLT">
+						<aixm:rank>PRIMARY</aixm:rank>
+						<aixm:relativeLocation>REMOTE</aixm:relativeLocation>
+						<aixm:distance uom="MI">12</aixm:distance>
+						<aixm:altimeterData xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bd"/>
+					</aixm:AltimeterSource>
+				</aixm:altimeterSource>
+			</aixm:AirportHeliportTimeSlice>
+		</aixm:timeSlice>
+	</aixm:AirportHeliport>
+</message:hasMember>
+<message:hasMember>
+	<aixm:Unit gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41ba">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41ba</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:UnitTimeSlice gml:id="GML-Unit.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-Unit.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>PERMDELTA</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-Unit.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:type>ATCC</aixm:type>
+				<aixm:designator>ATCC 1</aixm:designator>
+				<aixm:airportLocation xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bb"/>
+			</aixm:UnitTimeSlice>
+		</aixm:timeSlice>
+	</aixm:Unit>
+</message:hasMember>
+<message:hasMember>
+	<aixm:FinalLeg gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e45">
+		<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50e45</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:FinalLegTimeSlice gml:id="GML-FinalLeg.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-FinalLeg.1-TS-TIME">
+						<gml:beginPosition>2008-09-25</gml:beginPosition>
+						<gml:endPosition>2021-10-07</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:legPath>STRAIGHT</aixm:legPath>
+					<aixm:approach xlink:href="urn:uuid:dfd04617-c8bd-443b-8290-067ba2e50e14"/>
+					<aixm:condition>
+						<aixm:ApproachCondition gml:id="GML-ApproachCondition.1">
+							<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50z01</gml:identifier>
+							<aixm:finalApproachPath>CIRCLING</aixm:finalApproachPath>
+							<aixm:minimumSet>
+								<aixm:Minima gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50f65">
+									<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50f65</gml:identifier>
+									<aixm:decisionAltitude uom="FT">760</aixm:decisionAltitude>
+									<aixm:decisionHeight uom="FT">743</aixm:decisionHeight>								
+									<aixm:militaryMinima>NO</aixm:militaryMinima>
+									<aixm:runwayVisualRange uom="M">1</aixm:runwayVisualRange>
+									<aixm:aircraftCategory>
+										<aixm:AircraftCharacteristic gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50f75">
+											<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50f75</gml:identifier>
+											<aixm:aircraftLandingCategory>A</aixm:aircraftLandingCategory>
+										</aixm:AircraftCharacteristic>
+									</aixm:aircraftCategory>
+								</aixm:Minima>
+							</aixm:minimumSet>
+							<aixm:navigationAccuracy xsi:nil="true"/>
+							<aixm:landingPrecisionCategory>OTHER</aixm:landingPrecisionCategory>
+							<aixm:satelliteApproachType>LNAV_VNAV</aixm:satelliteApproachType>
+							<aixm:specialAuthorisation>NO</aixm:specialAuthorisation>
+							<aixm:minBaroVNAVTemperature uom="C">-13</aixm:minBaroVNAVTemperature>
+							<aixm:maxBaroVNAVTemperature uom="C">54</aixm:maxBaroVNAVTemperature>
+						</aixm:ApproachCondition>
+					</aixm:condition>
+			</aixm:FinalLegTimeSlice>
+		</aixm:timeSlice>
+	</aixm:FinalLeg>
+</message:hasMember>
+<message:hasMember>
+	<aixm:InstrumentApproachProcedure gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e14">
+		<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50e14</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:InstrumentApproachProcedureTimeSlice gml:id="GML-InstrumentApproachProcedure.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-InstrumentApproachProcedure.1-TS-TIME">
+						<gml:beginPosition>2008-09-25</gml:beginPosition>
+						<gml:endPosition>2021-10-07</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:flightChecked>NO</aixm:flightChecked>
+					<aixm:name>RNAV (GPS) Z RWY 22L KEWR</aixm:name>
+					<aixm:additionalEquipment>RADAR_RNAV</aixm:additionalEquipment>
+					<aixm:specialAuthorisation>NO</aixm:specialAuthorisation>
+					<aixm:approachType>GPS</aixm:approachType>
+			</aixm:InstrumentApproachProcedureTimeSlice>
+		</aixm:timeSlice>
+	</aixm:InstrumentApproachProcedure>
+</message:hasMember>
+<message:hasMember>
+	<aixm:InformationService gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41bc">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41bc</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:InformationServiceTimeSlice gml:id="GML-InformationService.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-InformationService.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>PERMDELTA</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-InformationService.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:flightOperations>ALL</aixm:flightOperations>
+				<aixm:serviceProvider xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41ba"/>
+				<aixm:clientProcedure xlink:href="urn:uuid:dfd04617-c8bd-443b-8290-067ba2e50e14"/>
+				<aixm:dataSource xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bd"/>
+			</aixm:InformationServiceTimeSlice>
+		</aixm:timeSlice>
+	</aixm:InformationService>
+</message:hasMember>
+<message:hasMember>
+	<aixm:WeatherSource gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41bd">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41bd</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:WeatherSourceTimeSlice gml:id="GML-WeatherSource.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-WeatherSource.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>PERMDELTA</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-WeatherSource.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:designator>ALTIMETER 1</aixm:designator>
+				<aixm:sensorType>ALTIMETER</aixm:sensorType><aixm:availability>
+					<aixm:WeatherSourceAvailability gml:id="GML-WeatherSourceAvailability.1-TS-FLT">
+						<aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+					</aixm:WeatherSourceAvailability>
+				</aixm:availability>
+			</aixm:WeatherSourceTimeSlice>
+		</aixm:timeSlice>
+	</aixm:WeatherSource>
+</message:hasMember>
+</message:AIXMBasicMessage>
