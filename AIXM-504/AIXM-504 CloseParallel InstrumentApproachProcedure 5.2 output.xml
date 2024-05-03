@@ -1,10 +1,12 @@
-<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
-	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
-	xmlns:gml="http://www.opengis.net/gml/3.2" 
-	xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
-	xmlns:xlink="http://www.w3.org/1999/xlink"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+<message:AIXMBasicMessage 
+            xmlns:message="http://www.aixm.aero/schema/5.2/message"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+            xmlns:aixm="http://www.aixm.aero/schema/5.2" 
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.aixm.aero/schema/5.2/message http://www.aixm.aero/schema/5.2/RC7/message/AIXM_BasicMessage.xsd"
+gml:id="M0000001">
 	<message:hasMember>
 		<aixm:Airspace gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e45">
 			<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50e45</gml:identifier>
@@ -16,8 +18,8 @@
 							<gml:endPosition>2021-10-07</gml:endPosition>
 						</gml:TimePeriod>
 					</gml:validTime>
-					<aixm:interpretation>BASELINE</aixm:interpretation>
-					<aixm:type>OTHER:NTZ</aixm:type>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:type>NTZ</aixm:type>
 				</aixm:AirspaceTimeSlice>
 			</aixm:timeSlice>
 		</aixm:Airspace>
@@ -33,9 +35,9 @@
 							<gml:endPosition>2021-10-07</gml:endPosition>
 						</gml:TimePeriod>
 					</gml:validTime>
-					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
 					<aixm:category>PROCEDURE</aixm:category>
-					<aixm:title>OTHER:DEPENDENT_PARALLEL_APPROACHES</aixm:title>
+					<aixm:title>DEPENDENT_PARALLEL_APPROACHES</aixm:title>
 					<aixm:affectedArea xlink:href="urn:uuid:dfd04617-c8bd-443b-8290-067ba2e50e45"/>
 				</aixm:RulesProceduresTimeSlice>
 			</aixm:timeSlice>
@@ -52,10 +54,13 @@
 							<gml:endPosition>2021-10-07</gml:endPosition>
 						</gml:TimePeriod>
 					</gml:validTime>
-					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
 					<aixm:flightChecked>NO</aixm:flightChecked>
 					<aixm:name>RNAV (GPS) PRM Y RWY 28L KORD</aixm:name>
+					<aixm:additionalEquipment>RADAR_RNAV</aixm:additionalEquipment>
+					<aixm:specialAuthorisation>YES</aixm:specialAuthorisation>
 					<aixm:approachType>GPS</aixm:approachType>
+					<aixm:closeParallelApproach>YES</aixm:closeParallelApproach>
 				</aixm:InstrumentApproachProcedureTimeSlice>
 			</aixm:timeSlice>
 		</aixm:InstrumentApproachProcedure>
@@ -71,12 +76,12 @@
 							<gml:endPosition>2021-10-07</gml:endPosition>
 						</gml:TimePeriod>
 					</gml:validTime>
-					<aixm:interpretation>BASELINE</aixm:interpretation>
-					<aixm:type>OTHER:PRM</aixm:type>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:type>PRM</aixm:type>
 					<aixm:clientAirspace xlink:href="urn:uuid:dfd04617-c8bd-443b-8290-067ba2e50e40"/>
 					<aixm:clientProcedure xlink:href="urn:uuid:dfd04617-c8bd-443b-8290-067ba2e50e14"/>
 				</aixm:AirTrafficControlServiceTimeSlice>
 			</aixm:timeSlice>
 		</aixm:AirTrafficControlService>
 	</message:hasMember>
-</message:AIXMBasicMessage> 
+</message:AIXMBasicMessage>
