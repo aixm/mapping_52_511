@@ -84,4 +84,4 @@ gml:id="M0000001">
 			</aixm:timeSlice>
 		</aixm:AirTrafficControlService>
 	</message:hasMember>
-</message:AIXMBasicMessage>
+</message:AIXMBasicMessage> 
