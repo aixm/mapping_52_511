@@ -50,17 +50,6 @@
 				</aixm:featureLifetime>
 				<aixm:designator>RE</aixm:designator>
 				<aixm:associatedAirportHeliport xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bb"/>
-				<aixm:annotation>
-					<aixm:Note gml:id="GML-Taxiway.1-Note">
-						<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
-						<aixm:translatedNote>    
-							<aixm:LinguisticNote gml:id="GML-Taxiway.1-note-ls">
-								<aixm:note>clearingEquipment: Taxiway.clearingEquipment:Runway Sweeper
-								</aixm:note>
-							</aixm:LinguisticNote>
-						</aixm:translatedNote>
-					</aixm:Note>
-				</aixm:annotation>
 			</aixm:TaxiwayTimeSlice>
 		</aixm:timeSlice>
 	</aixm:Taxiway>
@@ -86,17 +75,6 @@
 				</aixm:featureLifetime>
 				<aixm:designator>REL</aixm:designator>
 				<aixm:associatedAirportHeliport xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bb"/>
-				<aixm:annotation>
-					<aixm:Note gml:id="GML-Taxiway.2-Note">
-						<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
-						<aixm:translatedNote>    
-							<aixm:LinguisticNote gml:id="GML-Taxiway.2-note-ls">
-								<aixm:note>clearingEquipment: Taxiway.clearingEquipment:Runway Sweeper
-								</aixm:note>
-							</aixm:LinguisticNote>
-						</aixm:translatedNote>
-					</aixm:Note>
-				</aixm:annotation>
 			</aixm:TaxiwayTimeSlice>
 		</aixm:timeSlice>
 	</aixm:Taxiway>
