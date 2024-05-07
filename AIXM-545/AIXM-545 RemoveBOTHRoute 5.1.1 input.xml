@@ -151,4 +151,4 @@
 		</aixm:timeSlice>
 	</aixm:RouteSegment>
 </message:hasMember>
-</message:AIXMBasicMessage>
+</message:AIXMBasicMessage> 
