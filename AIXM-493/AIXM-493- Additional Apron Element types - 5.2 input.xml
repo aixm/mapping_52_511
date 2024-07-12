@@ -1,10 +1,12 @@
-<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+<message:AIXMBasicMessage
+	xmlns:message="http://www.aixm.aero/schema/5.2/message"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.2"
 	xmlns:gml="http://www.opengis.net/gml/3.2" 
-	xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
 	xmlns:xlink="http://www.w3.org/1999/xlink"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+	xsi:schemaLocation="http://www.aixm.aero/schema/5.2/message http://www.aixm.aero/schema/5.2/RC7/message/AIXM_BasicMessage.xsd"	
+gml:id="M0000001">
 <message:hasMember>
 	<aixm:ApronElement gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41z1">
 	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41z1</gml:identifier>
@@ -16,7 +18,7 @@
 						<gml:endPosition>2021-04-22</gml:endPosition>
 					</gml:TimePeriod>
 				</gml:validTime>
-				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:interpretation>PERMDELTA</aixm:interpretation>
 				<aixm:sequenceNumber>1</aixm:sequenceNumber>
 				<aixm:featureLifetime>
 					<gml:TimePeriod gml:id="GML-ApronElement.1-TS-FLT">
@@ -24,7 +26,7 @@
 						<gml:endPosition indeterminatePosition="unknown"/>
 					</gml:TimePeriod>
 				</aixm:featureLifetime>	
-				<aixm:type>OTHER:SNOW_COLLECTION</aixm:type>
+				<aixm:type>SNOW_COLLECTION</aixm:type>
 				<aixm:jetwayAvailability>YES</aixm:jetwayAvailability>
 				<aixm:towingAvailability>YES</aixm:towingAvailability>
 				<aixm:dockingAvailability>YES</aixm:dockingAvailability>
@@ -36,7 +38,6 @@
 	</aixm:ApronElement>
 </message:hasMember>
 </message:AIXMBasicMessage>
-
 
 
 
