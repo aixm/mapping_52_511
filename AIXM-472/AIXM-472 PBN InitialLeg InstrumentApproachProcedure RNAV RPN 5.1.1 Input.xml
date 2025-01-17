@@ -39,8 +39,8 @@
 					<aixm:flightChecked>NO</aixm:flightChecked>
 					<aixm:name>RNAV (RNP) Y RWY 29 KEWR</aixm:name>
 					<aixm:RNAV>YES</aixm:RNAV>
-					<aixm:additionalEquipment>RADAR_RNAV</aixm:additionalEquipment>
 					<aixm:approachType>RNP</aixm:approachType>
+					<aixm:additionalEquipment>RADAR_RNAV</aixm:additionalEquipment>
 				</aixm:InstrumentApproachProcedureTimeSlice>
 			</aixm:timeSlice>
 		</aixm:InstrumentApproachProcedure>

@@ -1,11 +1,11 @@
 <message:AIXMBasicMessage 
 	xmlns:message="http://www.aixm.aero/schema/5.2/message"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
-	xmlns:aixm="http://www.aixm.aero/schema/5.2/wip"
+	xmlns:aixm="http://www.aixm.aero/schema/5.2"
 	xmlns:gml="http://www.opengis.net/gml/3.2"
 	xmlns:xlink="http://www.w3.org/1999/xlink"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.aixm.aero/schema/5.2/message http://www.aixm.aero/schema/5.2/wip/message/AIXM_BasicMessage.xsd"	
+	xsi:schemaLocation="http://www.aixm.aero/schema/5.2/message http://www.aixm.aero/schema/5.2/RC7/message/AIXM_BasicMessage.xsd"	
 gml:id="M0000001">
 	<message:hasMember>
 		<aixm:InitialLeg gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e45">
@@ -18,16 +18,8 @@ gml:id="M0000001">
 							<gml:endPosition>2021-10-07</gml:endPosition>
 						</gml:TimePeriod>
 					</gml:validTime>
-					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
 					<aixm:legPath>STRAIGHT</aixm:legPath>
-					<aixm:aircraftCapabilites>
-						<aixm:AircraftCharacteristic gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e75">
-							<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50e75</gml:identifier>
-							<aixm:aircraftLandingCategory>OTHER:A_B_C_D</aixm:aircraftLandingCategory>
-							<aixm:navigationType>RNAV</aixm:navigationType>
-							<aixm:navigationAccuracy>1</aixm:navigationAccuracy>
-						</aixm:AircraftCharacteristic>
-					</aixm:aircraftCapabilites>
 					<aixm:approach xlink:href="urn:uuid:dfd04617-c8bd-443b-8290-067ba2e50e14"/>
 				</aixm:InitialLegTimeSlice>
 			</aixm:timeSlice>
@@ -44,11 +36,20 @@ gml:id="M0000001">
 							<gml:endPosition>2021-10-07</gml:endPosition>
 						</gml:TimePeriod>
 					</gml:validTime>
-					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
 					<aixm:flightChecked>NO</aixm:flightChecked>
 					<aixm:name>RNAV (RNP) Y RWY 29 KEWR</aixm:name>
 					<aixm:additionalEquipment>RADAR_GNSS</aixm:additionalEquipment>
 					<aixm:specialAuthorisation>NO</aixm:specialAuthorisation>
+					<aixm:aircraftCapability>
+						<aixm:AircraftCharacteristic gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e75">
+							<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50e75</gml:identifier>
+							<aixm:aircraftLandingCategory>OTHER:A_B_C_D</aixm:aircraftLandingCategory>
+							<aixm:navigationSpecification>RNAV</aixm:navigationSpecification>
+							<aixm:navigationType>PBN</aixm:navigationType>
+							<aixm:navigationAccuracy>1</aixm:navigationAccuracy>
+						</aixm:AircraftCharacteristic>
+					</aixm:aircraftCapability>
 					<aixm:approachType>RNP</aixm:approachType>
 				</aixm:InstrumentApproachProcedureTimeSlice>
 			</aixm:timeSlice>

@@ -1,11 +1,11 @@
 <message:AIXMBasicMessage 
 	xmlns:message="http://www.aixm.aero/schema/5.2/message"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
-	xmlns:aixm="http://www.aixm.aero/schema/5.2/wip"
+	xmlns:aixm="http://www.aixm.aero/schema/5.2"
 	xmlns:gml="http://www.opengis.net/gml/3.2"
 	xmlns:xlink="http://www.w3.org/1999/xlink"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.aixm.aero/schema/5.2/message http://www.aixm.aero/schema/5.2/wip/message/AIXM_BasicMessage.xsd"	
+	xsi:schemaLocation="http://www.aixm.aero/schema/5.2/message http://www.aixm.aero/schema/5.2/RC7/message/AIXM_BasicMessage.xsd"	
 gml:id="M0000001">
 	<message:hasMember>
 		<aixm:FinalLeg gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e45">
@@ -18,19 +18,13 @@ gml:id="M0000001">
 							<gml:endPosition>2021-10-07</gml:endPosition>
 						</gml:TimePeriod>
 					</gml:validTime>
-					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
 					<aixm:legPath>STRAIGHT</aixm:legPath>
 					<aixm:approach xlink:href="urn:uuid:dfd04617-c8bd-443b-8290-067ba2e50e14"/>
 					<aixm:condition>
 						<aixm:ApproachCondition gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e55">
 							<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50e55</gml:identifier>
 							<aixm:finalApproachPath>STRAIGHT_IN</aixm:finalApproachPath>
-							<aixm:landingPercisionCategory>OTHER</aixm:landingPercisionCategory>
-							<aixm:satelliteApproachType>LNAV_VNAV</aixm:satelliteApproachType>
-							<aixm:specialAuthorisation>NO</aixm:specialAuthorisation>
-							<aixm:navigationAccuracy xsi:nil="true"/>
-							<aixm:minBaroVNAVTemperature uom="C">-13</aixm:minBaroVNAVTemperature>
-							<aixm:maxBaroVNAVTemperature uom="C">54</aixm:maxBaroVNAVTemperature>
 							<aixm:minimumSet>
 								<aixm:Minima gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e65">
 									<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50e65</gml:identifier>
@@ -50,8 +44,8 @@ gml:id="M0000001">
 									<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50e85</gml:identifier>
 									<aixm:decisionAltitude uom="FT">500</aixm:decisionAltitude>
 									<aixm:minimumDescentHeight uom="FT">451</aixm:minimumDescentHeight>
-									<aixm:runwayVisualRange uom="NM">1</aixm:runwayVisualRange>
 									<aixm:militaryMinima>YES</aixm:militaryMinima>
+									<aixm:runwayVisualRange uom="M">1</aixm:runwayVisualRange>
 									<aixm:aircraftCategory>
 										<aixm:AircraftCharacteristic gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e95">
 											<gml:identifier codeSpace="urn:uuid:">dfd04617-c8bd-443b-8290-067ba2e50e95</gml:identifier>
@@ -60,6 +54,12 @@ gml:id="M0000001">
 									</aixm:aircraftCategory>
 								</aixm:Minima>
 							</aixm:minimumSet>
+							<aixm:navigationAccuracy xsi:nil="true"/>
+							<aixm:landingPrecisionCategory>OTHER</aixm:landingPrecisionCategory>
+							<aixm:satelliteApproachType>LNAV_VNAV</aixm:satelliteApproachType>
+							<aixm:specialAuthorisation>NO</aixm:specialAuthorisation>
+							<aixm:minBaroVNAVTemperature uom="C">-13</aixm:minBaroVNAVTemperature>
+							<aixm:maxBaroVNAVTemperature uom="C">54</aixm:maxBaroVNAVTemperature>
 						</aixm:ApproachCondition>
 					</aixm:condition>
 				</aixm:FinalLegTimeSlice>
@@ -77,7 +77,7 @@ gml:id="M0000001">
 							<gml:endPosition>2021-10-07</gml:endPosition>
 						</gml:TimePeriod>
 					</gml:validTime>
-					<aixm:interpretation>BASELINE</aixm:interpretation>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
 					<aixm:flightChecked>NO</aixm:flightChecked>
 					<aixm:name>RNAV (GPS) Z RWY 22L KEWR</aixm:name>
 					<aixm:additionalEquipment>RADAR_RNAV</aixm:additionalEquipment>
