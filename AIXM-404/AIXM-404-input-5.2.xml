@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aixm:AirportHeliport gml:id="urn.uuid.dd062d88-3e64-4a5d-bebd-89476db9ebea"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:aixm="http://www.aixm.aero/schema/5.2"
+	xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.aixm.aero/schema/5.2 https://www.aixm.aero/schema/5.2/5.2.0/AIXM_Features.xsd">
+	
+	<gml:identifier codeSpace="urn:uuid:">dd062d88-3e64-4a5d-bebd-89476db9ebea</gml:identifier>
+	<aixm:timeSlice>
+		<aixm:AirportHeliportTimeSlice gml:id="ahts1EADH">
+			<gml:validTime nilReason="inapplicable">
+				<gml:TimePeriod gml:id="vtnull0">
+					<gml:beginPosition>2025-01-01T00:00:00Z</gml:beginPosition>
+					<gml:endPosition indeterminatePosition="unknown"/>
+				</gml:TimePeriod>
+			</gml:validTime>
+			<aixm:interpretation>BASELINE</aixm:interpretation>
+			<aixm:sequenceNumber>5</aixm:sequenceNumber>
+			<aixm:correctionNumber>0</aixm:correctionNumber>
+			<aixm:featureLifetime>
+				<gml:TimePeriod gml:id="ltnull0">
+					<gml:beginPosition indeterminatePosition="unknown"/>
+					<gml:endPosition indeterminatePosition="unknown"/>
+				</gml:TimePeriod>
+			</aixm:featureLifetime>
+			<aixm:designator>EADH</aixm:designator>
+			<aixm:name>DONLON/DOWNTOWN HELIPORT</aixm:name>
+			<aixm:fieldElevation uom="M">18.0186</aixm:fieldElevation>
+			<aixm:magneticVariation>-3</aixm:magneticVariation>
+			<aixm:dateMagneticVariation>1990</aixm:dateMagneticVariation>
+			<aixm:magneticVariationChange>0.03</aixm:magneticVariationChange>
+			<aixm:abandoned xsi:nil="true"/>
+			<aixm:servedCity xsi:nil="true" nilReason="missing"/>
+			<aixm:responsibleOrganisation>
+				<aixm:AirportHeliportResponsibilityOrganisation gml:id="ID01">
+					<gml:identifier codeSpace="urn:uuid:">30368791-3768-43e7-9736-67a5d2c7da3c</gml:identifier>
+					<aixm:timeInterval>
+						<aixm:Timesheet gml:id="ID6426">
+							<aixm:day>ANY</aixm:day>
+							<aixm:startTime>09:00</aixm:startTime>
+							<aixm:endTime>17:00</aixm:endTime>
+						</aixm:Timesheet>
+					</aixm:timeInterval>
+					<aixm:role>OPERATE</aixm:role>
+					<aixm:theOrganisationAuthority xlink:title="DONLON_HELIPORT_AUTHORITY"
+						xlink:href="urn:uuid:74efb6ba-a52a-46c0-a16b-03860d356882"/>
+				</aixm:AirportHeliportResponsibilityOrganisation>
+			</aixm:responsibleOrganisation>
+			<aixm:ARP>
+				<aixm:ElevatedPoint gml:id="elpoint1EADH" srsName="urn:ogc:def:crs:EPSG::4326">
+					<gml:identifier codeSpace="urn:uuid">efcceb1d-5a41-4c51-8d05-c66adb625d4c</gml:identifier>
+					<gml:pos>52.288888888888884 -32.035</gml:pos>
+					<aixm:geoidUndulation xsi:nil="true" nilReason="unknown"/>
+				</aixm:ElevatedPoint>
+			</aixm:ARP>
+			<aixm:contact xsi:nil="true"/>
+			<aixm:availability xsi:nil="true" nilReason="withheld"/>
+			<aixm:annotation>
+				<aixm:Note gml:id="ID03">
+					<gml:identifier codeSpace="urn:uuid:">9594c247-b814-4c6a-9db0-d6ee31464fdd</gml:identifier>
+					<aixm:propertyName>availability</aixm:propertyName>
+					<aixm:translatedNote>
+						<aixm:LinguisticNote gml:id="ID04">
+							<aixm:note lang="eng">Availability is classified information...</aixm:note>
+						</aixm:LinguisticNote>
+					</aixm:translatedNote>
+				</aixm:Note>
+			</aixm:annotation>
+		</aixm:AirportHeliportTimeSlice>
+	</aixm:timeSlice>
+</aixm:AirportHeliport>
