@@ -74,8 +74,17 @@
 					</gml:TimePeriod>
 				</aixm:featureLifetime>
 				<aixm:associatedApron xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bc"/>
-				
-				<aixm:designator >DEICE 1</aixm:designator>
+				<aixm:annotation>
+					<aixm:Note gml:id="GML-DeicingArea.1-note">
+						<aixm:propertyName>DeicingArea</aixm:propertyName>
+						<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
+						<aixm:translatedNote>    
+							<aixm:LinguisticNote gml:id="GML-DeicingArea.1-note-Ln">
+								<aixm:note>designator:DEICE 1</aixm:note>
+							</aixm:LinguisticNote>
+						</aixm:translatedNote>
+					</aixm:Note>
+				</aixm:annotation>
 			</aixm:DeicingAreaTimeSlice>
 		</aixm:timeSlice>
 	</aixm:DeicingArea>
