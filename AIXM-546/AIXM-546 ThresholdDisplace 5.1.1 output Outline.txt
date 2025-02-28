@@ -1,0 +1,76 @@
+
+message:AIXMBasicMessage
+  message:hasMember
+    AirportHeliport
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bb
+      timeSlice
+        AirportHeliportTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          designator = KEWR
+  message:hasMember
+    Runway
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41ba
+      timeSlice
+        RunwayTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          designator = 2L
+          type = RWY
+          associatedAirportHeliport =  urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bb
+  message:hasMember
+    RunwayDirection
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bc
+      timeSlice
+        RunwayDirectionTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          designator = TAKEOFF
+          usedRunway =  urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bb
+  message:hasMember
+    RunwayCentrelinePoint
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bd
+      timeSlice
+        RunwayCentrelinePointTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          role = DISTHR
+          onRunway =  urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bc
+          associatedDeclaredDistance
+            RunwayDeclaredDistance
+              type = DTHR
+              declaredValue
+                RunwayDeclaredDistanceValue
+                  distance = 10
