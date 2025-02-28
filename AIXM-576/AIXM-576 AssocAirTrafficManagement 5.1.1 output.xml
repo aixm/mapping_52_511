@@ -1,3 +1,4 @@
+<?xml-stylesheet type="text/xsl" href="file:///C:/Users/Adam%20C-CTR%20Styles/OneDrive%20-%20Federal%20Aviation%20Administration/XML%20to%20text%20tree.xslt"?>
 <message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
 	xmlns:gml="http://www.opengis.net/gml/3.2" 
@@ -77,6 +78,7 @@
 				<aixm:flightOperations>ALL</aixm:flightOperations>
 				<aixm:serviceProvider xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41ba"/>
 				<aixm:radioCommunication xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bd"/>
+				<aixm:type>OTHER:ATFM</aixm:type>
 				<aixm:clientAirport xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bb"/>
 			</aixm:InformationServiceTimeSlice>
 		</aixm:timeSlice>
@@ -120,3 +122,8 @@
 	</aixm:Airspace>
 </message:hasMember>
 </message:AIXMBasicMessage>
+
+
+
+
+
