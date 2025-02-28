@@ -6,7 +6,6 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
 <message:hasMember>
-<!-- KEWR ILS RWY 22L  Chart -->
 	<aixm:Runway gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41bb">
 	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41bb</gml:identifier>
 		<aixm:timeSlice>
@@ -48,7 +47,9 @@
 						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
 						<gml:endPosition indeterminatePosition="unknown"/>
 					</gml:TimePeriod>
-				</aixm:featureLifetime>	
+				</aixm:featureLifetime>
+				<aixm:approachMarkingType>PRECISION</aixm:approachMarkingType>
+				<aixm:classLightingJAR>BALS</aixm:classLightingJAR>
 				<aixm:precisionApproachGuidance>ILS_PRECISION_CAT_II</aixm:precisionApproachGuidance>
 				<aixm:usedRunway xlink:href="fac34bfc-fc4f-4da7-ad8a-84ee687f41bb"/>		
 			</aixm:RunwayDirectionTimeSlice>
