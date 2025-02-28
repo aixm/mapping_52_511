@@ -5,7 +5,7 @@
 	xmlns:gml="http://www.opengis.net/gml/3.2"
 	xmlns:xlink="http://www.w3.org/1999/xlink"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.aixm.aero/schema/5.2/message http://www.aixm.aero/schema/5.2/RC7/message/AIXM_BasicMessage.xsd"	
+	xsi:schemaLocation="http://www.aixm.aero/schema/5.2/message http://www.aixm.aero/schema/5.2/5.2.0/message/AIXM_BasicMessage.xsd"	
 gml:id="M0000001">
 <message:hasMember>
 	<aixm:VerticalStructure gml:id="uuid.61f799ec-8967-4b07-a346-cdcba581e2fg">
