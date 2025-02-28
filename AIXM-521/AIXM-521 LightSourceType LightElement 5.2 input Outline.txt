@@ -1,0 +1,56 @@
+
+message:AIXMBasicMessage
+  message:hasMember
+    Runway
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bb
+      timeSlice
+        RunwayTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = PERMDELTA
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          designator = 22L
+  message:hasMember
+    RunwayDirection
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bc
+      timeSlice
+        RunwayDirectionTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = PERMDELTA
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          usedRunway =  fac34bfc-fc4f-4da7-ad8a-84ee687f41bb
+          approachGuidance = PRECISION_CAT_II
+  message:hasMember
+    VisualGlideSlopeIndicator
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bd
+      timeSlice
+        VisualGlideSlopeIndicatorTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = PERMDELTA
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          element
+            LightElement
+              gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41be
+              type = FLOOD
+              lightingTechnology = LED
+          runwayDirection =  fac34bfc-fc4f-4da7-ad8a-84ee687f41bc
