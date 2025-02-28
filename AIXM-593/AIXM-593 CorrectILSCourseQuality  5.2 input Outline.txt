@@ -1,0 +1,43 @@
+
+message:AIXMBasicMessage
+  message:hasMember
+    Localizer
+      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e52e14
+      timeSlice
+        LocalizerTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = PERMDELTA
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          designator = LOC1
+  message:hasMember
+    Navaid
+      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50e14
+      timeSlice
+        NavaidTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = PERMDELTA
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          type = VORTAC
+          designator = LIT
+          courseQuality = D
+          navaidEquipment
+            NavaidComponent
+              theNavaidEquipment =  #uuid.dfd04617-c8bd-443b-8290-067ba2e52e14
+          location
+            ElevatedPoint
+              gml:pos = 34.6776728 -92.1805283
+              elevation = 240 FT
