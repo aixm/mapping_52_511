@@ -1,0 +1,44 @@
+
+message:AIXMBasicMessage
+  message:hasMember
+    HoldingPattern
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bc
+      timeSlice
+        HoldingPatternTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          type = TER
+          outboundCourse = 252
+          outboundCourseType = MAG_BRG
+          inboundCourse = 072
+          turnDirection = RIGHT
+  message:hasMember
+    MissedApproachLeg
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bb
+      timeSlice
+        MissedApproachLegTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          legPath = HOLDING
+          course = 219
+          courseType = MAG_BRG
+          courseDirection = TO
+          holding
+            HoldingUse
+              theHoldingPattern =  urn:uuid:uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41bc
