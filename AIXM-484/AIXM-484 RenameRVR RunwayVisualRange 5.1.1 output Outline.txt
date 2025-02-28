@@ -1,0 +1,35 @@
+
+message:AIXMBasicMessage
+  message:hasMember
+    RunwayDirection
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bc
+      timeSlice
+        RunwayDirectionTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          precisionApproachGuidance = ILS_PRECISION_CAT_II
+  message:hasMember
+    RunwayVisualRange
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bb
+      timeSlice
+        RunwayVisualRangeTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          readingPosition = TDZ
+          associatedRunwayDirection =  urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bc
