@@ -5,8 +5,32 @@
 	xmlns:gml="http://www.opengis.net/gml/3.2"
 	xmlns:xlink="http://www.w3.org/1999/xlink"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.aixm.aero/schema/5.2/message http://www.aixm.aero/schema/5.2/RC7/message/AIXM_BasicMessage.xsd"	
+	xsi:schemaLocation="http://www.aixm.aero/schema/5.2/message http://www.aixm.aero/schema/5.2/5.2.0/message/AIXM_BasicMessage.xsd"	
 gml:id="M0000001">
+<message:hasMember>
+	<aixm:OrganisationAuthority gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41ba">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41ba</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:OrganisationAuthorityTimeSlice gml:id="GML-OrganisationAuthority.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-OrganisationAuthority.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-OrganizationAuthority.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:designator>KEWR-ORG</aixm:designator>
+			</aixm:OrganisationAuthorityTimeSlice>
+		</aixm:timeSlice>
+	</aixm:OrganisationAuthority>
+</message:hasMember>
 <message:hasMember>
 	<aixm:AirportHeliport gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41bb">
 	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41bb</gml:identifier>
@@ -18,7 +42,7 @@ gml:id="M0000001">
 						<gml:endPosition>2021-04-22</gml:endPosition>
 					</gml:TimePeriod>
 				</gml:validTime>
-				<aixm:interpretation>PERMDELTA</aixm:interpretation>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
 				<aixm:sequenceNumber>1</aixm:sequenceNumber>
 				<aixm:featureLifetime>
 					<gml:TimePeriod gml:id="GML-AirportHeliport.1-TS-FLT">
@@ -28,9 +52,40 @@ gml:id="M0000001">
 				</aixm:featureLifetime>
 				<aixm:designator>KEWR</aixm:designator>
 				<aixm:verticalDatum>NAVD88</aixm:verticalDatum>
+				<aixm:responsibleOrganisation>
+					<aixm:AirportHeliportResponsibilityOrganisation gml:id="GML-AirportHeliportResponsibilityOrganisation.1">
+						<aixm:theOrganisationAuthority xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41ba"/>
+					</aixm:AirportHeliportResponsibilityOrganisation>
+				</aixm:responsibleOrganisation>
 			</aixm:AirportHeliportTimeSlice>
 		</aixm:timeSlice>
 	</aixm:AirportHeliport>
+</message:hasMember>
+<message:hasMember>
+	<aixm:AuthorityForAirspace gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41bf">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41bf</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:AuthorityForAirspaceTimeSlice gml:id="GML-AuthorityForAirspace.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-AuthorityForAirspace.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-AuthorityForAirspace.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:type>OWN</aixm:type>
+				<aixm:responsibleOrganisation xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41ba"/>
+				<aixm:assignedAirspace xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bd"/>	
+			</aixm:AuthorityForAirspaceTimeSlice>
+		</aixm:timeSlice>
+	</aixm:AuthorityForAirspace>
 </message:hasMember>
 <message:hasMember>
 	<aixm:Airspace gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41bd">
@@ -43,7 +98,7 @@ gml:id="M0000001">
 						<gml:endPosition>2021-04-22</gml:endPosition>
 					</gml:TimePeriod>
 				</gml:validTime>
-				<aixm:interpretation>PERMDELTA</aixm:interpretation>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
 				<aixm:sequenceNumber>1</aixm:sequenceNumber>
 				<aixm:featureLifetime>
 					<gml:TimePeriod gml:id="GML-Airspace.1-TS-FLT">
@@ -70,20 +125,36 @@ gml:id="M0000001">
 							</aixm:Surface>
 							</aixm:horizontalProjection>
 							<aixm:centreline>
-							<aixm:Curve>
-								<gml:segments>
-									<gml:CircleByCenterPoint  numArc="1">
-										<gml:pos>34.6776728 -92.1805283</gml:pos>
-										<gml:radius uom="FT">1</gml:radius>
-									</gml:CircleByCenterPoint>
-								</gml:segments>
-							</aixm:Curve>
-						</aixm:centreline>
-						<aixm:location>
-								<aixm:Point>
-									<gml:pos>34.6776728 -92.1805283</gml:pos>
-								</aixm:Point>
-							</aixm:location>
+								<aixm:Curve>
+									<gml:segments>
+										<gml:CircleByCenterPoint  numArc="1">
+											<gml:pos>34.6776728 -92.1805283</gml:pos>
+											<gml:radius uom="FT">1</gml:radius>
+										</gml:CircleByCenterPoint>
+									</gml:segments>
+								</aixm:Curve>
+							</aixm:centreline>
+							<aixm:annotation>
+								<aixm:Note gml:id="GML-AirspaceVolume.Surface.1-N">
+									<aixm:purpose>OTHER:FORWARD_MAPPING</aixm:purpose>
+									<aixm:translatedNote>
+										<aixm:LinguisticNote gml:id="GML-AirspaceVolume.Surface.1-N_TN_LN">
+											<aixm:note>elevation:2083.3 FT,verticalDatum:NAVD88</aixm:note>
+										</aixm:LinguisticNote>
+									</aixm:translatedNote>
+								</aixm:Note>
+							</aixm:annotation>
+									<aixm:annotation>
+										<aixm:Note gml:id="GML-AirspaceVolume.Curve.1-N">
+											<aixm:purpose>OTHER:FORWARD_MAPPING</aixm:purpose>
+											<aixm:translatedNote>
+												<aixm:LinguisticNote gml:id="GML-AirspaceVolume.Curve.1-N_TN_LN">
+													<aixm:note>elevation:2083.3 FT,verticalDatum:NAVD88</aixm:note>
+												</aixm:LinguisticNote>
+											</aixm:translatedNote>
+										</aixm:Note>
+									</aixm:annotation>
+
 						</aixm:AirspaceVolume>
 					</aixm:theAirspaceVolume>
 				</aixm:AirspaceGeometryComponent>
@@ -93,35 +164,53 @@ gml:id="M0000001">
 	</aixm:Airspace>
 </message:hasMember>
 <message:hasMember>
-	<aixm:MinimumAltitudeArea gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41ba">
-	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41ba</gml:identifier>
+	<aixm:MinimumAltitudeArea gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41be">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41be</gml:identifier>
 		<aixm:timeSlice>
-			<aixm:MinimumAltitudeAreaTimeSlice gml:id="GML-MinimumAltitudeArea.1-TS">
+			<aixm:MinimumAltitudeAreaTimeSlice gml:id="GML-SafeAltitudeArea.1-TS">
 				<gml:validTime>
-					<gml:TimePeriod gml:id="GML-MinimumAltitudeArea.1-TS-TIME">
+					<gml:TimePeriod gml:id="GML-MinimumltitudeArea.1-TS-TIME">
 						<gml:beginPosition>2021-02-25</gml:beginPosition>
 						<gml:endPosition>2021-04-22</gml:endPosition>
 					</gml:TimePeriod>
 				</gml:validTime>
-				<aixm:interpretation>PERMDELTA</aixm:interpretation>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
 				<aixm:sequenceNumber>1</aixm:sequenceNumber>
 				<aixm:featureLifetime>
-					<gml:TimePeriod gml:id="GML-MinimumAltitudeArea.1-TS-FLT">
+					<gml:TimePeriod gml:id="GML-MinimumltitudeArea.1-TS-FLT">
 						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
 						<gml:endPosition indeterminatePosition="unknown"/>
 					</gml:TimePeriod>
 				</aixm:featureLifetime>
 				<aixm:type>OTHER:AMA</aixm:type>
-				<aixm:lowestTemperature uom="F">10</aixm:lowestTemperature>
 				<aixm:sector>
 					<aixm:MinimumAltitudeAreaSector gml:id="GML-MinimumAltitudeAreaSector.1">
-						<aixm:name>A</aixm:name>
-						<aixm:altitude uom="FT">300</aixm:altitude>
-						<aixm:altitudeLowTemperature uom="FT">350</aixm:altitudeLowTemperature>
+						<aixm:extent>
+							<aixm:Surface>
+								<gml:patches>
+									<gml:Sphere>
+										<gml:rows>
+											<gml:Row>
+												<gml:pos>34.6776728 -92.1805283</gml:pos>
+											</gml:Row>
+										</gml:rows>
+									</gml:Sphere>
+								</gml:patches>
+								<aixm:annotation>
+									<aixm:Note gml:id="GML-MinimumAltitudeAreaSector.Surface.1-N">
+										<aixm:purpose>OTHER:FORWARD_MAPPING</aixm:purpose>
+										<aixm:translatedNote>
+											<aixm:LinguisticNote gml:id="GML-MinimumAltitudeAreaSector.Surface.1-N_TN_LN">
+												<aixm:note>elevation:2083.3 FT,verticalDatum:NAVD88</aixm:note>
+											</aixm:LinguisticNote>
+										</aixm:translatedNote>
+									</aixm:Note>
+								</aixm:annotation>
+							</aixm:Surface>
+						</aixm:extent>
 					</aixm:MinimumAltitudeAreaSector>
 				</aixm:sector>
-				<aixm:concernedAirspace xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bd"/>	
-				<aixm:location xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bb"/>				
+				<aixm:location xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bd"/>				
 			</aixm:MinimumAltitudeAreaTimeSlice>
 		</aixm:timeSlice>
 	</aixm:MinimumAltitudeArea>
