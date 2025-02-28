@@ -1,0 +1,170 @@
+
+message:AIXMBasicMessage
+  message:hasMember
+    FinalLeg
+      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50e45
+      timeSlice
+        FinalLegTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2008-09-25
+              gml:endPosition = 2021-10-07
+          interpretation = BASELINE
+          legPath = STRAIGHT
+          approach =  urn:uuid:dfd04617-c8bd-443b-8290-067ba2e50e14
+          guidanceSystem = LNAV
+          landingSystemCategory = OTHER
+          condition
+            ApproachCondition
+              finalApproachPath = STRAIGHT_IN
+              requiredNavigationPerformance = 
+              minimumSet
+                Minima
+                  altitude = 560 FT
+                  altitudeCode = MDA
+                  altitudeReference = MSL
+                  height = 549 FT
+                  heightCode = DH
+                  visibility = 2400 FT
+                  mandatoryRVR = YES
+                  annotation
+                    Note
+                      purpose = OTHER:BACKWARD_MAPPING
+                      translatedNote
+                        LinguisticNote
+                          note = Minima.identifier:dfd04617-c8bd-443b-8290-067ba2e50h65; ApproachCondition.specialAuthorisation:NO
+													
+              aircraftCategory
+                AircraftCharacteristic
+                  aircraftLandingCategory = OTHER:A_B
+                  annotation
+                    Note
+                      purpose = OTHER:BACKWARD_MAPPING
+                      translatedNote
+                        LinguisticNote
+                          note = AircraftCharacteristic.identifier:dfd04617-c8bd-443b-8290-067ba2e50h75
+              annotation
+                Note
+                  purpose = OTHER:BACKWARD_MAPPING
+                  translatedNote
+                    LinguisticNote
+                      note = ApproachCondition.identifier:dfd04617-c8bd-443b-8290-067ba2e50h55
+          condition
+            ApproachCondition
+              finalApproachPath = STRAIGHT_IN
+              requiredNavigationPerformance = 
+              minimumSet
+                Minima
+                  altitude = 600 FT
+                  altitudeCode = MDA
+                  altitudeReference = MSL
+                  militaryHeight = 549 FT
+                  heightCode = DH
+                  militaryVisibility = .5 NM
+                  mandatoryRVR = YES
+                  annotation
+                    Note
+                      purpose = OTHER:BACKWARD_MAPPING
+                      translatedNote
+                        LinguisticNote
+                          note = Minima.identifier:dfd04617-c8bd-443b-8290-067ba2e50h85; Minima.militaryMinima:YES; ApproachCondition.specialAuthorisation:NO
+													
+              aircraftCategory
+                AircraftCharacteristic
+                  aircraftLandingCategory = OTHER:A_B
+                  annotation
+                    Note
+                      purpose = OTHER:BACKWARD_MAPPING
+                      translatedNote
+                        LinguisticNote
+                          note = AircraftCharacteristic.identifier:dfd04617-c8bd-443b-8290-067ba2e50h95
+              annotation
+                Note
+                  purpose = OTHER:BACKWARD_MAPPING
+                  translatedNote
+                    LinguisticNote
+                      note = ApproachCondition.identifier:dfd04617-c8bd-443b-8290-067ba2e50h55
+          condition
+            ApproachCondition
+              finalApproachPath = STRAIGHT_IN
+              requiredNavigationPerformance = 
+              minimumSet
+                Minima
+                  altitude = 560 FT
+                  altitudeCode = MDA
+                  altitudeReference = MSL
+                  height = 549 FT
+                  heightCode = DH
+                  visibility = 6000 FT
+                  mandatoryRVR = YES
+                  annotation
+                    Note
+                      purpose = OTHER:BACKWARD_MAPPING
+                      translatedNote
+                        LinguisticNote
+                          note = Minima.identifier:dfd04617-c8bd-443b-8290-067ba2e50i65; ApproachCondition.specialAuthorisation:NO
+													
+              aircraftCategory
+                AircraftCharacteristic
+                  aircraftLandingCategory = OTHER:C_D
+                  annotation
+                    Note
+                      purpose = OTHER:BACKWARD_MAPPING
+                      translatedNote
+                        LinguisticNote
+                          note = AircraftCharacteristic.identifier:dfd04617-c8bd-443b-8290-067ba2e50i75
+              annotation
+                Note
+                  purpose = OTHER:BACKWARD_MAPPING
+                  translatedNote
+                    LinguisticNote
+                      note = ApproachCondition.identifier:dfd04617-c8bd-443b-8290-067ba2e50h55
+          condition
+            ApproachCondition
+              finalApproachPath = STRAIGHT_IN
+              requiredNavigationPerformance = 
+              minimumSet
+                Minima
+                  altitude = 600 FT
+                  altitudeCode = MDA
+                  altitudeReference = MSL
+                  militaryHeight = 549 FT
+                  heightCode = DH
+                  militaryVisibility = 1.25 NM
+                  mandatoryRVR = YES
+                  annotation
+                    Note
+                      purpose = OTHER:BACKWARD_MAPPING
+                      translatedNote
+                        LinguisticNote
+                          note = Minima.identifier:dfd04617-c8bd-443b-8290-067ba2e50i65; Minima.militaryMinima:YES; ApproachCondition.specialAuthorisation:NO
+													
+              aircraftCategory
+                AircraftCharacteristic
+                  aircraftLandingCategory = OTHER:C_D
+                  annotation
+                    Note
+                      purpose = OTHER:BACKWARD_MAPPING
+                      translatedNote
+                        LinguisticNote
+                          note = AircraftCharacteristic.identifier:dfd04617-c8bd-443b-8290-067ba2e50i95
+              annotation
+                Note
+                  purpose = OTHER:BACKWARD_MAPPING
+                  translatedNote
+                    LinguisticNote
+                      note = ApproachCondition.identifier:dfd04617-c8bd-443b-8290-067ba2e50h55
+  message:hasMember
+    InstrumentApproachProcedure
+      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50e14
+      timeSlice
+        InstrumentApproachProcedureTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2008-09-25
+              gml:endPosition = 2021-10-07
+          interpretation = BASELINE
+          flightChecked = NO
+          name = RNAV (GPS) Z RWY 22L KEWR
+          approachType = GPS
+          additionalEquipment = RADAR_RNAV

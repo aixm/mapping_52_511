@@ -1,0 +1,158 @@
+
+message:AIXMBasicMessage
+  message:hasMember
+    FinalLeg
+      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50e45
+      timeSlice
+        FinalLegTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2008-09-25
+              gml:endPosition = 2021-10-07
+          interpretation = BASELINE
+          legPath = STRAIGHT
+          approach =  urn:uuid:dfd04617-c8bd-443b-8290-067ba2e50e14
+          landingSystemCategory = OTHER
+          minimumBaroVnavTemperature = -13 C
+          condition
+            ApproachCondition
+              finalApproachPath = CIRCLING
+              requiredNavigationPerformance = 
+              minimumSet
+                Minima
+                  altitude = 760 FT
+                  altitudeCode = DA
+                  altitudeReference = MSL
+                  height = 743 FT
+                  heightCode = DH
+                  visibility = 1 NM
+                  mandatoryRVR = YES
+              aircraftCategory
+                AircraftCharacteristic
+                  aircraftLandingCategory = A
+          condition
+            ApproachCondition
+              finalApproachPath = CIRCLING
+              requiredNavigationPerformance = 
+              minimumSet
+                Minima
+                  altitude = 800 FT
+                  altitudeCode = DA
+                  altitudeReference = MSL
+                  militaryHeight = 743 FT
+                  heightCode = DH
+                  militaryVisibility = 1 NM
+                  mandatoryRVR = YES
+              aircraftCategory
+                AircraftCharacteristic
+                  aircraftLandingCategory = A
+          condition
+            ApproachCondition
+              finalApproachPath = CIRCLING
+              requiredNavigationPerformance = 
+              minimumSet
+                Minima
+                  altitude = 820 FT
+                  altitudeCode = DA
+                  altitudeReference = MSL
+                  height = 803 FT
+                  heightCode = DH
+                  visibility = 1 NM
+                  mandatoryRVR = YES
+              aircraftCategory
+                AircraftCharacteristic
+                  aircraftLandingCategory = B
+          condition
+            ApproachCondition
+              finalApproachPath = CIRCLING
+              requiredNavigationPerformance = 
+              minimumSet
+                Minima
+                  altitude = 900 FT
+                  altitudeCode = DA
+                  altitudeReference = MSL
+                  militaryHeight = 803 FT
+                  heightCode = DH
+                  militaryVisibility = 1 NM
+                  mandatoryRVR = YES
+              aircraftCategory
+                AircraftCharacteristic
+                  aircraftLandingCategory = B
+          condition
+            ApproachCondition
+              finalApproachPath = CIRCLING
+              requiredNavigationPerformance = 
+              minimumSet
+                Minima
+                  altitude = 900 FT
+                  altitudeCode = DA
+                  altitudeReference = MSL
+                  height = 883 FT
+                  heightCode = DH
+                  visibility = 2.75 NM
+                  mandatoryRVR = YES
+              aircraftCategory
+                AircraftCharacteristic
+                  aircraftLandingCategory = C
+          condition
+            ApproachCondition
+              finalApproachPath = CIRCLING
+              requiredNavigationPerformance = 
+              minimumSet
+                Minima
+                  altitude = 900 FT
+                  altitudeCode = DA
+                  altitudeReference = MSL
+                  militaryHeight = 883 FT
+                  heightCode = DH
+                  militaryVisibility = 2.75 NM
+                  mandatoryRVR = YES
+              aircraftCategory
+                AircraftCharacteristic
+                  aircraftLandingCategory = C
+          condition
+            ApproachCondition
+              finalApproachPath = CIRCLING
+              requiredNavigationPerformance = 
+              minimumSet
+                Minima
+                  altitude = 900 FT
+                  altitudeCode = DA
+                  altitudeReference = MSL
+                  height = 883 FT
+                  heightCode = DH
+                  visibility = 3 NM
+                  mandatoryRVR = YES
+              aircraftCategory
+                AircraftCharacteristic
+                  aircraftLandingCategory = D
+          condition
+            ApproachCondition
+              finalApproachPath = CIRCLING
+              requiredNavigationPerformance = 
+              minimumSet
+                Minima
+                  altitude = 900 FT
+                  altitudeCode = DA
+                  altitudeReference = MSL
+                  militaryHeight = 883 FT
+                  heightCode = DH
+                  militaryVisibility = 3 NM
+                  mandatoryRVR = YES
+              aircraftCategory
+                AircraftCharacteristic
+                  aircraftLandingCategory = D
+  message:hasMember
+    InstrumentApproachProcedure
+      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50e14
+      timeSlice
+        InstrumentApproachProcedureTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2008-09-25
+              gml:endPosition = 2021-10-07
+          interpretation = BASELINE
+          flightChecked = NO
+          name = RNAV (GPS) Z RWY 22L KEWR
+          approachType = GPS
+          additionalEquipment = RADAR_RNAV

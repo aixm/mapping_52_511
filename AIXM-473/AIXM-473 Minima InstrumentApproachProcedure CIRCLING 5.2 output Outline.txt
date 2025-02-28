@@ -1,0 +1,126 @@
+
+message:AIXMBasicMessage
+  message:hasMember
+    FinalLeg
+      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50e45
+      timeSlice
+        FinalLegTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2008-09-25
+              gml:endPosition = 2021-10-07
+          interpretation = PERMDELTA
+          legPath = STRAIGHT
+          approach =  urn:uuid:dfd04617-c8bd-443b-8290-067ba2e50e14
+          condition
+            ApproachCondition
+              gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50z01
+              finalApproachPath = CIRCLING
+              minimumSet
+                Minima
+                  gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50f65
+                  decisionAltitude = 760 FT
+                  decisionHeight = 743 FT
+                  militaryMinima = NO
+                  runwayVisualRange = 1 M
+                  aircraftCategory
+                    AircraftCharacteristic
+                      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50f75
+                      aircraftLandingCategory = A
+              minimumSet
+                Minima
+                  gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50f85
+                  decisionAltitude = 800 FT
+                  decisionHeight = 743 FT
+                  militaryMinima = YES
+                  runwayVisualRange = 1 M
+                  aircraftCategory
+                    AircraftCharacteristic
+                      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50f95
+                      aircraftLandingCategory = A
+              minimumSet
+                Minima
+                  gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50g65
+                  decisionAltitude = 820 FT
+                  decisionHeight = 803 FT
+                  militaryMinima = NO
+                  runwayVisualRange = 1 M
+                  aircraftCategory
+                    AircraftCharacteristic
+                      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50g75
+                      aircraftLandingCategory = B
+              minimumSet
+                Minima
+                  decisionAltitude = 900 FT
+                  decisionHeight = 803 FT
+                  militaryMinima = YES
+                  runwayVisualRange = 1 M
+                  aircraftCategory
+                    AircraftCharacteristic
+                      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50g95
+                      aircraftLandingCategory = B
+              minimumSet
+                Minima
+                  gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50h65
+                  decisionAltitude = 900 FT
+                  decisionHeight = 883 FT
+                  militaryMinima = NO
+                  runwayVisualRange = 2.75 M
+                  aircraftCategory
+                    AircraftCharacteristic
+                      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50h75
+                      aircraftLandingCategory = C
+              minimumSet
+                Minima
+                  gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50h85
+                  decisionAltitude = 900 FT
+                  decisionHeight = 883 FT
+                  militaryMinima = YES
+                  runwayVisualRange = 2.75 M
+                  aircraftCategory
+                    AircraftCharacteristic
+                      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50h95
+                      aircraftLandingCategory = C
+              minimumSet
+                Minima
+                  gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50i65
+                  decisionAltitude = 900 FT
+                  decisionHeight = 883 FT
+                  militaryMinima = NO
+                  runwayVisualRange = 3 M
+                  aircraftCategory
+                    AircraftCharacteristic
+                      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50i75
+                      aircraftLandingCategory = D
+              minimumSet
+                Minima
+                  gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50i85
+                  decisionAltitude = 900 FT
+                  decisionHeight = 883 FT
+                  militaryMinima = YES
+                  runwayVisualRange = 3 M
+                  aircraftCategory
+                    AircraftCharacteristic
+                      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50i95
+                      aircraftLandingCategory = D
+              navigationAccuracy = 
+              landingPrecisionCategory = OTHER
+              satelliteApproachType = LNAV_VNAV
+              specialAuthorisation = NO
+              minBaroVNAVTemperature = -13 C
+              maxBaroVNAVTemperature = 54 C
+  message:hasMember
+    InstrumentApproachProcedure
+      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50e14
+      timeSlice
+        InstrumentApproachProcedureTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2008-09-25
+              gml:endPosition = 2021-10-07
+          interpretation = PERMDELTA
+          flightChecked = NO
+          name = RNAV (GPS) Z RWY 22L KEWR
+          additionalEquipment = RADAR_RNAV
+          specialAuthorisation = NO
+          approachType = GPS
