@@ -53,7 +53,7 @@
 				<aixm:associatedAirportHeliport xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bb"/>
 				<aixm:overallContaminant>
 					<aixm:RunwayContamination gml:id="gml_id_runwaycontamination_1">
-						<aixm:frictionEstimation>RWYCC_0</aixm:frictionEstimation>
+						<aixm:frictionEstimation>OTHER:RWYCC_0</aixm:frictionEstimation>
 						<aixm:layer>
 							<aixm:SurfaceContaminationLayer gml:id="gml_id_surfaceContamination_1">
 								<aixm:type>OTHER:WET_ICE</aixm:type>
@@ -65,9 +65,100 @@
 		</aixm:timeSlice>
 	</aixm:Runway>
 </message:hasMember>
+<message:hasMember>
+	<aixm:VerticalStructure gml:id="uuid.61f799ec-8967-4b07-a346-cdcba581e2fg">
+	<gml:identifier codeSpace="urn:uuid:">61f799ec-8967-4b07-a346-cdcba581e2fg</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:VerticalStructureTimeSlice gml:id="GML-VerticalStructure.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-VerticalStructure.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-VerticalStructure.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:type>OTHER:RECREATIONAL_STRUCTURE</aixm:type>
+			</aixm:VerticalStructureTimeSlice>
+		</aixm:timeSlice>
+	</aixm:VerticalStructure>
+</message:hasMember>
+<message:hasMember>
+	<aixm:CirclingArea gml:id="uuid.61f799ec-8967-4b07-a346-cdcba581e2fe">
+	<gml:identifier codeSpace="urn:uuid:">61f799ec-8967-4b07-a346-cdcba581e2fe</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:CirclingAreaTimeSlice gml:id="GML-CirclingArea.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-CirclingArea.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-CirclingArea.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:condition>
+					<aixm:ApproachCondition gml:id="GML-CirclingArea.TS-ApproachCondition">
+						<aixm:finalApproachPath>CIRCLING</aixm:finalApproachPath>
+					</aixm:ApproachCondition>
+				</aixm:condition>
+				<aixm:designSurface>
+					<aixm:ObstacleAssessmentArea gml:id="GML-CirclingArea.TS-ObstacleAssessmentArea">
+						<aixm:type>OTHER:VSS</aixm:type>
+						<aixm:significantObstacle>
+							<aixm:Obstruction gml:id="GML-CirclingArea.TS-OAA-Obstruction">
+								<aixm:requiredClearance uom="FT">300</aixm:requiredClearance>
+								<aixm:minimumAltitude uom="FT">1564</aixm:minimumAltitude>
+								<aixm:controlling>YES</aixm:controlling>
+								<aixm:theVerticalStructure xlink:href="uuid.61f799ec-8967-4b07-a346-cdcba581e2fg"/>
+							</aixm:Obstruction>
+						</aixm:significantObstacle>
+					</aixm:ObstacleAssessmentArea>
+				</aixm:designSurface>
+			</aixm:CirclingAreaTimeSlice>
+		</aixm:timeSlice>
+	</aixm:CirclingArea>
+</message:hasMember>
+<message:hasMember>
+	<aixm:ObstacleArea gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f61bd">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f61bd</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:ObstacleAreaTimeSlice gml:id="GML-ObstacleArea.2-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-ObstacleArea.2-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-ObstacleArea.2-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:type>AREA1</aixm:type>
+				<aixm:reference_ownerRunway xlink:href="urn:uuid:uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41ba"/> 
+				<aixm:surfaceExtent>
+					<aixm:Surface>
+						<gml:patches></gml:patches>
+					</aixm:Surface>
+				</aixm:surfaceExtent>
+				<aixm:obstacle xlink:href="urn:uuid:uuid.61f799ec-8967-4b07-a346-cdcba581e2fg"/>
+			</aixm:ObstacleAreaTimeSlice>
+		</aixm:timeSlice>
+	</aixm:ObstacleArea>
+</message:hasMember>
 </message:AIXMBasicMessage>
-
-
-
-
-

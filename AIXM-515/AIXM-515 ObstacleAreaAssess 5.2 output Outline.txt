@@ -1,0 +1,106 @@
+
+message:AIXMBasicMessage
+  message:hasMember
+    AirportHeliport
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bb
+      timeSlice
+        AirportHeliportTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = PERMDELTA
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          designator = KEWR
+  message:hasMember
+    Runway
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41ba
+      timeSlice
+        RunwayTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = PERMDELTA
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          designator = 2L
+          type = RWY
+          associatedAirportHeliport =  urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bb
+          overallContaminant
+            RunwayContamination
+              frictionEstimation = RWYCC_0
+              layer
+                SurfaceContaminationLayer
+                  type = WET_ICE
+  message:hasMember
+    VerticalStructure
+      gml:identifier = 61f799ec-8967-4b07-a346-cdcba581e2fg
+      timeSlice
+        VerticalStructureTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = PERMDELTA
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          type = RECREATIONAL_STRUCTURE
+  message:hasMember
+    CirclingArea
+      gml:identifier = 61f799ec-8967-4b07-a346-cdcba581e2fe
+      timeSlice
+        CirclingAreaTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = PERMDELTA
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          condition
+            ApproachCondition
+              finalApproachPath = CIRCLING
+          designSurface
+            ObstacleAssessmentSurface
+              type = VSS
+              significantObstacle
+                Obstruction
+                  requiredClearance = 300 FT
+                  minimumAltitude = 1564 FT
+                  controlling = YES
+                  theVerticalStructure =  uuid.61f799ec-8967-4b07-a346-cdcba581e2fg
+  message:hasMember
+    ObstacleArea
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f61bd
+      timeSlice
+        ObstacleAreaTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = PERMDELTA
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          type = AREA1
+          reference_ownerRunway =  urn:uuid:uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41ba
+          surfaceExtent
+            Surface
+              gml:patches = 
+          obstacle =  urn:uuid:uuid.61f799ec-8967-4b07-a346-cdcba581e2fg
