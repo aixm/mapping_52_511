@@ -1,0 +1,195 @@
+
+message:AIXMBasicMessage
+  message:hasMember
+    Navaid
+      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50e14
+      timeSlice
+        NavaidTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          type = VORTAC
+          designator = LIT
+          location
+            ElevatedPoint
+              gml:pos = 34.6776728 -92.1805283
+              elevation = 240 FT
+  message:hasMember
+    DesignatedPoint
+      gml:identifier = bf3264d6-c075-47a3-b0dd-4ecccaffe040
+      timeSlice
+        DesignatedPointTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          designator = HOBER
+          type = ICAO
+          name = HOBER
+  message:hasMember
+    DesignatedPoint
+      gml:identifier = 505a205f-8682-4f82-8f69-d4eba07a047a
+      timeSlice
+        DesignatedPointTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          designator = MOMTE
+          type = ICAO
+          name = MOMTE
+  message:hasMember
+    AngleIndication
+      gml:identifier = f7b8682a-cc39-42d4-b9d4-21717d652cb6
+      timeSlice
+        AngleIndicationTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          angle = 148.88
+          minimumReceptionAltitude = 2500 FT
+          fix =  #uuid.bf3264d6-c075-47a3-b0dd-4ecccaffe040
+          pointChoice_navaidSystem =  #uuid.dfd04617-c8bd-443b-8290-067ba2e50e14
+  message:hasMember
+    DistanceIndication
+      gml:identifier = c692a79d-52d1-447f-805a-da2ab7cab711
+      timeSlice
+        DistanceIndicationTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          distance = 2.98 NM
+          fix =  #uuid.bf3264d6-c075-47a3-b0dd-4ecccaffe040
+          pointChoice_navaidSystem =  #uuid.dfd04617-c8bd-443b-8290-067ba2e50e14
+  message:hasMember
+    AngleIndication
+      gml:identifier = e27696a1-e89e-42b8-9445-13498379b9a9
+      timeSlice
+        AngleIndicationTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          angle = 148.87
+          minimumReceptionAltitude = 2500 FT
+          fix =  #uuid.505a205f-8682-4f82-8f69-d4eba07a047a
+          pointChoice_navaidSystem =  #uuid.dfd04617-c8bd-443b-8290-067ba2e50e14
+  message:hasMember
+    DistanceIndication
+      gml:identifier = e70733e3-0c42-4f8c-9b7a-e80e1c0ed703
+      timeSlice
+        DistanceIndicationTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          distance = 12 NM
+          fix =  #uuid.505a205f-8682-4f82-8f69-d4eba07a047a
+          pointChoice_navaidSystem =  #uuid.dfd04617-c8bd-443b-8290-067ba2e50e14
+  message:hasMember
+    Route
+      gml:identifier = a180f459-5b8b-4945-9d8d-295b5f4b1330
+      timeSlice
+        RouteTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          name = V74
+  message:hasMember
+    RouteSegment
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bb
+      timeSlice
+        RouteSegmentTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          start
+            EnRouteSegmentPoint
+              facilityMakeup
+                PointReference
+                  facilityAngle
+                    AngleUse
+                      theAngleIndication =  #uuid.f7b8682a-cc39-42d4-b9d4-21717d652cb6
+                  facilityDistance =  #uuid.c692a79d-52d1-447f-805a-da2ab7cab711
+                  annotation
+                    Note
+                      purpose = OTHER:BACKWARD_MAPPING
+                      translatedNote
+                        LinguisticNote
+                          note = role:pointChoice_fixDesignatedPoint, minimumReceptionLimit:2500 FT, minimumReceptionLimitReference:MSL, maximumAuthorisedLimit:17500 FT, maximumAuthorisedLimitReference: MSL
+              pointChoice_fixDesignatedPoint =  #uuid.bf3264d6-c075-47a3-b0dd-4ecccaffe040
+          routeFormed =  #uuid.a180f459-5b8b-4945-9d8d-295b5f4b1330
+          end
+            EnRouteSegmentPoint
+              facilityMakeup
+                PointReference
+                  facilityAngle
+                    AngleUse
+                      theAngleIndication =  #uuid.e27696a1-e89e-42b8-9445-13498379b9a9
+                  facilityDistance =  #uuid.e70733e3-0c42-4f8c-9b7a-e80e1c0ed703
+                  annotation
+                    Note
+                      purpose = OTHER:BACKWARD_MAPPING
+                      translatedNote
+                        LinguisticNote
+                          note = role:pointChoice_fixDesignatedPoint, minimumReceptionLimit:2500 FT, minimumReceptionLimitReference:MSL, maximumAuthorisedLimit:17500 FT, maximumAuthorisedLimitReference: MSL
+              pointChoice_fixDesignatedPoint =  #uuid.505a205f-8682-4f82-8f69-d4eba07a047a
