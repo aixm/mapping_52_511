@@ -1,10 +1,12 @@
-<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+<message:AIXMBasicMessage 
+	xmlns:message="http://www.aixm.aero/schema/5.2/message"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
-	xmlns:gml="http://www.opengis.net/gml/3.2" 
-	xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.2"
+	xmlns:gml="http://www.opengis.net/gml/3.2"
 	xmlns:xlink="http://www.w3.org/1999/xlink"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+	xsi:schemaLocation="http://www.aixm.aero/schema/5.2/message http://www.aixm.aero/schema/5.2/5.2.0/message/AIXM_BasicMessage.xsd"	
+gml:id="M0000001">
 <message:hasMember>
 	<aixm:AirportHeliport gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41bb">
 	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41bb</gml:identifier>
@@ -16,7 +18,7 @@
 						<gml:endPosition>2021-04-22</gml:endPosition>
 					</gml:TimePeriod>
 				</gml:validTime>
-				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:interpretation>PERMDELTA</aixm:interpretation>
 				<aixm:sequenceNumber>1</aixm:sequenceNumber>
 				<aixm:featureLifetime>
 					<gml:TimePeriod gml:id="GML-AirportHeliport.1-TS-FLT">
@@ -40,7 +42,7 @@
 						<gml:endPosition>2021-04-22</gml:endPosition>
 					</gml:TimePeriod>
 				</gml:validTime>
-				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:interpretation>PERMDELTA</aixm:interpretation>
 				<aixm:sequenceNumber>1</aixm:sequenceNumber>
 				<aixm:featureLifetime>
 					<gml:TimePeriod gml:id="GML-Runway.1-TS-FLT">
@@ -66,7 +68,7 @@
 						<gml:endPosition>2021-04-22</gml:endPosition>
 					</gml:TimePeriod>
 				</gml:validTime>
-				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:interpretation>PERMDELTA</aixm:interpretation>
 				<aixm:sequenceNumber>1</aixm:sequenceNumber>
 				<aixm:featureLifetime>
 					<gml:TimePeriod gml:id="GML-RunwayDirection.1-TS-FLT">
@@ -76,16 +78,7 @@
 				</aixm:featureLifetime>
 				<aixm:designator>TAKEOFF</aixm:designator>
 				<aixm:usedRunway xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bb"/>
-				<aixm:annotation>
-					<aixm:Note gml:id="GML-RunwayDirection.1-note">
-						<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
-						<aixm:translatedNote>    
-							<aixm:LinguisticNote gml:id="GML-RunwayDirection.1-note-Ln">
-								<aixm:note>slope: 3</aixm:note>
-							</aixm:LinguisticNote>
-						</aixm:translatedNote>
-					</aixm:Note>
-				</aixm:annotation>	
+				<aixm:slope>3</aixm:slope>
 			</aixm:RunwayDirectionTimeSlice>
 		</aixm:timeSlice>
 	</aixm:RunwayDirection>
@@ -101,7 +94,7 @@
 						<gml:endPosition>2021-04-22</gml:endPosition>
 					</gml:TimePeriod>
 				</gml:validTime>
-				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:interpretation>PERMDELTA</aixm:interpretation>
 				<aixm:sequenceNumber>1</aixm:sequenceNumber>
 				<aixm:featureLifetime>
 					<gml:TimePeriod gml:id="GML-RunwayCentrelinePoint.1-TS-FLT">
@@ -109,8 +102,8 @@
 						<gml:endPosition indeterminatePosition="unknown"/>
 					</gml:TimePeriod>
 				</aixm:featureLifetime>
-				<aixm:role>OTHER:DER</aixm:role>
-				<aixm:onRunway xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bc"/>
+				<aixm:role>DER</aixm:role>
+				<aixm:onRunwayDirection xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bc"/>
 			</aixm:RunwayCentrelinePointTimeSlice>
 		</aixm:timeSlice>
 	</aixm:RunwayCentrelinePoint>
