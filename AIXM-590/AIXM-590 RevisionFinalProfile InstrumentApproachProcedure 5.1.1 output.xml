@@ -19,16 +19,6 @@ gml:id="M0000001">
 				</gml:validTime>
 				<aixm:interpretation>BASELINE</aixm:interpretation>
 				<aixm:legPath>STRAIGHT</aixm:legPath>
-				<aixm:annotation>
-					<aixm:Note gml:id="GML-FinalLeg.1.note.1">
-						<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
-						<aixm:translatedNote>	
-							<aixm:LinguisticNote gml:id="GML-FinalLeg.LN.1">
-								<aixm:note>rnpDMEAuthorized: NO</aixm:note>
-							</aixm:LinguisticNote>
-						</aixm:translatedNote>					
-					</aixm:Note>
-				</aixm:annotation>					
 				<aixm:approach xlink:href="urn:uuid:dfd04617-c8bd-443b-8290-067ba2e50e14"/>
 			</aixm:FinalLegTimeSlice>
 		</aixm:timeSlice>
@@ -50,84 +40,73 @@ gml:id="M0000001">
 				<aixm:name>ILS LOC DME RWY 22R</aixm:name> 
 				<aixm:aircraftCharacteristic>
 					<aixm:AircraftCharacteristic gml:id="GML-AircraftCharacteristic.1">
-						<aixm:navigationEquipment>DME</aixm:navigationEquipment>
-						<aixm:annotation>
-							<aixm:Note gml:id="GML-AircraftCharacteristic.1.note.1">
-								<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
-								<aixm:translatedNote>	
-									<aixm:LinguisticNote gml:id="GML-AircraftCharacteristic.LN.1">
-										<aixm:note>navigationType: RNAV; navigationAccuracy: NO;dualFrequency: NO</aixm:note>
-									</aixm:LinguisticNote>
-								</aixm:translatedNote>					
-							</aixm:Note>
-						</aixm:annotation>							
+						<aixm:navigationEquipment>DME</aixm:navigationEquipment>					
 					</aixm:AircraftCharacteristic>
 				</aixm:aircraftCharacteristic>				
-				<aixm:annotation>
-					<aixm:Note gml:id="GML-InstrumentApproachProcedure.1.note.1">
-						<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
-						<aixm:translatedNote>	
-							<aixm:LinguisticNote gml:id="GML-InstrumentApproachProcedure.LN.1">
-									<aixm:note>specialAuthorisation: NO</aixm:note>
-							</aixm:LinguisticNote>
-						</aixm:translatedNote>					
-					</aixm:Note>
-				</aixm:annotation>	
 				<aixm:additionalEquipment>RADARDME</aixm:additionalEquipment>
 				<aixm:finalProfile>
 					<aixm:FinalProfile gml:id="GML-FinalProfile.1">
-					<aixm:distance>
-					<aixm:ApproachDistanceTable gml:id="GML-ApproachDistanceTable.1">
-						<aixm:startingMeasurementPoint>OTHER:RWY_END</aixm:startingMeasurementPoint>
-						<aixm:distance uom="M">2</aixm:distance>
-						<aixm:annotation>
-							<aixm:Note gml:id="GML-ApproachDistanceTable.1.note.1">
-								<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
-								<aixm:translatedNote>	
-									<aixm:LinguisticNote gml:id="GML-ApproachDistanceTable.LN.1">
-										<aixm:note>relativeFrom_runwayPoint xlink= urn:uuid:dfd04617-c8bd-443b-8290-067ba2e50e14</aixm:note>
-									</aixm:LinguisticNote>
-								</aixm:translatedNote>					
-							</aixm:Note>
-						</aixm:annotation>	
-						<aixm:annotation>
-							<aixm:Note gml:id="GML-ApproachDistanceTable.2.note.2">
-								<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
-								<aixm:translatedNote>	
-									<aixm:LinguisticNote gml:id="GML-ApproachDistanceTable.LN.2">
-										<aixm:note>height 200 FT, heightReference HAA</aixm:note>
-									</aixm:LinguisticNote>
-								</aixm:translatedNote>					
-							</aixm:Note>
-						</aixm:annotation>	
-						<aixm:annotation>
-							<aixm:Note gml:id="GML-ApproachDistanceTable.3.note.3">
-								<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
-								<aixm:translatedNote>	
-									<aixm:LinguisticNote gml:id="GML-ApproachDistanceTable.LN.3">
-										<aixm:note>altitude 1000 FT, altitudeReference W84</aixm:note>
-									</aixm:LinguisticNote>
-								</aixm:translatedNote>					
-							</aixm:Note>
-						</aixm:annotation>
-					</aixm:ApproachDistanceTable>	
-					</aixm:distance>
-					<aixm:timing>
-					<aixm:ApproachTimingTable  gml:id="GML-ApproachTimingTable.1">
-						<aixm:startingMeasurementPoint>OTHER:MAPT</aixm:startingMeasurementPoint>
-						<aixm:endingMeasurementPoint>OTHER:MAPT</aixm:endingMeasurementPoint>
-						<aixm:annotation>
-							<aixm:Note gml:id="GML-ApproachTimingTable.1.note.1">
-								<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
-								<aixm:translatedNote>	
-									<aixm:LinguisticNote gml:id="GML-ApproachTimingTable.LN.1">
-										<aixm:note>distance: MI uom 2,speed: 120 uom MPH,speedReference:GS,rateOfDescent:20 uom FT_MIN</aixm:note>
-									</aixm:LinguisticNote>
-								</aixm:translatedNote>					
-							</aixm:Note>
-						</aixm:annotation>	
-					</aixm:ApproachTimingTable>
-					</aixm:timing>
+						<aixm:altitude>
+							<aixm:ApproachAltitudeTable gml:id="GML-ApproachAltitudeTable.1">
+								<aixm:measurementPoint>OTHER:RWY_END</aixm:measurementPoint>
+								<aixm:altitude uom="FT">1000</aixm:altitude>
+								<aixm:altitudeReference>W84</aixm:altitudeReference>
+							</aixm:ApproachAltitudeTable>
+						</aixm:altitude>
+						<aixm:distance>
+							<aixm:ApproachDistanceTable gml:id="GML-ApproachDistanceTable.1">
+								<aixm:startingMeasurementPoint>OTHER:RWY_END</aixm:startingMeasurementPoint>
+								<aixm:distance uom="M">2</aixm:distance>
+						</aixm:ApproachDistanceTable>	
+						</aixm:distance>
+						<aixm:timing>
+							<aixm:ApproachTimingTable  gml:id="GML-ApproachTimingTable.1">
+								<aixm:startingMeasurementPoint>OTHER:MAPT</aixm:startingMeasurementPoint>
+								<aixm:endingMeasurementPoint>OTHER:MAPT</aixm:endingMeasurementPoint>
+								<aixm:time uom="MIN">10</aixm:time>
+								<aixm:speed uom="MPH">120</aixm:speed>
+								<aixm:annotation>
+									<aixm:Note gml:id="GML-ApproachTimingTable.1.note.1">
+										<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
+										<aixm:translatedNote>	
+											<aixm:LinguisticNote gml:id="GML-ApproachTimingTable.LN.1">
+												<aixm:note>distance:2 MI,speedReference:GS,rateOfDescent:20 FT_MIN</aixm:note>
+											</aixm:LinguisticNote>
+										</aixm:translatedNote>					
+									</aixm:Note>
+								</aixm:annotation>	
+								<aixm:annotation>
+									<aixm:Note gml:id="GML-ApproachTimingTable.1.note.2">
+										<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
+										<aixm:translatedNote>	
+											<aixm:LinguisticNote gml:id="GML-ApproachTimingTable.LN.2">
+												<aixm:note>relativeFrom_runwayPoint:urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41cl</aixm:note>
+											</aixm:LinguisticNote>
+										</aixm:translatedNote>					
+									</aixm:Note>
+								</aixm:annotation>
+								<aixm:annotation>
+									<aixm:Note gml:id="GML-ApproachTimingTable.1.note.3">
+										<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
+										<aixm:translatedNote>	
+											<aixm:LinguisticNote gml:id="GML-ApproachTimingTable.LN.3">
+												<aixm:note>height:200 FT,heightReference:HAA</aixm:note>
+											</aixm:LinguisticNote>
+										</aixm:translatedNote>					
+									</aixm:Note>
+								</aixm:annotation>	
+								<aixm:annotation>
+									<aixm:Note gml:id="GML-ApproachTimingTable.1.note.4">
+										<aixm:purpose>OTHER:BACKWARD_MAPPING</aixm:purpose>
+										<aixm:translatedNote>	
+											<aixm:LinguisticNote gml:id="GML-ApproachTimingTable.LN.4">
+												<aixm:note>altitude:1000 FT,altitudeReference:W84</aixm:note>
+											</aixm:LinguisticNote>
+										</aixm:translatedNote>					
+									</aixm:Note>
+								</aixm:annotation>	
+							</aixm:ApproachTimingTable>
+						</aixm:timing>
 					</aixm:FinalProfile>
 				</aixm:finalProfile>
 			</aixm:InstrumentApproachProcedureTimeSlice>

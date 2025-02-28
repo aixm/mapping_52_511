@@ -1,0 +1,71 @@
+
+message:AIXMBasicMessage
+  message:hasMember
+    FinalLeg
+      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50e45
+      timeSlice
+        FinalLegTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2008-09-25
+              gml:endPosition = 2021-10-07
+          interpretation = BASELINE
+          legPath = STRAIGHT
+          approach =  urn:uuid:dfd04617-c8bd-443b-8290-067ba2e50e14
+  message:hasMember
+    InstrumentApproachProcedure
+      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50e14
+      timeSlice
+        InstrumentApproachProcedureTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2008-09-25
+              gml:endPosition = 2021-10-07
+          interpretation = BASELINE
+          flightChecked = NO
+          name = ILS LOC DME RWY 22R
+          aircraftCharacteristic
+            AircraftCharacteristic
+              navigationEquipment = DME
+          additionalEquipment = RADARDME
+          finalProfile
+            FinalProfile
+              altitude
+                ApproachAltitudeTable
+                  measurementPoint = OTHER:RWY_END
+                  altitude = 1000 FT
+                  altitudeReference = W84
+              distance
+                ApproachDistanceTable
+                  startingMeasurementPoint = OTHER:RWY_END
+                  distance = 2 M
+              timing
+                ApproachTimingTable
+                  startingMeasurementPoint = OTHER:MAPT
+                  endingMeasurementPoint = OTHER:MAPT
+                  time = 10 MIN
+                  speed = 120 MPH
+                  annotation
+                    Note
+                      purpose = OTHER:BACKWARD_MAPPING
+                      translatedNote
+                        LinguisticNote
+                          note = distance:2 MI,speedReference:GS,rateOfDescent:20 FT_MIN
+                  annotation
+                    Note
+                      purpose = OTHER:BACKWARD_MAPPING
+                      translatedNote
+                        LinguisticNote
+                          note = relativeFrom_runwayPoint:urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41cl
+                  annotation
+                    Note
+                      purpose = OTHER:BACKWARD_MAPPING
+                      translatedNote
+                        LinguisticNote
+                          note = height:200 FT,heightReference:HAA
+                  annotation
+                    Note
+                      purpose = OTHER:BACKWARD_MAPPING
+                      translatedNote
+                        LinguisticNote
+                          note = altitude:1000 FT,altitudeReference:W84

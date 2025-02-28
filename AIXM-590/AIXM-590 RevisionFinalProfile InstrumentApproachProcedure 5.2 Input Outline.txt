@@ -1,0 +1,73 @@
+
+message:AIXMBasicMessage
+  message:hasMember
+    FinalLeg
+      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50e45
+      timeSlice
+        FinalLegTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2008-09-25
+              gml:endPosition = 2021-10-07
+          interpretation = PERMDELTA
+          legPath = STRAIGHT
+          additionalEquipment = RADAR_DME
+          approach =  urn:uuid:dfd04617-c8bd-443b-8290-067ba2e50e14
+  message:hasMember
+    RunwayCentrelinePoint
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41cl
+      timeSlice
+        RunwayCentrelinePointTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = PERMDELTA
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          role = TDZ
+  message:hasMember
+    InstrumentApproachProcedure
+      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50e14
+      timeSlice
+        InstrumentApproachProcedureTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2008-09-25
+              gml:endPosition = 2021-10-07
+          interpretation = PERMDELTA
+          flightChecked = NO
+          name = ILS LOC DME RWY 22R
+          additionalEquipment = RADAR_DME
+          specialAuthorisation = NO
+          aircraftCapability
+            AircraftCharacteristic
+              navigationType = PBN
+              navigationAccuracy = 
+              dualFrequency = 
+              radioNavigationEquipment
+                AircraftNavigationEquipment
+                  navigationEquipment = DME
+          descentProfile
+            FinalApproachProfile
+              startPoint = MAPT
+              endPoint = MAPT
+              time = 10 MIN
+              distance = 2 MI
+              speed = 120 MPH
+              speedReference = GS
+              rateOfDescent = 20 FT_MIN
+          controlAltitude
+            FinalApproachControlAltitude
+              altitude = 1000 FT
+              altitudeReference = W84
+              height = 200 FT
+              heightReference = HAA
+              measurementPoint = RWY_END
+              location
+                FinalApproachControlPosition
+                  distance = 2 M
+                  relativeFrom_runwayPoint =  urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41cl
