@@ -1,0 +1,96 @@
+
+message:AIXMBasicMessage
+  message:hasMember
+    AirportHeliport
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bb
+      timeSlice
+        AirportHeliportTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          designator = KEWR
+  message:hasMember
+    Runway
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41ba
+      timeSlice
+        RunwayTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          designator = 2L
+          type = RWY
+          associatedAirportHeliport =  urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bb
+  message:hasMember
+    RunwayDirection
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bc
+      timeSlice
+        RunwayDirectionTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          designator = LDA
+          approachMarkingCondition = EXCELLENT
+          usedRunway =  urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bb
+  message:hasMember
+    RunwayDirectionLightSystem
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bd
+      timeSlice
+        RunwayDirectionLightSystemTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          colour = OTHER:RED_WHITE
+          element
+            LightElement
+              colour = RED
+              type = FLOOD
+          element
+            LightElement
+              colour = WHITE
+              type = FLOOD
+          associatedRunwayDirection =  urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bc
+  message:hasMember
+    RunwayProtectAreaLightSystem
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41be
+      timeSlice
+        RunwayProtectAreaLightSystemTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          colour = OTHER:RED_WHITE
+          lightedArea =  urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bb

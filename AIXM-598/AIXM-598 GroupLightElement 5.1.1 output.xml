@@ -51,16 +51,6 @@
 				<aixm:designator>2L</aixm:designator>
 				<aixm:type>RWY</aixm:type>
 				<aixm:associatedAirportHeliport xlink:href="urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bb"/>
-				<aixm:overallContaminant>
-					<aixm:RunwayContamination gml:id="gml_id_runwaycontamination_1">
-						<aixm:frictionEstimation>OTHER:RWYCC_0</aixm:frictionEstimation>
-						<aixm:layer>
-							<aixm:SurfaceContaminationLayer gml:id="gml_id_surfaceContamination_1">
-								<aixm:type>OTHER:WET_ICE</aixm:type>
-							</aixm:SurfaceContaminationLayer>
-						</aixm:layer>
-					</aixm:RunwayContamination>
-				</aixm:overallContaminant>			
 			</aixm:RunwayTimeSlice>
 		</aixm:timeSlice>
 	</aixm:Runway>
