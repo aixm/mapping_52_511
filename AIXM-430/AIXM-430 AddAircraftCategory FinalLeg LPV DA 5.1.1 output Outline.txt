@@ -1,0 +1,32 @@
+
+message:AIXMBasicMessage
+  message:hasMember
+    FinalLeg
+      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50e45
+      timeSlice
+        FinalLegTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2008-09-25
+              gml:endPosition = 2021-10-07
+          interpretation = BASELINE
+          legPath = STRAIGHT
+          guidanceSystem = LPV
+          landingSystemCategory = OTHER
+          condition
+            ApproachCondition
+              finalApproachPath = STRAIGHT_IN
+              requiredNavigationPerformance = 
+              minimumSet
+                Minima
+                  altitude = 211 FT
+                  altitudeCode = DA
+                  altitudeReference = MSL
+                  height = 200 FT
+                  heightCode = DH
+                  visibility = 1800 FT
+                  mandatoryRVR = YES
+              aircraftCategory
+                AircraftCharacteristic
+                  type = LANDPLANE
+                  aircraftLandingCategory = OTHER:A_B_C_D
