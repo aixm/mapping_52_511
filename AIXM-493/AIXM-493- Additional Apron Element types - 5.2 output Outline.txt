@@ -1,0 +1,24 @@
+
+message:AIXMBasicMessage
+  message:hasMember
+    ApronElement
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41z1
+      timeSlice
+        ApronElementTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = PERMDELTA
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          type = SNOW_COLLECTION
+          jetwayAvailability = YES
+          towingAvailability = YES
+          dockingAvailability = YES
+          groundPowerAvailability = YES
+          length = 7500
+          width = 150
