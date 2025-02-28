@@ -1,0 +1,67 @@
+
+message:AIXMBasicMessage
+  message:hasMember
+    FinalLeg
+      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50e45
+      timeSlice
+        FinalLegTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2008-09-25
+              gml:endPosition = 2021-10-07
+          interpretation = BASELINE
+          legPath = STRAIGHT
+          annotation
+            Note
+              purpose = OTHER:BACKWARD_MAPPING
+              translatedNote
+                LinguisticNote
+                  note = gml.identifier:dfd04617-c8bd-443b-8290-067ba2e50e46 codeSpace:urn:uuid:,
+							airportID:KPLD,
+							runwayNumber:27,
+							runwayLetter xsi:nil="true",
+							thresholdPointLatitude:402706.1250N,
+							thresholdPointLongitude:0845854.5895W,
+							thresholdPointHeight:2484.0,
+							finalPointLatitude:402703.9535N,
+							finalPointLongitude:0850051.2695W,
+							thresholdCrossingHeight:40.0,
+							thresholdCrossingHeightUnits:0,
+							glidepathAngle:3,
+							thresholdOrthoHeight:2820.0,
+							finalPointOrthoHeight:2820.0,
+							FASDataBlock:00040C100B1B0000343732171A285C11059E87DB087509EFFF7070FC90012C016B86E1007F2865E9
+							
+          approach =  urn:uuid:dfd04617-c8bd-443b-8290-067ba2e50e14
+          FASData
+            FASDataBlock
+              horizontalAlarmLimit = 45.0
+              verticalAlarmLimit = 00.0
+              thresholdCourseWidth = 106.75
+              lengthOffset = 1072
+              CRCRemainder = BFF273CC
+              operationType = 0
+              serviceProviderSBAS = 0
+              approachPerformanceDesignator = 0
+              routeIndicator = 
+              referencePathDataSelector = 0
+              referencePathIdentifier = W27A
+              codeICAO = KS
+  message:hasMember
+    InstrumentApproachProcedure
+      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50e14
+      timeSlice
+        InstrumentApproachProcedureTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2008-09-25
+              gml:endPosition = 2021-10-07
+          interpretation = BASELINE
+          flightChecked = NO
+          name = RNAV (GPS) Z RWY 22L
+          annotation
+            Note
+              purpose = OTHER:BACKWARD_MAPPING
+              translatedNote
+                LinguisticNote
+                  note = magneticVariation:15,dateMagneticVariation:2022
