@@ -1,0 +1,93 @@
+
+message:AIXMBasicMessage
+  message:hasMember
+    AirportHeliport
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bb
+      timeSlice
+        AirportHeliportTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          designator = KEWR
+  message:hasMember
+    Taxiway
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bc
+      timeSlice
+        TaxiwayTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          designator = RE
+          associatedAirportHeliport =  urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bb
+  message:hasMember
+    Taxiway
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bd
+      timeSlice
+        TaxiwayTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          designator = REL
+          associatedAirportHeliport =  urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bb
+  message:hasMember
+    TaxiwayElement
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f51bc
+      timeSlice
+        TaxiwayElementTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          type = NORMAL
+          associatedTaxiway =  urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bc
+          annotation
+            Note
+              propertyName = associatedTaxiway
+              purpose = OTHER:BACKWARD_MAPPING
+              translatedNote
+                LinguisticNote
+                  note = associatedTaxiway.xlink:href:urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bd
+  message:hasMember
+    TaxiwayElement
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f61bc
+      timeSlice
+        TaxiwayElementTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          type = SHOULDER
+          associatedTaxiway =  urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bc
