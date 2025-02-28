@@ -1,0 +1,33 @@
+
+message:AIXMBasicMessage
+  message:hasMember
+    RunwayCentrelinePoint
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41cl
+      timeSlice
+        RunwayCentrelinePointTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+  message:hasMember
+    GuidanceLine
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bg
+      timeSlice
+        GuidanceLineTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          connectedRunwayCentrelinePoint =  uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41cl
