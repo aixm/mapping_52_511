@@ -1,0 +1,61 @@
+
+message:AIXMBasicMessage
+  message:hasMember
+    AirportHeliport
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bb
+      timeSlice
+        AirportHeliportTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          designator = KEWR
+          verticalDatum = NAVD88
+          responsibleOrganisation
+            AirportHeliportResponsibilityOrganisation
+              theOrganisationAuthority =  
+  message:hasMember
+    OrganisationAuthority
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41ba
+      timeSlice
+        OrganisationAuthorityTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          designator = A9
+          type = ATS
+  message:hasMember
+    SpecialDate
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bc
+      timeSlice
+        SpecialDateTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          annotation
+            Note
+              purpose = OTHER:BACKWARD_MAPPING
+              translatedNote
+                LinguisticNote
+                  note = weekDay FRI
+          authority =  urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41ba
