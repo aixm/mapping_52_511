@@ -1,0 +1,100 @@
+
+message:AIXMBasicMessage
+  message:hasMember
+    Navaid
+      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50e14
+      timeSlice
+        NavaidTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          type = VORTAC
+          designator = LIT
+          location
+            ElevatedPoint
+              gml:pos = 34.6776728 -92.1805283
+              elevation = 240 FT
+  message:hasMember
+    DesignatedPoint
+      gml:identifier = bf3264d6-c075-47a3-b0dd-4ecccaffe040
+      timeSlice
+        DesignatedPointTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          designator = HOBER
+          type = ICAO
+          name = HOBER
+  message:hasMember
+    DesignatedPoint
+      gml:identifier = 505a205f-8682-4f82-8f69-d4eba07a047a
+      timeSlice
+        DesignatedPointTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          designator = MOMTE
+          type = ICAO
+          name = MOMTE
+  message:hasMember
+    Route
+      gml:identifier = a180f459-5b8b-4945-9d8d-295b5f4b1330
+      timeSlice
+        RouteTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          name = V74
+  message:hasMember
+    RouteSegment
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bb
+      timeSlice
+        RouteSegmentTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          start
+            EnRouteSegmentPoint
+              pointChoice_fixDesignatedPoint =  #uuid.bf3264d6-c075-47a3-b0dd-4ecccaffe040
+          routeFormed =  #uuid.a180f459-5b8b-4945-9d8d-295b5f4b1330
+          end
+            EnRouteSegmentPoint
+              pointChoice_fixDesignatedPoint =  #uuid.505a205f-8682-4f82-8f69-d4eba07a047a
+          availability
+            RouteAvailability
+              direction = BOTH
