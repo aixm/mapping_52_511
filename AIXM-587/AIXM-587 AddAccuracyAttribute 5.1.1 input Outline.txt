@@ -1,0 +1,85 @@
+
+message:AIXMBasicMessage
+  message:hasMember
+    AirportHeliport
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bb
+      timeSlice
+        AirportHeliportTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          designator = KEWR
+          fieldElevation = 200 FT
+          fieldElevationAccuracy = 1.5 FT
+          verticalDatum = NAVD88
+  message:hasMember
+    Airspace
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bd
+      timeSlice
+        AirspaceTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          type = AMA
+          geometryComponent
+            AirspaceGeometryComponent
+              theAirspaceVolume
+                AirspaceVolume
+                  horizontalProjection
+                    Surface
+                      gml:patches
+                        gml:Sphere
+                          gml:rows
+                            gml:Row
+                              gml:pos = 34.6776728 -92.1805283
+                  centreline
+                    ElevatedCurve
+                      gml:segments
+                        gml:CircleByCenterPoint
+                          gml:pos = 34.6776728 -92.1805283
+                          gml:radius = 1 FT
+  message:hasMember
+    SafeAltitudeArea
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41ba
+      timeSlice
+        SafeAltitudeAreaTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          safeAreaType = OTHER:AMA
+          sector
+            SafeAltitudeAreaSector
+              annotation
+                Note
+                  purpose = OTHER:BACKWARD_MAPPING
+                  translatedNote
+                    LinguisticNote
+                      note = name:A;altitude:300 uom FT;altitudeLowTemperature:300 uom FT
+          location =  urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bb
+          annotation
+            Note
+              purpose = OTHER:BACKWARD_MAPPING
+              translatedNote
+                LinguisticNote
+                  note = lowestTemperature:10 uom FT;concernedAirspace:xlink:href urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bd
