@@ -1,0 +1,31 @@
+
+message:AIXMBasicMessage
+  message:hasMember
+    InitialLeg
+      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50e45
+      timeSlice
+        InitialLegTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2008-09-25
+              gml:endPosition = 2021-10-07
+          interpretation = BASELINE
+          legPath = STRAIGHT
+          approach =  urn:uuid:dfd04617-c8bd-443b-8290-067ba2e50e14
+  message:hasMember
+    InstrumentApproachProcedure
+      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50e14
+      timeSlice
+        InstrumentApproachProcedureTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2008-09-25
+              gml:endPosition = 2021-10-07
+          interpretation = BASELINE
+          flightChecked = NO
+          name = RNAV (RNP) Y RWY 29 KEWR
+          aircraftCharacteristic
+            AircraftCharacteristic
+              aircraftLandingCategory = OTHER:A_B_C_D
+              wakeTurbulence = LOW
+          approachType = RNP
