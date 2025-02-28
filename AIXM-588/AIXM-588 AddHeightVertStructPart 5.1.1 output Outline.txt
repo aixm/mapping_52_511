@@ -1,0 +1,58 @@
+
+message:AIXMBasicMessage
+  message:hasMember
+    VerticalStructure
+      gml:identifier = 61f799ec-8967-4b07-a346-cdcba581e2fg
+      timeSlice
+        VerticalStructureTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          type = OTHER:RECREATIONAL_STRUCTURE
+          part
+            VerticalStructurePart
+              annotation
+                Note
+                  purpose = OTHER:BACKWARD_MAPPING
+                  translatedNote
+                    LinguisticNote
+                      note = identifier:61f799ec-8967-4b07-a346-cdcba581e2fh:codeSpace=urn:uuid;designator:GML-CIRCLINGAREA-TS-OAA-OBSTRUCTION-PART-1;height:300 FT
+          annotation
+            Note
+              purpose = OTHER:BACKWARD_MAPPING
+              translatedNote
+                LinguisticNote
+                  note = designator:RECREATIONAL_STRUCTURE_1;placeName:CIRCLINGAREA_RECREATIONAL_STRUCTURE
+  message:hasMember
+    CirclingArea
+      gml:identifier = 61f799ec-8967-4b07-a346-cdcba581e2fe
+      timeSlice
+        CirclingAreaTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          condition
+            ApproachCondition
+              finalApproachPath = CIRCLING
+          designSurface
+            ObstacleAssessmentArea
+              significantObstacle
+                Obstruction
+                  requiredClearance = 300 FT
+                  minimumAltitude = 1564 FT
+                  controlling = YES
+                  theVerticalStructure =  uuid.61f799ec-8967-4b07-a346-cdcba581e2fg
