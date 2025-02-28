@@ -1,0 +1,97 @@
+
+message:AIXMBasicMessage
+  message:hasMember
+    Navaid
+      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50e14
+      timeSlice
+        NavaidTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = PERMDELTA
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          type = VORTAC
+          designator = ABI
+          purpose = TERMINAL
+          location
+            ElevatedPoint
+              gml:pos = 20.7645000 -156.9688889
+              elevation = 1250 FT
+  message:hasMember
+    DesignatedPoint
+      gml:identifier = bf3264d6-c075-47a3-b0dd-4ecccaffe040
+      timeSlice
+        DesignatedPointTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = PERMDELTA
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          designator = ROGEE
+          type = ICAO
+          name = ROGEE
+  message:hasMember
+    DesignatedPoint
+      gml:identifier = 505a205f-8682-4f82-8f69-d4eba07a047a
+      timeSlice
+        DesignatedPointTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = PERMDELTA
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          designator = EHHAD
+          type = ICAO
+          name = EHHAD
+  message:hasMember
+    ArrivalFeederLeg
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bb
+      timeSlice
+        ArrivalFeederLegTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = PERMDELTA
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          legPath = STRAIGHT
+          startPoint
+            TerminalSegmentPoint
+              pointChoice_fixDesignatedPoint =  #uuid.bf3264d6-c075-47a3-b0dd-4ecccaffe040
+              role = FEEDER_FIX
+          endPoint
+            TerminalSegmentPoint
+              pointChoice_fixDesignatedPoint =  #uuid.505a205f-8682-4f82-8f69-d4eba07a047a
+  message:hasMember
+    InstrumentApproachProcedure
+      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50e18
+      timeSlice
+        InstrumentApproachProcedureTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2008-09-25
+              gml:endPosition = 2021-10-07
+          interpretation = PERMDELTA
+          flightChecked = NO
+          name = RNAV (GPS) RWY 17L KABL
+          additionalEquipment = RADAR_RNAV
+          approachType = GPS
