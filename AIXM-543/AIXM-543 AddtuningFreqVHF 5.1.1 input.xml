@@ -1,0 +1,105 @@
+<message:AIXMBasicMessage 
+	xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:gml="http://www.opengis.net/gml/3.2" 
+	xmlns:aixm="http://www.aixm.aero/schema/5.1.1" 
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd" gml:id="M0000001">
+<message:hasMember>
+	<aixm:DME gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41cl">
+		<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41cl</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:DMETimeSlice gml:id="GML-DME.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-DME.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-DME.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:designator>OED</aixm:designator>
+				<aixm:ghostFrequency>1213</aixm:ghostFrequency>
+			</aixm:DMETimeSlice>
+		</aixm:timeSlice>
+	</aixm:DME>
+</message:hasMember>
+<message:hasMember>
+	<aixm:TACAN gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41c2">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41cl</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:TACANTimeSlice gml:id="GML-TACAN.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-TACAN.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-TACAN.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:designator>OED</aixm:designator>
+			</aixm:TACANTimeSlice>
+		</aixm:timeSlice>
+	</aixm:TACAN>
+</message:hasMember>
+<message:hasMember>
+	<aixm:Navaid gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41bc">
+	<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41bc</gml:identifier>
+		<aixm:timeSlice>
+			<aixm:NavaidTimeSlice gml:id="GML-Navaid.1-TS">
+				<gml:validTime>
+					<gml:TimePeriod gml:id="GML-Navaid.1-TS-TIME">
+						<gml:beginPosition>2021-02-25</gml:beginPosition>
+						<gml:endPosition>2021-04-22</gml:endPosition>
+					</gml:TimePeriod>
+				</gml:validTime>
+				<aixm:interpretation>BASELINE</aixm:interpretation>
+				<aixm:sequenceNumber>1</aixm:sequenceNumber>
+				<aixm:featureLifetime>
+					<gml:TimePeriod gml:id="GML-Navaid.1-TS-FLT">
+						<gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+						<gml:endPosition indeterminatePosition="unknown"/>
+					</gml:TimePeriod>
+				</aixm:featureLifetime>
+				<aixm:type>VORTAC</aixm:type>
+				<aixm:designator>OED</aixm:designator>
+				<aixm:name>ROGUE VALLEY</aixm:name>
+				<aixm:navaidEquipment>
+					<aixm:NavaidComponent gml:id="GML-NavaidComponent.1-TS-FLT">
+						<aixm:collocationGroup>1</aixm:collocationGroup>
+						<aixm:providesNavigableLocation>YES</aixm:providesNavigableLocation>
+						<aixm:theNavaidEquipment xlink:href="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41cl"/>
+						</aixm:NavaidComponent>
+					</aixm:navaidEquipment>
+					<aixm:navaidEquipment>
+						<aixm:NavaidComponent gml:id="GML-NavaidComponent.2-TS-FLT">
+							<aixm:collocationGroup>1</aixm:collocationGroup>
+							<aixm:providesNavigableLocation>NO</aixm:providesNavigableLocation>
+						<aixm:theNavaidEquipment xlink:href="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41c2"/>
+						</aixm:NavaidComponent>
+					</aixm:navaidEquipment>
+					<aixm:location>
+						<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4269" gml:id="D1620345936403-1-ElevatedPoint">
+							<gml:pos>42.479574222222226 -122.91293355555555</gml:pos>
+							<aixm:elevation uom="FT">2083.3</aixm:elevation>
+							<aixm:verticalDatum>NAVD88</aixm:verticalDatum>
+						</aixm:ElevatedPoint>
+					</aixm:location>					
+			</aixm:NavaidTimeSlice>
+		</aixm:timeSlice>
+	</aixm:Navaid>
+</message:hasMember>
+</message:AIXMBasicMessage>

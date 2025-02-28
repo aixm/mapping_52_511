@@ -1,0 +1,68 @@
+
+message:AIXMBasicMessage
+  message:hasMember
+    DME
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41cl
+      timeSlice
+        DMETimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          designator = OED
+          ghostFrequency = 1213
+  message:hasMember
+    TACAN
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41cl
+      timeSlice
+        TACANTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          designator = OED
+  message:hasMember
+    Navaid
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bc
+      timeSlice
+        NavaidTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          type = VORTAC
+          designator = OED
+          name = ROGUE VALLEY
+          navaidEquipment
+            NavaidComponent
+              collocationGroup = 1
+              providesNavigableLocation = YES
+              theNavaidEquipment =  uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41cl
+          navaidEquipment
+            NavaidComponent
+              collocationGroup = 1
+              providesNavigableLocation = NO
+              theNavaidEquipment =  uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41c2
+          location
+            ElevatedPoint
+              gml:pos = 42.479574222222226 -122.91293355555555
+              elevation = 2083.3 FT
+              verticalDatum = NAVD88
