@@ -1,0 +1,174 @@
+
+message:AIXMBasicMessage
+  message:hasMember
+    Navaid
+      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50e14
+      timeSlice
+        NavaidTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          type = VORTAC
+          designator = LNY
+          purpose = TERMINAL
+          location
+            ElevatedPoint
+              gml:pos = 20.7645000 -156.9688889
+              elevation = 1250 FT
+  message:hasMember
+    DesignatedPoint
+      gml:identifier = bf3264d6-c075-47a3-b0dd-4ecccaffe040
+      timeSlice
+        DesignatedPointTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          designator = CHAIN
+          type = ICAO
+          name = CHAIN
+  message:hasMember
+    DesignatedPoint
+      gml:identifier = 505a205f-8682-4f82-8f69-d4eba07a047a
+      timeSlice
+        DesignatedPointTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          designator = SOBOW
+          type = ICAO
+          name = SOBOW
+  message:hasMember
+    AngleIndication
+      gml:identifier = f7b8682a-cc39-42d4-b9d4-21717d652cb6
+      timeSlice
+        AngleIndicationTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          angle = 359.99
+          minimumReceptionAltitude = 2000 FT
+          fix =  #uuid.bf3264d6-c075-47a3-b0dd-4ecccaffe040
+          pointChoice_navaidSystem =  #uuid.dfd04617-c8bd-443b-8290-067ba2e50e14
+  message:hasMember
+    DistanceIndication
+      gml:identifier = c692a79d-52d1-447f-805a-da2ab7cab711
+      timeSlice
+        DistanceIndicationTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          distance = 12.70 NM
+          minimumReceptionAltitude = 2000 FT
+          fix =  #uuid.bf3264d6-c075-47a3-b0dd-4ecccaffe040
+          pointChoice_navaidSystem =  #uuid.dfd04617-c8bd-443b-8290-067ba2e50e14
+  message:hasMember
+    AngleIndication
+      gml:identifier = e27696a1-e89e-42b8-9445-13498379b9a9
+      timeSlice
+        AngleIndicationTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          angle = 278
+          minimumReceptionAltitude = 5000 FT
+          fix =  #uuid.505a205f-8682-4f82-8f69-d4eba07a047a
+          pointChoice_navaidSystem =  #uuid.dfd04617-c8bd-443b-8290-067ba2e50e14
+  message:hasMember
+    DistanceIndication
+      gml:identifier = e70733e3-0c42-4f8c-9b7a-e80e1c0ed703
+      timeSlice
+        DistanceIndicationTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          distance = 13 NM
+          minimumReceptionAltitude = 5000 FT
+          fix =  #uuid.505a205f-8682-4f82-8f69-d4eba07a047a
+          pointChoice_navaidSystem =  #uuid.dfd04617-c8bd-443b-8290-067ba2e50e14
+  message:hasMember
+    ArrivalLeg
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bb
+      timeSlice
+        ArrivalLegTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          legPath = ARC
+          startPoint
+            TerminalSegmentPoint
+              facilityMakeup
+                PointReference
+                  facilityAngle
+                    AngleUse
+                      theAngleIndication =  #uuid.f7b8682a-cc39-42d4-b9d4-21717d652cb6
+                  facilityDistance =  #uuid.c692a79d-52d1-447f-805a-da2ab7cab711
+              pointChoice_fixDesignatedPoint =  #uuid.bf3264d6-c075-47a3-b0dd-4ecccaffe040
+          endPoint
+            TerminalSegmentPoint
+              facilityMakeup
+                PointReference
+                  facilityAngle
+                    AngleUse
+                      theAngleIndication =  #uuid.e27696a1-e89e-42b8-9445-13498379b9a9
+                  facilityDistance =  #uuid.e70733e3-0c42-4f8c-9b7a-e80e1c0ed703
+              pointChoice_fixDesignatedPoint =  #uuid.505a205f-8682-4f82-8f69-d4eba07a047a
+          arcCentre
+            TerminalSegmentPoint
+              pointChoice_navaidSystem =  #uuid.dfd04617-c8bd-443b-8290-067ba2e50e14
+          distance =  #uuid.e70733e3-0c42-4f8c-9b7a-e80e1c0ed703

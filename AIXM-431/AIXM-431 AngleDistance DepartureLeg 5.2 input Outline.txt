@@ -1,0 +1,48 @@
+
+message:AIXMBasicMessage
+  message:hasMember
+    Navaid
+      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50e14
+      timeSlice
+        NavaidTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = PERMDELTA
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          type = VORTAC
+          designator = AML
+          purpose = TERMINAL
+          location
+            ElevatedPoint
+              gml:pos = 38.9345939 -77.4667025
+              elevation = 781 FT
+  message:hasMember
+    DepartureLeg
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bb
+      timeSlice
+        DepartureLegTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = PERMDELTA
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          legPath = STRAIGHT
+          startPoint
+            TerminalSegmentPoint
+              pointChoice_navaidSystem =  #uuid.dfd04617-c8bd-443b-8290-067ba2e50e14
+          limitingAngle
+            Angle
+              gml:identifier = f7b8682a-cc39-42d4-b9d4-21717d652cb6
+              angle = 110
+              pointChoice_navaidSystem =  #uuid.dfd04617-c8bd-443b-8290-067ba2e50e14
