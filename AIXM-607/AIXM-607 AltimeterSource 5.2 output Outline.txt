@@ -1,0 +1,129 @@
+
+message:AIXMBasicMessage
+  message:hasMember
+    AirportHeliport
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bb
+      timeSlice
+        AirportHeliportTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = PERMDELTA
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          designator = KEWR
+          altimeterSource
+            AltimeterSource
+              rank = PRIMARY
+              relativeLocation = REMOTE
+              distance = 12 MI
+              altimeterData =  urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bd
+  message:hasMember
+    Unit
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41ba
+      timeSlice
+        UnitTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = PERMDELTA
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          type = ATCC
+          designator = ATCC 1
+          airportLocation =  urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bb
+  message:hasMember
+    FinalLeg
+      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50e45
+      timeSlice
+        FinalLegTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2008-09-25
+              gml:endPosition = 2021-10-07
+          interpretation = PERMDELTA
+          legPath = STRAIGHT
+          approach =  urn:uuid:dfd04617-c8bd-443b-8290-067ba2e50e14
+          condition
+            ApproachCondition
+              gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50z01
+              finalApproachPath = CIRCLING
+              minimumSet
+                Minima
+                  gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50f65
+                  decisionAltitude = 760 FT
+                  decisionHeight = 743 FT
+                  militaryMinima = NO
+                  runwayVisualRange = 1 M
+                  aircraftCategory
+                    AircraftCharacteristic
+                      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50f75
+                      aircraftLandingCategory = A
+              navigationAccuracy = 
+              landingPrecisionCategory = OTHER
+              satelliteApproachType = LNAV_VNAV
+              specialAuthorisation = NO
+              minBaroVNAVTemperature = -13 C
+              maxBaroVNAVTemperature = 54 C
+  message:hasMember
+    InstrumentApproachProcedure
+      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50e14
+      timeSlice
+        InstrumentApproachProcedureTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2008-09-25
+              gml:endPosition = 2021-10-07
+          interpretation = PERMDELTA
+          flightChecked = NO
+          name = RNAV (GPS) Z RWY 22L KEWR
+          additionalEquipment = RADAR_RNAV
+          specialAuthorisation = NO
+          approachType = GPS
+  message:hasMember
+    InformationService
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bc
+      timeSlice
+        InformationServiceTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = PERMDELTA
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          flightOperations = ALL
+          serviceProvider =  urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41ba
+          clientProcedure =  urn:uuid:dfd04617-c8bd-443b-8290-067ba2e50e14
+          dataSource =  urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bd
+  message:hasMember
+    WeatherSource
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bd
+      timeSlice
+        WeatherSourceTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = PERMDELTA
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          designator = ALTIMETER 1
+          sensorType = ALTIMETER
+          availability
+            WeatherSourceAvailability
+              operationalStatus = NORMAL

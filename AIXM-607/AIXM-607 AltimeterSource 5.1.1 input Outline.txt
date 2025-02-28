@@ -1,0 +1,120 @@
+
+message:AIXMBasicMessage
+  message:hasMember
+    AirportHeliport
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bb
+      timeSlice
+        AirportHeliportTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          designator = KEWR
+          altimeterSource =  urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41be
+  message:hasMember
+    AltimeterSource
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41be
+      timeSlice
+        AltimeterSourceTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          isRemote = YES
+          isPrimary = YES
+          availability
+            AltimeterSourceStatus
+              operationalStatus = NORMAL
+  message:hasMember
+    Unit
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41ba
+      timeSlice
+        UnitTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          type = ATCC
+          designator = ATCC 1
+          airportLocation =  urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41bb
+  message:hasMember
+    FinalLeg
+      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50e45
+      timeSlice
+        FinalLegTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2008-09-25
+              gml:endPosition = 2021-10-07
+          interpretation = BASELINE
+          legPath = STRAIGHT
+          approach =  urn:uuid:dfd04617-c8bd-443b-8290-067ba2e50e14
+          landingSystemCategory = OTHER
+          minimumBaroVnavTemperature = -13 C
+          condition
+            ApproachCondition
+              finalApproachPath = CIRCLING
+              requiredNavigationPerformance = 
+              minimumSet
+                Minima
+                  altitude = 760 FT
+                  altitudeCode = DA
+                  altitudeReference = MSL
+                  height = 743 FT
+                  heightCode = DH
+                  visibility = 1 NM
+                  mandatoryRVR = YES
+                  remoteAltimeterMinima = YES
+              aircraftCategory
+                AircraftCharacteristic
+                  aircraftLandingCategory = A
+  message:hasMember
+    InstrumentApproachProcedure
+      gml:identifier = dfd04617-c8bd-443b-8290-067ba2e50e14
+      timeSlice
+        InstrumentApproachProcedureTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2008-09-25
+              gml:endPosition = 2021-10-07
+          interpretation = BASELINE
+          flightChecked = NO
+          name = RNAV (GPS) Z RWY 22L KEWR
+          approachType = GPS
+          additionalEquipment = RADAR_RNAV
+  message:hasMember
+    InformationService
+      gml:identifier = fac34bfc-fc4f-4da7-ad8a-84ee687f41bc
+      timeSlice
+        InformationServiceTimeSlice
+          gml:validTime
+            gml:TimePeriod
+              gml:beginPosition = 2021-02-25
+              gml:endPosition = 2021-04-22
+          interpretation = BASELINE
+          sequenceNumber = 1
+          featureLifetime
+            gml:TimePeriod
+              gml:beginPosition = 2009-01-01T00:00:00Z
+              gml:endPosition = 
+          flightOperations = ALL
+          serviceProvider =  urn:uuid:fac34bfc-fc4f-4da7-ad8a-84ee687f41ba
+          clientProcedure =  urn:uuid:dfd04617-c8bd-443b-8290-067ba2e50e14
