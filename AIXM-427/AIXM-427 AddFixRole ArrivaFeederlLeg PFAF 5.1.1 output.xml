@@ -120,14 +120,6 @@
 					  <aixm:role>OTHER:PFAF</aixm:role>
 					</aixm:TerminalSegmentPoint>
 				</aixm:endPoint>
-				<aixm:minimumObstacleClearanceAltitude uom="FT">1800</aixm:minimumObstacleClearanceAltitude>
-				<aixm:minimumObstacleClearanceHeight xsi:nil="true"/>			
-				<aixm:altitudeCondition>
-					<aixm:SegmentLegAltitudeCondition gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41bd">
-						<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41bd</gml:identifier>
-						<aixm:minimumEnrouteAltitude uom="FT">5000</aixm:minimumEnrouteAltitude>
-					</aixm:SegmentLegAltitudeCondition>
-				</aixm:altitudeCondition>	
 			</aixm:ArrivalFeederLegTimeSlice>
 		</aixm:timeSlice>
 	</aixm:ArrivalFeederLeg>
@@ -146,8 +138,8 @@
 					<aixm:interpretation>BASELINE</aixm:interpretation>
 					<aixm:flightChecked>NO</aixm:flightChecked>
 					<aixm:name>RNAV (RNP) Z RWY 26 KDEN</aixm:name>
-					<aixm:additionalEquipment>RADAR_RNAV</aixm:additionalEquipment>
 					<aixm:approachType>GPS</aixm:approachType>
+					<aixm:additionalEquipment>RADAR_RNAV</aixm:additionalEquipment>
 				</aixm:InstrumentApproachProcedureTimeSlice>
 			</aixm:timeSlice>
 		</aixm:InstrumentApproachProcedure>

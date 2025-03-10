@@ -5,7 +5,7 @@
             xmlns:gml="http://www.opengis.net/gml/3.2"
             xmlns:xlink="http://www.w3.org/1999/xlink"
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-            xsi:schemaLocation="http://www.aixm.aero/schema/5.2/message http://www.aixm.aero/schema/5.2/RC7/message/AIXM_BasicMessage.xsd"
+            xsi:schemaLocation="http://www.aixm.aero/schema/5.2/message http://www.aixm.aero/schema/5.2/5.2.0/message/AIXM_BasicMessage.xsd"
 gml:id="M0000001">
 <message:hasMember>
 	<aixm:Navaid gml:id="uuid.dfd04617-c8bd-443b-8290-067ba2e50e14">
@@ -122,14 +122,6 @@ gml:id="M0000001">
 					  <aixm:role>PFAF</aixm:role>
 					</aixm:TerminalSegmentPoint>
 				</aixm:endPoint>
-				<aixm:minimumObstacleClearanceAltitude uom="FT">1800</aixm:minimumObstacleClearanceAltitude>
-				<aixm:minimumObstacleClearanceHeight xsi:nil="true"/>			
-				<aixm:altitudeCondition>
-					<aixm:SegmentLegAltitudeCondition gml:id="uuid.fac34bfc-fc4f-4da7-ad8a-84ee687f41bd">
-						<gml:identifier codeSpace="urn:uuid:">fac34bfc-fc4f-4da7-ad8a-84ee687f41bd</gml:identifier>
-						<aixm:minimumEnrouteAltitude uom="FT">5000</aixm:minimumEnrouteAltitude>
-					</aixm:SegmentLegAltitudeCondition>
-				</aixm:altitudeCondition>	
 			</aixm:ArrivalFeederLegTimeSlice>
 		</aixm:timeSlice>
 	</aixm:ArrivalFeederLeg>
